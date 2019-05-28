@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 id="page_title">{{ title }}</h1>
+{% for content in all_content %}
+<div class="content_block">
+	{% if content.is_image %}
+		<img alt='{{ content.alt }}' src='{{ content.src }}'/>
+	{% else %}
+		<p>{{ content.text | safe }}</p>
+	{% endif %}
+</div>
+{% endfor %}
+{% endblock %}

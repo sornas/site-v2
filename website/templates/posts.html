@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 id="page_title">{{ title }}</h1>
+{% for post in posts %}
+<div class="content_block">
+	<img class='content_image' alt='{{ post.alt }}' src='{{ post.src }}'/>
+	<p class='content_paragraph'>{{ post.text }}</p>
+</div>
+{% endfor %}
+{% endblock %}
