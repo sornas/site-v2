@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+from website import pagebuilder
 
 app = Flask(__name__, static_folder='static')
 
@@ -22,6 +23,12 @@ def post(src, alt, text):
 @app.route("/")
 def index():
     return start()
+
+@app.route("/page")
+def page():
+    return render_template("page.html",
+            html=pagebuilder.build_page("website/pages/example.txt"),
+            navigation=navigation)
 
 @app.route("/posts")
 def posts():

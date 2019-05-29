@@ -1,0 +1,10 @@
+h1
+This is the title
+
+img
+https://i.redd.it/190y6uh5l3131.jpg
+Sample Image
+
+p
+A simple paragraph with a [link](posts) to posts.
+Lines are concatenated with ' '.
