@@ -49,7 +49,7 @@ def posts():
             title="Posts",
             posts=posts,
             navigation=navigation, 
-            selected=1)
+            selected=2)
 
 @app.route("/index")
 def start():

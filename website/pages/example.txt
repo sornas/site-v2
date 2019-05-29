@@ -6,5 +6,5 @@ https://i.redd.it/190y6uh5l3131.jpg
 Sample Image
 
 p
-A simple paragraph with a [link](posts) to posts.
+A simple paragraph with a [link](posts) to posts. <h1>This is cool</h1>
 Lines are concatenated with ' '.
