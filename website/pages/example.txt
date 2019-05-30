@@ -20,3 +20,12 @@ You don't think the universe be like it is, _but_ **it** _**do**_. -Einstein
 
 p
 [**_NESTING_**](posts)
+
+ul
+Just an *unordered list*
+Lines are separated with a linebreak
+
+ol
+An ordered list
+Numbers are pretty cool
+[Enumeration](https://en.wikipedia.org/wiki/Enumeration) **_INTENSIFIES_**
