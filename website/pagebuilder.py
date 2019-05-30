@@ -1,8 +1,12 @@
 import re
-TEXT_ELEMENTS = {"h1", "p"}
+
+TEXT_ELEMENTS = {"h1", "h2", "h3", "h4", "h5", "h6", "p", "blockquote"}
 IMAGE_ELEMENTS = {"img"}
 PAGE_ELEMENTS = TEXT_ELEMENTS | IMAGE_ELEMENTS
-LINK_RE = re.compile("\[(.*)\]\((.*)\)")
+
+LINK_RE = re.compile(r"\[(.*)\]\((.*)\)")
+STRONG_RE = re.compile(r"([*_]{2})([^\1]+?)\1")
+EM_RE = re.compile(r"([*_])([^\1]+?)\1")
 
 def build_page(path):
     """Build an HTML page using our glorious markup
@@ -50,6 +54,8 @@ def build_text(lines):
     Concatenates lines and adds links to text
     """
     text = " ".join(lines)
+
+    # Create links
     match = LINK_RE.search(text)
     while match:
         text = text[:match.start()]\
@@ -57,4 +63,24 @@ def build_text(lines):
                 + text[match.end():]
         new_end = match.start() + len(match.group(1)) + len(match.group(2)) + 15
         match = LINK_RE.search(text, new_end)
+
+    # Create strong text
+    # NOTE: Has to be done before emphasis because it matches 2 * or _
+    match = STRONG_RE.search(text)
+    while match:
+        text = text[:match.start()]\
+                + "<strong>" + match.group(2) + "</strong>"\
+                + text[match.end():]
+        new_end = match.start() + len(match.group(2)) + 17
+        match = STRONG_RE.search(text, new_end)
+
+    # Create emphasized text
+    match = EM_RE.search(text)
+    while match:
+        text = text[:match.start()]\
+                + "<em>" + match.group(2) + "</em>"\
+                + text[match.end():]
+        new_end = match.start() + len(match.group(2)) + 9
+        match = EM_RE.search(text, new_end)
+
     return text
