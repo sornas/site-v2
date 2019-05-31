@@ -5,7 +5,7 @@ IMAGE_ELEMENTS = {"img"}
 LIST_ELEMENTS = {"ol", "ul"}
 PAGE_ELEMENTS = TEXT_ELEMENTS | IMAGE_ELEMENTS | LIST_ELEMENTS
 
-LINK_RE = re.compile(r"\[(.*)\]\((.*)\)")
+LINK_RE = re.compile(r"\[(.*?)\]\((.*?)\)")
 STRONG_RE = re.compile(r"([*_]{2})([^\1]+?)\1")
 EM_RE = re.compile(r"([*_])([^\1]+?)\1")
 
