@@ -24,7 +24,8 @@ def post(src, alt, text):
 def index():
     return render_template("page.html",
             html=pagebuilder.build_page("website/pages/index"),
-            navigation=navigation)
+            navigation=navigation,
+            selected=1)
 
 @app.route("/page")
 def page():

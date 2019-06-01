@@ -14,18 +14,19 @@ body {
 	padding: 0px;
 	margin: 0px;
 	text-align: center;
+	font-family: sans-serif;
 }
 
 body>div {
-	width: 90%;
-	max-width: 900px;
+	width: 100%;
+	//max-width: 900px;
 	text-align: left;
 	display: inline-block;
 }
 
 article {
 	background-color: var(--light-color);
-	margin-top: 2em;
+	margin-top: 1.75em;
 	box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 3px;
 	padding: 1em;
 }
