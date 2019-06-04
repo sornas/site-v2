@@ -1,19 +1,22 @@
 :root {
-	--dark-color: #181818;
-	--gray-color: #414041;
-	--light-color: #edeced;
+	--primary-color: #eee;
+	--gray-color: #aaa;
+	--background-color: rgb(32, 32, 32);
+	--link-color: #1ec6ba;
 	--page-color: #dddcdd;
-	--highlight-color: #1ec6ba;
+	--highbackground-color: #1ec6ba;
+	--sidebar-color: #000;
 	--margin: 3em;
 }
 
 body {
+	line-height: 1.5;
 	font-family: "PT Sans", Helvetica, Arial, sans-serif;
 	margin: 0px;
 	padding: 0px;
 	font-family: sans-serif;
-	background-color: var(--light-color);
-	color: var(--dark-color);
+	background-color: var(--background-color);
+	color: var(--primary-color);
 	overflow-x: hidden;
 }
 
@@ -22,7 +25,7 @@ nav {
 	width: 50vw;
 	max-width: 20em;
 	height: 100vh;
-	background-color: var(--dark-color);
+	background-color: var(--sidebar-color);
 	top: 0px;
 	left: calc(-50vw);
 	transition: 0.2s linear;
@@ -47,7 +50,7 @@ nav.open {
 	height: 100%;
 	text-align: center;
 	vertical-align: center;
-	color: var(--dark-color);
+	color: var(--primary-color);
 	margin-top: 0.2em;
 	font-size: 1.4em;
 	transform: rotation(0deg);
@@ -90,12 +93,12 @@ nav a {
 }
 
 nav .item:hover, nav .item.selected:hover {
-	background-color: var(--light-color);
-  color: var(--dark-color);
+	background-color: var(--sidebar-color);
+  color: var(--primary-color);
 }
 
 nav .selected a {
-	 color: var(--dark-color);
+	 color: var(--sidebar-color);
 }
 
 nav .item {
@@ -103,20 +106,23 @@ nav .item {
 	padding: 0.5em;
 	padding-left: 1em;
 	width: calc(100% - 1.4em);
-	background-color: var(--dark-color);
-	color: var(--light-color);
+	background-color: var(--sidebar-color);
+	color: var(--background-color);
 }
 
 nav .item.selected {
-	background-color: var(--highlight-color);
+	background-color: var(--highbackground-color);
 }
 
 header {
 	margin-left: var(--margin);
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
-header h1 {
-	margin-bottom: 0px;
+header img {
+	margin-top: 20px;
+	height: 8em;
 }
 
 header h2 {
@@ -135,9 +141,13 @@ img {
 	border-radius: 0.3em;
 }
 
+a {
+	color: var(--link-color);
+}
+
 footer {
-	background-color: var(--dark-color);
-	color: var(--light-color);
+	background-color: var(--background-color);
+	color: var(--primary-color);
 	width 100%;
 	padding-left: var(--margin);
 	padding-right: var(--margin);
