@@ -1,5 +1,6 @@
+import markdown2
+
 from flask import Flask, render_template
-from markdown2 import Markdown
 
 app = Flask(__name__, static_folder='static')
 
@@ -7,12 +8,6 @@ navigation = [
         ("Start", "index"),
         ("Posts", "posts"),
         ("About us", "about_us")]
-
-md_converter = Markdown()
-
-def read_text(path):
-    with open(path, "r") as f:
-        return f.read()
 
 def paragraph(text):
     return dict(is_image=False,
@@ -29,14 +24,14 @@ def post(src, alt, text):
 @app.route("/")
 def index():
     return render_template("page.html",
-            html=md_converter.convert(read_text("website/pages/index.md")),
+            html=markdown2.markdown_path("website/pages/index.md"),
             navigation=navigation,
             selected=1)
 
 @app.route("/page")
 def page():
     return render_template("page.html",
-            html=md_converter.convert(read_text("website/pages/example.md")),
+            html=markdown2.markdown_path("website/pages/example.md"),
             navigation=navigation)
 
 @app.route("/posts")
