@@ -1,81 +1,61 @@
-img
-https://lithekod.se/assets/spotify2016-2.jpg
-Bild
+![Bild](https://lithekod.se/assets/spotify2016-2.jpg)
 
-h1
-Vilka är vi?
+# Vilka är vi?
 
-p
 LiTHe kod är en studentförening vid Linköpings Universitet vars syfte
 är att främja och inspirera intresset för programmering,
 mjukvaruutveckling och allt som hör till.
 
-p
 Vi grundades hösten 2013 för att anordna kodstugor där studenter kunde träffas,
 prata och hjälpa varandra med allt kodrelaterat.
 Vi har sedan dess fortsatt att utvecklas och arrangerar
 idag en rad olika typer av aktiviteter såsom studiebesök, workshops,
 föreläsningar, Game-Jams, programmeringstävlingar och såklart kodstugor.
 
-p
 **Låter det intressant?**
 Här är vår kalender där vi lägger in alla våra olika evenemang.
 Varje tisdag klockan 5 har vi också meetups i Café Java
 där vi bjuder på fika och snackar om allt relaterat till programmering.
 
-p
 Här är några länkar till olika evenemang som vi anordnar:
 
-ul
-[IDA-Mästerskapet i Programmering och Algoritmer (IMPA)](https://www.ida.liu.se/projects/impa/new/)
-[LiU Game Jam](http://liugamejam.se/)
+* [IDA-Mästerskapet i Programmering och Algoritmer (IMPA)](https://www.ida.liu.se/projects/impa/new/)
+* [LiU Game Jam](http://liugamejam.se/)
 
-h1
-Är du student?
+# Är du student?
 
-p
 Tokfint! Det är nämligen just dig som vi jobbar för.
 För oavsett dina kunskaper så finns det alltid någon aktivitet för just dig och
 dina intressen inom programmering.
 
-p
 Kanske du vill lära dig mer om hur versionshantering i Git fungerar,
 kanske du vill höra om hur det är att jobba på
 Spotify eller bara träffa nya människor med samma intressen som dig!
 
-h1
-Är du företagare?
+# Är du företagare?
 
-p
 LiTHe kod är en knytpunkt där många av de vassaste och mest engagerade data/IT
 studenterna vid Linköpings Universitet ingår.
 
-p
 Genom att samarbeta med oss och anordna aktiviteter så får ni ett utmärkt tillfälle
 att träffa dessa studenter och skapa ett intresse för er som framtida arbetsgivare.
 
-h1
-Kontakt
+# Kontakt
 
-p
 Har du någon fråga? Tveka inte att kontakta oss. Vi nås dels på Facebook,
 men framförallt i vår [Slack-grupp](https://lithe-kod.slack.com/).
 Om du inte redan är med i Slack-gruppen så kan du göra det via följande
 [länk](https://lithe-kod.slack.com/signup), **Du behöver använda din LiU-mejladress.**
 
-h2
-E-Mail
+## E-Mail
 
-ul
-Ordförande: ordf@lithekod.se, Frans Skarman (frask812)
-Vice ordförande: vordf@lithekod.se, Emil Segerbäck (emise935)
-Kassör: kassor@lithekod.se, Robin Sliwa (robsl733)
-Verksamhetsledare: verks@lithekod.se, Viktor Holmgren (vikho394)
-PR: verks@lithekod.se, Christoffer Sjöbergsson (chrsj812)
-Gamejam-Ansvarig gamejam@lithekod.se, Erik Mansén (erima668)
+* Ordförande: ordf@lithekod.se, Frans Skarman (frask812)
+* Vice ordförande: vordf@lithekod.se, Emil Segerbäck (emise935)
+* Kassör: kassor@lithekod.se, Robin Sliwa (robsl733)
+* Verksamhetsledare: verks@lithekod.se, Viktor Holmgren (vikho394)
+* PR: verks@lithekod.se, Christoffer Sjöbergsson (chrsj812)
+* Gamejam-Ansvarig gamejam@lithekod.se, Erik Mansén (erima668)
 
-h2
-Postaddress
+## Postaddress
 
-p
 LiTHe kod Kårallen, Universitetet 581 83 Linköping
