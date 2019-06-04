@@ -4,17 +4,15 @@
 	--light-color: #edeced;
 	--page-color: #dddcdd;
 	--highlight-color: #1ec6ba;
-	--margin: 3em;
+	--margin: 2em;
 }
 
 body {
-	font-family: "PT Sans", Helvetica, Arial, sans-serif;
 	margin: 0px;
 	padding: 0px;
 	font-family: sans-serif;
 	background-color: var(--light-color);
 	color: var(--dark-color);
-	overflow-x: hidden;
 }
 
 nav {
@@ -23,54 +21,16 @@ nav {
 	max-width: 20em;
 	height: 100vh;
 	background-color: var(--dark-color);
-	top: 0px;
 	left: calc(-50vw);
-	transition: 0.5s linear;
+  transition 0.5s ease;
 }
 
-nav.open {
+.open {
 	left: calc(0px);
-}
-
-#nav-toggle {
-	width: 2em;
-	height: 2em;
-	margin-left: 50vw;;
-	background-color: rgba(0, 0, 0, 0.1);
-	border-radius: 0em 0.0em 0.5em 0em;
-	cursor: pointer;
-	user-select: none;
-}
-
-#nav-toggle i {
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	vertical-align: center;
-	color: var(--dark-color);
-	margin-top: 0.2em;
-	font-size: 1.4em;
-	transform: rotation(0deg);
-	transition: 0.5s linear;
-	user-select: none;
-}
-
-.open #nav-toggle i {
-	transform: rotate(0deg);
-}
-
-@media screen and (min-width: 40em) {
-	nav {
-		left: -20em;
-	}
-	#nav-toggle {
-		margin-left: 20em;
-	}
 }
 
 nav img {
 	margin: auto;
-	margin-top: -2em;
 	padding: 2em;
 	padding-left: calc((100% - 75% - 2em) / 2);
 	width: 75%;
@@ -100,9 +60,9 @@ nav .selected a {
 
 nav .item {
 	cursor: pointer;
-	padding: 0.5em;
+	padding: 0.2em;
 	padding-left: 1em;
-	width: calc(100% - 1.4em);
+	width: calc(100% - 1.2em);
 	background-color: var(--dark-color);
 	color: var(--light-color);
 }
@@ -115,16 +75,6 @@ header {
 	margin-left: var(--margin);
 }
 
-header h1 {
-	margin-bottom: 0px;
-}
-
-header h2 {
-	margin-top: 0px;
-	font-size: 1.3em;
-	color: var(--gray-color);
-}
-
 article {
 	width: calc(100% - 2 * var(--margin));
 	margin: auto;
@@ -132,7 +82,6 @@ article {
 
 img {
 	width: 100%;
-	border-radius: 0.3em;
 }
 
 footer {
