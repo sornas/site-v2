@@ -155,3 +155,27 @@ footer {
 	padding-bottom: var(--margin);
 }
 
+
+#introduction {
+	display: flex;
+	justify-content: space-between;
+}
+
+#introduction .card {
+	width: 300px;
+}
+
+#introduction .card h3 {
+	text-align: center;
+}
+
+#introduction .card p {
+	text-align: center;
+}
+
+#introduction .card .symbol {
+	width: 300px;
+	font-size: 100px;
+	text-align: center;
+}
+
