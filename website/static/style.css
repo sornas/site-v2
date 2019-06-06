@@ -133,14 +133,27 @@ nav .item.selected {
 	background-color: var(--highbackground-color);
 }
 
+#fancy-pants-graphics {
+	position: absolute;
+	height: 30vh;
+	width: 100vw;
+	top: 0px;
+	left: 0px;
+	padding: 0px;
+	margin-bottom: -30vh;
+	z-index: -100;
+	background-color: #F0F;
+}
+
 header {
 	margin-left: var(--margin);
 	margin-top: 5vh;
-	margin-bottom: 5vh;
+	margin-bottom: 7vh;
+	height: 20vh;
 }
 
 header img {
-	margin-top: 20px;
+	margin-top: calc(1vh);
 	height: 8em;
 }
 
@@ -173,6 +186,7 @@ footer {
 	padding-top: 1em;
 	padding-bottom: var(--margin);
 }
+
 
 #introduction .card h3 {
   margin-bottom: 0em;

@@ -15,7 +15,7 @@ föreläsningar, Game-Jams, programmeringstävlingar och såklart kodstugor.
 		<h3>Meetups</h3>
 		<i class="symbol material-icons">where_to_vote</i>
 		<p>
-			Klockan 17 arje tisdag träffas vi i Café Java för att snacka om allt relaterat till
+			Klockan 17 varje tisdag träffas vi i Café Java för att snacka om allt relaterat till
 			programmering.
 		</p>
 	</div>
@@ -36,6 +36,7 @@ föreläsningar, Game-Jams, programmeringstävlingar och såklart kodstugor.
 		</p>
 	</div>
 </div>
+
 
 ![Bild](https://lithekod.se/assets/spotify2016-2.jpg)
 
