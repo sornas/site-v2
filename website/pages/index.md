@@ -1,5 +1,3 @@
-![Bild](https://lithekod.se/assets/spotify2016-2.jpg)
-
 # Vilka är vi?
 
 LiTHe kod är en studentförening vid Linköpings Universitet vars syfte
@@ -11,6 +9,35 @@ prata och hjälpa varandra med allt kodrelaterat.
 Vi har sedan dess fortsatt att utvecklas och arrangerar
 idag en rad olika typer av aktiviteter såsom studiebesök, workshops,
 föreläsningar, Game-Jams, programmeringstävlingar och såklart kodstugor.
+
+<div id="introduction">
+	<div class="card">
+		<h3>Meetups</h3>
+		<div class="symbol">☕</div>
+		<p>
+			Klockan 17 arje tisdag träffas vi i Café Java för att snacka om allt relaterat till
+			programmering.
+		</p>
+	</div>
+	<div class="card">
+		<h3>Andra events</h3>
+		<div class="symbol">🗓</div>
+		<p>
+			Under året har vi massor intressanta events som du kan se i vår <a
+			href="calendarlink">kalender</a>
+		</p>
+	</div>
+	<div class="card">
+		<h3>Kontakt</h3>
+		<div class="symbol">@</div>
+		<p>
+			Gå med i våran <a>slack-kanal</a> där vi annonserar events och
+			diskuterar allt möjligt.
+		</p>
+	</div>
+</div>
+
+![Bild](https://lithekod.se/assets/spotify2016-2.jpg)
 
 **Låter det intressant?**
 Här är vår kalender där vi lägger in alla våra olika evenemang.

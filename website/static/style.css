@@ -1,31 +1,54 @@
-:root {
-	--dark-color: #181818;
-	--gray-color: #414041;
-	--light-color: #edeced;
+
+.light {
+	--primary-color: #111;
+	--gray-color: #666;
+	--background-color: #FFF;
+	--dark-text-color: rgb(80, 80, 80);
+	--link-color: #228e87;
 	--page-color: #dddcdd;
-	--highlight-color: #1ec6ba;
+	--highbackground-color: #1ec6ba;
+	--sidebar-color: #222;
+	--sidebar-highlight-color: #EEE;
 	--margin: 3em;
 }
 
+.dark {
+	--primary-color: #eee;
+	--gray-color: #aaa;
+	--background-color: rgb(32, 32, 32);
+	--dark-text-color: rgb(80, 80, 80);
+	--link-color: #1ec6ba;
+	--page-color: #dddcdd;
+	--sidebar-highlight-color: #EEE;
+	--highbackground-color: #1ec6ba;
+	--sidebar-color: #222;
+	--margin: 3em;
+}
+
+
 body {
+	line-height: 1.5;
 	font-family: "PT Sans", Helvetica, Arial, sans-serif;
 	margin: 0px;
 	padding: 0px;
-	font-family: sans-serif;
-	background-color: var(--light-color);
-	color: var(--dark-color);
+	background-color: var(--background-color);
+	color: var(--primary-color);
 	overflow-x: hidden;
 }
 
 nav {
+	z-index: 100;
 	position: fixed;
 	width: 50vw;
 	max-width: 20em;
 	height: 100vh;
-	background-color: var(--dark-color);
+	background-color: var(--sidebar-color);
 	top: 0px;
 	left: calc(-50vw);
 	transition: 0.2s linear;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: var(--color-light);
 }
 
 nav.open {
@@ -47,7 +70,7 @@ nav.open {
 	height: 100%;
 	text-align: center;
 	vertical-align: center;
-	color: var(--dark-color);
+	color: var(--primary-color);
 	margin-top: 0.2em;
 	font-size: 1.4em;
 	transform: rotation(0deg);
@@ -74,7 +97,6 @@ nav img {
 	padding: 2em;
 	padding-left: calc((100% - 75% - 2em) / 2);
 	width: 75%;
-	margin-left:
 }
 
 nav>ul {
@@ -86,37 +108,40 @@ nav>ul {
 
 nav a {
 	text-decoration: none;
-	color: var(--color-light);
+	color: inherit;
 }
 
 nav .item:hover, nav .item.selected:hover {
-	background-color: var(--light-color);
-  color: var(--dark-color);
+  color: var(--sidebar-highlight-color);
 }
 
-nav .selected a {
-	 color: var(--dark-color);
+nav .item.selected {
+	 color: var(--sidebar-color);
 }
 
 nav .item {
 	cursor: pointer;
 	padding: 0.5em;
 	padding-left: 1em;
-	width: calc(100% - 1.4em);
-	background-color: var(--dark-color);
-	color: var(--light-color);
+	width: calc(100% - 1.5em);
+	background-color: var(--sidebar-color);
+	color: var(--dark-text-color);
+	text-align: left;
 }
 
 nav .item.selected {
-	background-color: var(--highlight-color);
+	background-color: var(--highbackground-color);
 }
 
 header {
 	margin-left: var(--margin);
+	margin-top: 5vh;
+	margin-bottom: 5vh;
 }
 
-header h1 {
-	margin-bottom: 0px;
+header img {
+	margin-top: 20px;
+	height: 8em;
 }
 
 header h2 {
@@ -135,13 +160,62 @@ img {
 	border-radius: 0.3em;
 }
 
+a {
+	color: var(--link-color);
+}
+
 footer {
-	background-color: var(--dark-color);
-	color: var(--light-color);
+	background-color: var(--background-color);
+	color: var(--primary-color);
 	width 100%;
 	padding-left: var(--margin);
 	padding-right: var(--margin);
 	padding-top: 1em;
 	padding-bottom: var(--margin);
+}
+
+#introduction .card h3 {
+  margin-bottom: 0em;
+	margin-left: 2em;
+}
+
+#introduction .card {
+	width: 100%;
+	text-align: left;
+}
+
+#introduction .card .symbol {
+	width: 100%;
+	font-size: 2em;
+	position: relative;
+	bottom: 1.3em;
+	display: inline-block
+}
+
+#introduction .card p {
+	position: relative;
+	bottom: 3em;
+}
+
+@media screen and (min-width: 40em) {
+	#introduction {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#introduction .card h3 {
+		margin-left: 0em;
+  }
+	
+	#introduction .card {
+		width: 30%;
+		text-align: center;
+	}
+
+	#introduction .card .symbol {
+		width: 100%;
+		font-size: 8em;
+		bottom: 0em;
+	}
 }
 
