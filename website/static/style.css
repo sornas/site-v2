@@ -116,8 +116,8 @@ nav .item.selected {
 
 header {
 	margin-left: var(--margin);
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
 }
 
 header img {
@@ -162,20 +162,12 @@ footer {
 }
 
 #introduction .card {
-	width: 300px;
-}
-
-#introduction .card h3 {
-	text-align: center;
-}
-
-#introduction .card p {
+	width: 30%;
 	text-align: center;
 }
 
 #introduction .card .symbol {
-	width: 300px;
-	font-size: 100px;
-	text-align: center;
+	width: 100%;
+	font-size: 20vw;
 }
 
