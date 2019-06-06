@@ -5,8 +5,9 @@ from flask import Flask, render_template
 app = Flask(__name__, static_folder='static')
 
 navigation = [
-        ("Start", "index"),
+        ("Start", ""),
         ("Posts", "posts"),
+        ("Contact", "contact"),
         ("About us", "about_us")]
 
 def paragraph(text):
@@ -28,11 +29,12 @@ def index():
             navigation=navigation,
             selected=1)
 
-@app.route("/page")
-def page():
+@app.route("/contact")
+def contact():
     return render_template("page.html",
-            html=markdown2.markdown_path("website/pages/example.md"),
-            navigation=navigation)
+            html=markdown2.markdown_path("website/pages/kontakt.md"),
+            navigation=navigation,
+            selected=3)
 
 @app.route("/posts")
 def posts():
