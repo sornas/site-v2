@@ -188,7 +188,7 @@ footer {
 	width: 100%;
 	font-size: 2em;
 	position: relative;
-	bottom: 1.3em;
+	bottom: 1.1em;
 	display: inline-block
 }
 
@@ -211,6 +211,11 @@ footer {
 		width: 30%;
 		text-align: center;
 	}
+	
+	#introduction .card p {
+		bottom: 0em;		
+	}
+	
 
 	#introduction .card .symbol {
 		width: 100%;
