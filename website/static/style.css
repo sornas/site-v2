@@ -171,8 +171,16 @@ header h2 {
 }
 
 article {
-	width: calc(100% - 2 * var(--margin));
+	font-size: 1em;
+	max-width: 32em;
 	margin: auto;
+}
+
+@media only screen and (min-width: 60em) {
+	article {
+		font-size: 1.25em;
+		max-width: 40em;
+	}
 }
 
 img {
