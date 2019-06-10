@@ -37,14 +37,6 @@ föreläsningar, Game-Jams, programmeringstävlingar och såklart kodstugor.
 	</div>
 </div>
 
-
-![Bild](https://lithekod.se/assets/spotify2016-2.jpg)
-
-**Låter det intressant?**
-Här är vår kalender där vi lägger in alla våra olika evenemang.
-Varje tisdag klockan 5 har vi också meetups i Café Java
-där vi bjuder på fika och snackar om allt relaterat till programmering.
-
 Här är några länkar till olika evenemang som vi anordnar:
 
 * [IDA-Mästerskapet i Programmering och Algoritmer (IMPA)](https://www.ida.liu.se/projects/impa/new/)

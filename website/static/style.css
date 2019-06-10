@@ -91,12 +91,19 @@ nav.open {
 	}
 }
 
-nav img {
+nav #nav-logo {
 	margin: auto;
 	margin-top: -2em;
 	padding: 2em;
 	padding-left: calc((100% - 75% - 2em) / 2);
 	width: 75%;
+}
+
+nav #lang-img {
+	cursor: pointer;
+	width: 10%;
+	padding: 0.5em;
+	padding-left: 1em;
 }
 
 nav>ul {
