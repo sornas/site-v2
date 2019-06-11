@@ -10,6 +10,7 @@
 		<meta charset='utf-8'/>
 	</head>
 	<body class='dark'>
+		<script>document.getElementsByTagName("body")[0].className = window.localStorage.getItem("theme");</script>
 		<nav id='nav'>
 			<div id='nav-toggle' onclick='let n = document.querySelector("#nav"); if (n.className) n.className = ""; else n.className += "open";'>
 				<i class='material-icons'>menu</i>
@@ -52,5 +53,4 @@
 			<!-- TODO: Info -->
 		</footer>
 	</body>
-	<script>document.getElementsByTagName("body")[0].className = window.localStorage.getItem("theme");</script>
 </html>

@@ -1,13 +1,14 @@
 window.onload = () => {
-
-	document.onkeydown = () => {
-		// TODO: Short keys?
-	};
-
+	// Themes
+	let body = document.getElementsByTagName("body")[0];
 	let theme_icon = document.getElementById("toggle-theme");
+	if (body.className === "dark") {
+		theme_icon.src = "/static/img/theme-to-light.png";
+	} else {
+		theme_icon.src = "/static/img/theme-to-dark.png";
+	}
 
 	theme_icon.onclick = () => {
-		let body = document.getElementsByTagName("body")[0];
 		let theme = body.className;
 		if (theme === "dark") {
 			body.className = "light";
@@ -18,7 +19,7 @@ window.onload = () => {
 		theme_icon.src = "/static/img/theme-to-" + theme + ".png";
 	};
 
-
+	// Fancy header image.
 	let canvas = document.getElementById("fancy-pants-graphics");
 	canvas.width = canvas.offsetWidth;
 	canvas.height = canvas.offsetHeight;
