@@ -6,9 +6,9 @@ app = Flask(__name__, static_folder='static')
 
 navigation = [
         ("Start", ""),
-        ("Posts", "posts"),
-        ("Contact", "contact"),
-        ("About us", "about_us")]
+        ("Info", "posts"),
+        ("Kontakt", "contact"),
+        ("Om oss", "about_us")]
 
 def paragraph(text):
     return dict(is_image=False,
@@ -22,15 +22,20 @@ def image(src, alt):
 def post(src, alt, text):
     return dict(src=src, alt=alt, text=text)
 
-def render_page(path, nav_index):
+def render_page(page, lang, theme, nav_index):
+    actual_path = "website/pages/" + page + "_" + lang + ".md"
     return render_template("page.html",
-            html=markdown2.markdown_path(path),
+            html=markdown2.markdown_path(actual_path),
             navigation=navigation,
-            selected=nav_index)
+            selected=nav_index,
+            theme=theme)
 
-@app.route("/")
-def index():
-    return render_page("website/pages/index_se.md", 1)
+@app.route("/<lang>/<theme>")
+def index(lang, theme):
+    print(lang, theme)
+    assert(theme in ["light", "dark"])
+    assert(lang in ["sv", "en"])
+    return render_page("index", lang, theme, 1)
 
 # @app.route("/contact/se")
 # def contact_se():

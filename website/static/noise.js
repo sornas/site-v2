@@ -1,4 +1,37 @@
+// TODO: This can be moves to the generation in the python code... Which would
+// make this JS unessecary.
+let toggle_lang = () => {
+	let href = window.location.href;
+	console.log(href);
+	let sv_start = href.indexOf("/sv");
+	if (sv_start !== -1) {
+		href = href.replace("/sv", "/en");
+	} else  {
+		href = href.replace("/en", "/sv");
+	}
+	console.log(href);
+	window.location.href = href;
+};
+
+let toggle_theme = () => {
+	let href = window.location.href;
+	console.log(href);
+	let dark_start = href.indexOf("/dark");
+	if (dark_start !== -1) {
+		href = href.replace("/dark", "/light");
+	} else  {
+		href = href.replace("/light", "/dark");
+	}
+	console.log(href);
+	window.location.href = href;
+};
+
+
 window.onload = () => {
+
+	document.onkeydown = () => {
+		// TODO: Shot keys?
+	};
 
 	let canvas = document.getElementById("fancy-pants-graphics");
 	canvas.width = canvas.offsetWidth;
@@ -12,33 +45,48 @@ window.onload = () => {
 		{ r: 255, g: 0,   b: 255 },
 	];
 
-	let paint = () => {
+	let current_color = Math.floor(Math.random() * colors.length);
+	let color_offset = Math.floor(Math.random() * (colors.length - 1) + 1);
+	let random_color = () => {
+		current_color = (current_color + color_offset) % colors.length; 
+		return colors[current_color];
+	};
+
+	for (let q = 0; q < 5; q++) {
 		let x = Math.random() * canvas.width;
 		let y = Math.random() * canvas.height;
-		let c = colors[Math.floor(Math.random() * colors.length)];
-		ctx.fillStyle = "rgba(" + c.r + ", " + c.g + ", " + c.b + ", 0.5)";
+		let c = random_color();
+		ctx.fillStyle = "rgba(" + c.r + ", " + c.g + ", " + c.b + ", 0.2)";
 		ctx.beginPath();
 		ctx.arc(x, y, canvas.width / 2, 0, 2 * Math.PI);
 		ctx.fill();
 	}
 
-	window.requestAnimationFrame(() => {
-		for (let i = 0; i < 10; i++) {
-			paint();
-		}
-		window.requestAnimationFrame(step);
-	});
-
-	let next = 0;
+	/*
+	let x = 0;
+	let y = 0;
 	let itter = 0;
-	let step = (timestamp) => {
-		if (timestamp > next) {
-			next = timestamp + 5000;
-			itter++;
-			if (itter > 100) return;
-			paint();
-		}
-		window.requestAnimationFrame(step);
+
+	let wait_a_bit = () => {
+		setTimeout(new_circle, 2000 * Math.random() + 2000);
 	};
-	
+
+	let new_circle = () => {
+		itter = 10;
+		x = Math.random() * canvas.width;
+		y = Math.random() * canvas.height;
+		let c = random_color();
+		ctx.fillStyle = "rgba(" + c.r + ", " + c.g + ", " + c.b + ", 0.001)";
+		window.requestAnimationFrame(draw);
+	};
+	let draw = (timestamp) => {
+		itter--;
+		if (itter == 0) wait_a_bit();
+		ctx.beginPath();
+		ctx.arc(x, y, canvas.width / 2, 0, 2 * Math.PI);
+		ctx.fill();
+		window.requestAnimationFrame(draw);
+	};
+	new_circle();
+	*/
 };
