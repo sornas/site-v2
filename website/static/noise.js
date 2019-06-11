@@ -1,37 +1,23 @@
-// TODO: This can be moves to the generation in the python code... Which would
-// make this JS unessecary.
-let toggle_lang = () => {
-	let href = window.location.href;
-	console.log(href);
-	let sv_start = href.indexOf("/sv");
-	if (sv_start !== -1) {
-		href = href.replace("/sv", "/en");
-	} else  {
-		href = href.replace("/en", "/sv");
-	}
-	console.log(href);
-	window.location.href = href;
-};
-
-let toggle_theme = () => {
-	let href = window.location.href;
-	console.log(href);
-	let dark_start = href.indexOf("/dark");
-	if (dark_start !== -1) {
-		href = href.replace("/dark", "/light");
-	} else  {
-		href = href.replace("/light", "/dark");
-	}
-	console.log(href);
-	window.location.href = href;
-};
-
-
 window.onload = () => {
 
 	document.onkeydown = () => {
-		// TODO: Shot keys?
+		// TODO: Short keys?
 	};
+
+	let theme_icon = document.getElementById("toggle-theme");
+
+	theme_icon.onclick = () => {
+		let body = document.getElementsByTagName("body")[0];
+		let theme = body.className;
+		if (theme === "dark") {
+			body.className = "light";
+		} else {
+			body.className = "dark";
+		}
+		window.localStorage.setItem("theme", body.className);
+		theme_icon.src = "/static/img/theme-to-" + theme + ".png";
+	};
+
 
 	let canvas = document.getElementById("fancy-pants-graphics");
 	canvas.width = canvas.offsetWidth;

@@ -74,7 +74,6 @@ nav.open {
 	color: var(--primary-color);
 	margin-top: 0.2em;
 	font-size: 1.4em;
-	transition: 0.2s linear;
 	user-select: none;
 }
 
@@ -87,13 +86,20 @@ nav.open {
 	}
 }
 
-nav img {
+nav #nav-logo {
 	margin: auto;
 	margin-top: -2em;
 	padding: 2em;
 	padding-left: calc((100% - 75% - 2em) / 2);
 	width: 75%;
 	cursor: pointer;
+}
+
+nav #lang-img {
+	cursor: pointer;
+	width: 10%;
+	padding: 0.5em;
+	padding-left: 1em;
 }
 
 nav ul {
@@ -137,7 +143,14 @@ nav .button {
 	bottom: 1em;
 	width: 1.5em;
 	height: 1.5em;
-	padding: 0em;
+	padding: 0.1em;
+	cursor: pointer;
+	background-color: #000;
+	border-radius: 1em;
+}
+
+nav .button:hover {
+	background-color: #FFF;
 }
 
 nav .button:last-child {
@@ -171,7 +184,8 @@ header img {
 }
 
 article {
-	width: calc(100% - 2 * var(--margin));
+	font-size: 1em;
+	max-width: 32em;
 	margin: auto;
 }
 
@@ -188,6 +202,10 @@ article img {
 	article img {
 		width: 30em;
 		float: right;
+	}
+
+	article {
+		font-size: 1.25em;
 	}
 }
 
