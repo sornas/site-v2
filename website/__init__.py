@@ -52,6 +52,11 @@ def index_se():
     """ Swedish Index page """
     return render_page("website/pages/index_se.md", 0, True)
 
+@app.route("/en")
+def index_en():
+    """ English Index page """
+    return render_page("website/pages/index_en.md", 0, True)
+
 @app.route("/contact/se")
 def contact_se():
     """ Swedish Contact page """
