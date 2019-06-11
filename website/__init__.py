@@ -5,10 +5,13 @@ from flask import Flask, render_template, redirect
 app = Flask(__name__, static_folder='static')
 
 navigation = [
-        ("Start", ""),
-        ("Posts", "/posts"),
-        ("Contact", "/contact"),
-        ("About us", "/about_us")]
+        ("Start", "", False),
+        ("Posts", "/posts", False),
+        ("Contact", "/contact", False),
+        ("About us", "/about_us", False),
+        ("Our Github", "https://github.com/lithekod", True),
+        ("By-laws", "https://github.com/lithekod/bylaws/blob/master/stadgar.pdf", True),
+        ("Protocols", "https://github.com/lithekod/protocols", True)]
 
 def paragraph(text):
     return dict(is_image=False,

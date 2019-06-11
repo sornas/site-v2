@@ -7,7 +7,7 @@
 		<link href='/static/style.css' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<script src="/static/noise.js"></script>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset='utf-8'/>
 	</head>
 	<body class="dark">
@@ -17,9 +17,11 @@
 			</div>
 				<img id='nav-logo' src='/static/img/logo.png'>
 			<ul>
-				{%- for name, url in navigation -%}
+				{%- for name, url, absolute in navigation -%}
 				<li class='item {% if loop.index0 == selected %}selected{% endif %}'>
-					{% if swedish %}
+					{% if absolute %}
+						<a href='{{ url }}'>{{ name }}</a>
+					{% elif swedish %}
 						<a href='{{ url }}/se'>{{ name }}</a>
 					{% else %}
 						<a href='{{ url }}/en'>{{ name }}</a>
