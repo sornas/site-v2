@@ -1,11 +1,12 @@
-/* Configure Sidebar */
+/* General Configuration */
 :root {
 	--margin: 3em;
 	--sidebar-color: #222;	
 	--sidebar-highlight-color: #EEE;
 	--sidebar-highlight-bg-color: #333;
 	--sidebar-accent-color: #1ec6ba;
-	--dark-text-color: #606060	
+	--dark-text-color: #606060;
+	--max-article-width: 32em;
 }
 
 /* Configure themes	*/
@@ -222,7 +223,9 @@ header img {
 
 article {
 	font-size: 1em;
-	max-width: 32em;
+	max-width: var(--max-article-width);
+	padding-left: var(--margin);
+	padding-right: var(--margin);
 	margin: auto;
 }
 
@@ -240,10 +243,6 @@ article img {
 		width: 30em;
 		float: right;
 	}
-
-	article {
-		font-size: 1.25em;
-	}
 }
 
 article img.banner {
@@ -254,14 +253,22 @@ a {
 	color: var(--link-color);
 }
 
+#footer-bg {
+	width: 100vw;
+	background-color: var(--sidebar-highlight-bg-color);
+	margin-left: -0.5em;
+}
+
 footer {
-	background-color: var(--background-color);
 	color: var(--primary-color);
 	width 100%;
+	max-width: var(--max-article-width);
 	padding-left: var(--margin);
 	padding-right: var(--margin);
 	padding-top: 1em;
 	padding-bottom: var(--margin);
+	
+	margin: auto;
 }
 
 
