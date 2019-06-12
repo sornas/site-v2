@@ -2,7 +2,10 @@ window.onload = () => {
 	// Themes
 	let body = document.getElementsByTagName("body")[0];
 	let theme_icon = document.getElementById("toggle-theme");
-	theme_icon.src = "/static/img/" + body.className + "-theme.svg";
+	if (theme_icon == "dark")
+		theme_icon.src = "/static/img/dark-theme.svg";
+	else
+		theme_icon.src = "/static/img/light-theme.svg";
 
 	theme_icon.onclick = () => {
 		let theme = body.className;

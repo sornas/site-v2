@@ -32,12 +32,12 @@
 				</li>
 				{%- endfor -%}
 			</ul>
-				<img class='button' id='toggle-theme' src=''/>
 			{% if swedish %}
 				<img class='button' id='toggle-lang' onclick='window.location.href="en"' src='/static/img/en.svg'/>
 			{% else %}
 				<img class='button' id='toggle-lang' onclick='window.location.href="se"' src='/static/img/se.svg'/>
 			{% endif %}
+				<img class='button' id='toggle-theme' src=''/>
 		</nav>
 		<header>
 			<canvas id="fancy-pants-graphics"></canvas>
