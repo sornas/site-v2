@@ -1,120 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="200mm"
-   height="200mm"
-   version="1.1"
-   viewBox="0 0 200 200"
-   id="svg661"
-   sodipodi:docname="dark-theme.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
-  <defs
-     id="defs665" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1027"
-     id="namedview663"
-     showgrid="false"
-     inkscape:zoom="0.62441667"
-     inkscape:cx="164.43203"
-     inkscape:cy="551.83476"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg661" />
-  <metadata
-     id="metadata635">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     transform="rotate(17.036237,424.64158,148.28134)"
-     id="g659">
-    <path
-       transform="matrix(0.26458,0,0,0.26458,0,97)"
-       d="M 377.95,0 A 377.95,377.95 0 0 0 251.7,22.127 377.95,377.95 0 0 1 465.9,362.237 377.95,377.95 0 0 1 214.19,718.067 377.95,377.95 0 0 0 377.95,755.909 377.95,377.95 0 0 0 755.9,377.959 377.95,377.95 0 0 0 377.95,0.009 Z"
-       id="path637"
-       inkscape:connector-curvature="0"
-       style="fill:#f9f9f9" />
-    <circle
-       cx="144.50999"
-       cy="198.7"
-       r="14.305"
-       id="circle639"
-       style="fill:#ececec;stroke-width:0.15561999" />
-    <path
-       d="m 181.27,138.95 a 18.174,18.174 0 0 0 -8.8827,15.596 18.174,18.174 0 0 0 18.174,18.175 18.174,18.174 0 0 0 6.1056,-1.0759 100,100 0 0 0 -15.397,-32.695 z"
-       id="path641"
-       inkscape:connector-curvature="0"
-       style="fill:#e6e6e6;stroke-width:0.26458001" />
-    <g
-       id="g649"
-       style="fill:#ececec">
-      <circle
-         cx="165.3"
-         cy="224.41"
-         r="5.9896998"
-         id="circle643"
-         style="stroke-width:0.065159" />
-      <circle
-         cx="153.39"
-         cy="157.69"
-         r="4.2887998"
-         id="circle645"
-         style="stroke-width:0.046656" />
-      <circle
-         cx="120.89"
-         cy="125.19"
-         r="11.092"
-         id="circle647"
-         style="stroke-width:0.12067" />
-    </g>
-    <path
-       transform="matrix(0.26458,0,0,0.26458,0,97)"
-       d="m 389.04,13.186 a 56.924,56.924 0 0 0 -56.924,56.924 56.924,56.924 0 0 0 0.13477,3.8105 377.95,377.95 0 0 1 51.291,52.84 56.924,56.924 0 0 0 5.498,0.27343 56.924,56.924 0 0 0 56.924,-56.924 56.924,56.924 0 0 0 -56.924,-56.924 z"
-       id="path651"
-       inkscape:connector-curvature="0"
-       style="fill:#e6e6e6;stroke-width:0.61925" />
-    <circle
-       cx="122.02"
-       cy="149.38"
-       r="4.2887998"
-       id="circle653"
-       style="fill:#ececec;stroke-width:0.046656" />
-    <path
-       transform="matrix(0.26458,0,0,0.26458,0,97)"
-       d="m 369.88,613.4 a 377.95,377.95 0 0 1 -66.086,58.561 45.354,45.354 0 0 0 39.811,23.721 45.354,45.354 0 0 0 45.354,-45.354 45.354,45.354 0 0 0 -19.078,-36.928 z"
-       id="path655"
-       inkscape:connector-curvature="0"
-       style="fill:#ececec;stroke-width:0.66026998" />
-    <path
-       transform="matrix(0.26458,0,0,0.26458,0,97)"
-       d="m 520.03,580.69 a 176.07,186.07 0 0 0 -175.47,173.55 377.95,377.95 0 0 0 33.398,1.6719 377.95,377.95 0 0 0 271.25,-115.34 176.07,186.07 0 0 0 -129.17,-59.885 z"
-       id="path657"
-       inkscape:connector-curvature="0"
-       style="fill:#e6e6e6;stroke-width:2.63499999" />
-  </g>
+<svg width="200mm" height="200mm" version="1.1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<g transform="rotate(17.036 424.64 148.28)">
+<path transform="matrix(.26458 0 0 .26458 0 97)" d="m377.95 0a377.95 377.95 0 0 0-126.25 22.127 377.95 377.95 0 0 1 214.2 340.11 377.95 377.95 0 0 1-251.71 355.83 377.95 377.95 0 0 0 163.76 37.842 377.95 377.95 0 0 0 377.95-377.95 377.95 377.95 0 0 0-377.95-377.95z" fill="#e6e6e6"/>
+<circle cx="144.51" cy="198.7" r="14.305" fill="#ccc" stroke-width=".15562"/>
+<path d="m181.27 138.95a18.174 18.174 0 0 0-8.8827 15.596 18.174 18.174 0 0 0 18.174 18.175 18.174 18.174 0 0 0 6.1056-1.0759 100 100 0 0 0-15.397-32.695z" fill="#b3b3b3" stroke-width=".26458"/>
+<g fill="#ccc">
+<circle cx="165.3" cy="224.41" r="5.9897" stroke-width=".065159"/>
+<circle cx="153.39" cy="157.69" r="4.2888" stroke-width=".046656"/>
+<circle cx="120.89" cy="125.19" r="11.092" stroke-width=".12067"/>
+</g>
+<path transform="matrix(.26458 0 0 .26458 0 97)" d="m389.04 13.186a56.924 56.924 0 0 0-56.924 56.924 56.924 56.924 0 0 0 0.13477 3.8105 377.95 377.95 0 0 1 51.291 52.84 56.924 56.924 0 0 0 5.498 0.27343 56.924 56.924 0 0 0 56.924-56.924 56.924 56.924 0 0 0-56.924-56.924z" fill="#b3b3b3" stroke-width=".61925"/>
+<circle cx="122.02" cy="149.38" r="4.2888" fill="#ccc" stroke-width=".046656"/>
+<path transform="matrix(.26458 0 0 .26458 0 97)" d="m369.88 613.4a377.95 377.95 0 0 1-66.086 58.561 45.354 45.354 0 0 0 39.811 23.721 45.354 45.354 0 0 0 45.354-45.354 45.354 45.354 0 0 0-19.078-36.928z" fill="#ccc" stroke-width=".66027"/>
+<path transform="matrix(.26458 0 0 .26458 0 97)" d="m520.03 580.69a176.07 186.07 0 0 0-175.47 173.55 377.95 377.95 0 0 0 33.398 1.6719 377.95 377.95 0 0 0 271.25-115.34 176.07 186.07 0 0 0-129.17-59.885z" fill="#b3b3b3" stroke-width="2.635"/>
+</g>
 </svg>
