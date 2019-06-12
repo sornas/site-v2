@@ -1,3 +1,4 @@
+/* Configure Sidebar */
 :root {
 	--margin: 3em;
 	--sidebar-color: #222;	
@@ -7,6 +8,7 @@
 	--dark-text-color: #606060	
 }
 
+/* Configure themes	*/
 .light {
 	--primary-color: #111;
 	--background-color: #FFF;
@@ -23,60 +25,93 @@
 	--gray-color: #aaa;
 }
 
+
 body {
+	/* Text appearance */
 	line-height: 1.5;
 	font-family: "PT Sans", Helvetica, Arial, sans-serif;
+	
+	/* Display */
 	margin: 0px;
 	padding: 0px;
+	
+	/* Color */
 	background-color: var(--background-color);
 	color: var(--primary-color);
-	overflow-x: hidden;
+	
+	/* Other */
+	overflow-x: hidden; /* Hide horizontal scroll bar */
 }
 
+/* ============================================================
+ * Navigation bar
+ * ============================================================ */
+
 nav {
+	/* Position */
 	position: fixed;
-	width: 50vw;
-	max-width: 20em;
-	height: 100vh;
 	top: 0px;
 	left: calc(-50vw - 2px);
+	height: 100vh;
+	z-index: 100;
 
+	/* Display */
+	width: 50vw;
+	max-width: 20em;
+
+	/* Font */
 	font-size: 1.2em;
 	font-weight: bold;
 	
+	/* Color */
 	color: var(--color-light);
 	background-color: var(--sidebar-color);
-  border-right: 2px solid var(--sidebar-accent-color);
+	border-right: 2px solid var(--sidebar-accent-color);
 	
-	z-index: 100;
-	
-	transition: 0.2s linear;
+	/* Other */
+	transition: 0.2s linear; /* Animation speed of opening navigation bar */
 }
 
+/* Position of Navigation bar when opened */
 nav.open {
   left: 0px;
 }
 
+/* Navigation bar toggle button */
 #nav-toggle {
+	/* Size */
 	width: 2em;
 	height: 2em;
 	margin-left: calc(50vw + 2px);
+
+	/* Color */
 	background-color: rgba(0, 0, 0, 0.1);
-	border-radius: 0em 0.0em 0.5em 0em;
-	cursor: pointer;
+
+	/* Other */
+	border-radius: 0em 0.0em 0.5em 0em; /* Round the bottom right corner a bit */
+	cursor: pointer; /* Indicate that the button can be clicked on */
 }
 
+/* Toggle button icon */
 #nav-toggle i {
+	/* Display */
 	width: 100%;
 	height: 100%;
+	margin-top: 0.2em;
 	text-align: center;
 	vertical-align: center;
+
+	/* Color */
 	color: var(--primary-color);
-	margin-top: 0.2em;
+
+	/* Font */
 	font-size: 1.4em;
-	user-select: none;
+
+	/* Other */
+	user-select: none; /* Prevent user from selecting button TODO: check if this works*/
 }
 
+/* Set Navigation bar width to a constant value if screen is large enough */
 @media screen and (min-width: 50em) {
 	nav {
 		left: calc(-20em - 2px);
@@ -86,29 +121,29 @@ nav.open {
 	}
 }
 
+/* Logo in the Navigation bar */
 nav #nav-logo {
+	/* Display */
 	margin: auto;
 	margin-top: -2em;
 	padding: 2em;
 	padding-left: calc((100% - 75% - 2em) / 2);
 	width: 75%;
-	cursor: pointer;
+
+	/* Other */
+	cursor: pointer; /* Indicate that the logo can be clicked on */
 }
 
-nav #lang-img {
-	cursor: pointer;
-	width: 10%;
-	padding: 0.5em;
-	padding-left: 1em;
-}
-
+/* Navigation bar list */
 nav ul {
-	text-align: left;
-	list-style: none;
+	/* Display */
 	padding: 0px;
 	margin: 0px;
+	text-align: left;
+	list-style: none; /* Remove list bullets */
 }
 
+/* Remove margin from list text */
 nav p {
   margin: 0px;
 }
