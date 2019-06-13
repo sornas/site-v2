@@ -10,16 +10,16 @@
 }
 
 /* Configure themes	*/
-.light {
+#theme-trigger[type="checkbox"]:checked + #body {
 	--primary-color: #111;
 	--background-color: #FFF;
-	--footer-bg-color: #DDD;
+	--footer-bg-color: #EEE;
 	--link-color: #228e87;
 	--page-color: #dddcdd;
 	--gray-color: #666;
 }
 
-.dark {
+#theme-trigger[type="checkbox"]:not(:checked) + #body {
 	--primary-color: #eee;
 	--background-color: #202020;
 	--footer-bg-color: #303030;
@@ -28,7 +28,11 @@
 	--gray-color: #aaa;
 }
 
-body {
+#body {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	
 	/* Text appearance */
 	line-height: 1.5;
 	font-family: "PT Sans", Helvetica, Arial, sans-serif;
@@ -54,7 +58,7 @@ nav {
 	position: fixed;
 	top: 0px;
 	left: calc(-32vw - 2px);
-	height: 100vh;
+	height: calc(100vh + 20em);
 	z-index: 100;
 
 	/* Display */
@@ -72,6 +76,14 @@ nav {
 	
 	/* Other */
 	transition: 0.2s linear; /* Animation speed of opening navigation bar */
+}
+
+input[name="nav-trigger-toggle"] {
+	visibility: hidden;
+}
+
+input[type="checkbox"]:checked + nav {
+	left: 0px;
 }
 
 /* Position of Navigation bar when opened */
@@ -160,8 +172,10 @@ nav ul {
 }
 
 /* Remove margin from list text */
-nav p {
+nav a {
   margin: 0px;
+	color: inherit;
+	text-decoration: none;
 }
 
 /* Navigation bar list items */
@@ -191,10 +205,15 @@ nav .item.selected:hover {
   color: var(--sidebar-highlight-color);	
 }
 
+
+#toggle-lang:hover, #toggle-theme:hover {
+	background-color: var(--sidebar-highlight-bg-color);
+}
+
 nav .button {
-	position: absolute;
+  position: absolute;
 	left: calc(0.8em);
-	bottom: 1em;
+	bottom: calc(1em + 20em);
 	width: 1.5em;
 	height: 1.5em;
 	padding: 0.2em;
@@ -203,12 +222,40 @@ nav .button {
 	border-radius: 1em;
 }
 
-nav .button:hover {
-	background-color: var(--sidebar-highlight-bg-color);
+nav .button img {
+  width: 1.5em;
+	height: 1.5em;
 }
 
-nav .button:last-child {
+#toggle-theme {
   left: 3em;
+}
+
+#toggle-theme img {
+	position: absolute;
+}
+
+#light-theme {
+	visibility: visible;
+}
+
+#dark-theme {
+	visibility: hidden;
+}
+
+input[type="checkbox"]:checked+#body #light-theme {
+	visibility: hidden;
+}
+
+input[type="checkbox"]:checked+#body #dark-theme {
+	visibility: visible;
+}
+
+@media screen and not (script) {
+	#toggle-theme {
+		visibility: hidden;
+		z-index: -1000;
+	}
 }
 
 #fancy-pants-graphics {
@@ -218,7 +265,6 @@ nav .button:last-child {
 	top: 0px;
 	left: 0px;
 	padding: 0px;
-	z-index: -100;
 	background-color: #F0F;
 }
 
@@ -270,9 +316,9 @@ a {
 }
 
 #footer-bg {
+	position: relative;
 	width: 100vw;
 	background-color: var(--footer-bg-color);
-	margin-left: -0.5em;
 }
 
 footer {

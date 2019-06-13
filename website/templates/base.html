@@ -9,47 +9,57 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<meta charset='utf-8'/>
 	</head>
-	<body class='dark'>
-		<script>document.getElementsByTagName("body")[0].className = window.localStorage.getItem("theme");</script>
+	<body>
+		<input name='theme-trigger' id='theme-trigger' type='checkbox'>
+		<div id="body">
+		<script>document.getElementById("theme-trigger").checked = window.localStorage.getItem("theme") === "light";</script>
+		<input name='nav-trigger-toggle' id='nav-trigger-toggle' type='checkbox'>
 		<nav id='nav'>
-			<div id='nav-toggle' onclick='let n = document.querySelector("#nav"); if (n.className) n.className = ""; else n.className += "open";'>
-				<i class='material-icons'>menu</i>
-			</div>
+			<label for='nav-trigger-toggle'>
+				<div id='nav-toggle' >
+					<i class='material-icons'>menu</i>
+				</div>
+			</label>
 			<img id='nav-logo' src='/static/img/logo.png'>
 			<ul>
 				{%- for (name_se, name_en), url, multi_lang in navigation -%}
-				<li class='item {% if loop.index0 == selected %}selected{% endif %}'
-					onclick="window.location.href=
+				<li class='item {% if loop.index0 == selected %}selected{% endif %}'>
+					<a href=
 					{%- if not multi_lang -%}
 						'{{ url }}'
 					{%- elif swedish -%}
 						'{{ url }}/se'
 					{%- else -%}
 						'{{ url }}/en'
-					{%- endif -%};"
-					>
-					<p>
+					{%- endif %}>
 					{%- if swedish -%}
 						{{ name_se }}
 					{%- else -%}
 						{{ name_en }}
 					{%- endif -%}
-					</p>
+					</a>
 				</li>
 				{%- endfor -%}
 			</ul>
 			{% if swedish %}
-				<img class='button' id='toggle-lang' onclick='window.location.href="en"' src='/static/img/en.svg'/>
+				<a class='button' id='toggle-lang' href="en"><img  onclick='window.location.href="en"' src='/static/img/en.svg'/></a>
 			{% else %}
-				<img class='button' id='toggle-lang' onclick='window.location.href="se"' src='/static/img/se.svg'/>
+				<a class='button' id='toggle-lang' href="se"><img  src='/static/img/se.svg'/></a>
 			{% endif %}
-				<img class='button' id='toggle-theme' src=''/>
+			<label class='button' id='toggle-theme' for='theme-trigger'>
+				<img id='dark-theme' src='/static/img/dark-theme.svg'/>
+				<img id='light-theme' src='/static/img/light-theme.svg'/>
+			</label>
 		</nav>
 		<header>
 			<canvas id="fancy-pants-graphics"></canvas>
 			<img src='/static/img/totalrippad.svg'>
 		</header>
 		<article>
+			<noscript>
+				<h1>Oh snag, no JS!</h1>
+				<p id="no-script">Oh, it looks like you don't have JavaScript enabled, it's understandable really, but some of the functionality on this site won't work. Unfortunately you can't get light or dark theme or automatically switch between English and Swedish.</p>
+			</noscript>
 			{% block content %}
 			<p> There is no content here!</p>
 			{% endblock %}
@@ -59,6 +69,7 @@
 				<p>This is a footer with a lot of content!</p>
 				<!-- TODO: Info -->
 			</footer>
+		</div>
 		</div>
 	</body>
 </html>
