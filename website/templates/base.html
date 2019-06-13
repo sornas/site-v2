@@ -5,7 +5,7 @@
 		<link rel='icon' type='image/png' href='/static/img/icon.png'>
 		<link href='/static/style.css' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-		<script src="/static/noise.js"></script>
+		<script src="/static/script.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<meta charset='utf-8'/>
 	</head>
@@ -32,12 +32,12 @@
 				</li>
 				{%- endfor -%}
 			</ul>
-				<img class='button' id='toggle-theme' src=''/>
 			{% if swedish %}
-				<img class='button' id='toggle-lang' onclick='window.location.href="en"' src='/static/img/en.png'/>
+				<img class='button' id='toggle-lang' onclick='window.location.href="en"' src='/static/img/en.svg'/>
 			{% else %}
-				<img class='button' id='toggle-lang' onclick='window.location.href="se"' src='/static/img/se.png'/>
+				<img class='button' id='toggle-lang' onclick='window.location.href="se"' src='/static/img/se.svg'/>
 			{% endif %}
+				<img class='button' id='toggle-theme' src=''/>
 		</nav>
 		<header>
 			<canvas id="fancy-pants-graphics"></canvas>
@@ -48,9 +48,11 @@
 			<p> There is no content here!</p>
 			{% endblock %}
 		</article>
-		<footer>
-			<p>This is a footer with a lot of content!</p>
-			<!-- TODO: Info -->
-		</footer>
+		<div id="footer-bg">
+			<footer>
+				<p>This is a footer with a lot of content!</p>
+				<!-- TODO: Info -->
+			</footer>
+		</div>
 	</body>
 </html>
