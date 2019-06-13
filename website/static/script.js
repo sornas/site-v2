@@ -1,22 +1,14 @@
 window.onload = () => {
 	// Themes
-	let body = document.getElementsByTagName("body")[0];
-	let theme_icon = document.getElementById("toggle-theme");
-	if (theme_icon == "dark")
-		theme_icon.src = "/static/img/dark-theme.svg";
-	else
-		theme_icon.src = "/static/img/light-theme.svg";
-
-	theme_icon.onclick = () => {
-		let theme = body.className;
-		theme_icon.src = "/static/img/" + theme + "-theme.svg";
-		if (theme === "dark") {
-			body.className = "light";
+	let theme_toggle = document.getElementById("theme-trigger");
+	let on = theme_toggle.value;
+	theme_toggle.onchange = () => {
+		if (theme_toggle.checked) {
+			window.localStorage.setItem("theme", "light");
 		} else {
-			body.className = "dark";
+			window.localStorage.setItem("theme", "dark");
 		}
-		window.localStorage.setItem("theme", body.className);
-	};
+	}
 
 	// Fancy header image.
 	let canvas = document.getElementById("fancy-pants-graphics");
@@ -47,32 +39,4 @@ window.onload = () => {
 		ctx.arc(x, y, canvas.width / 2, 0, 2 * Math.PI);
 		ctx.fill();
 	}
-
-	/*
-	let x = 0;
-	let y = 0;
-	let itter = 0;
-
-	let wait_a_bit = () => {
-		setTimeout(new_circle, 2000 * Math.random() + 2000);
-	};
-
-	let new_circle = () => {
-		itter = 10;
-		x = Math.random() * canvas.width;
-		y = Math.random() * canvas.height;
-		let c = random_color();
-		ctx.fillStyle = "rgba(" + c.r + ", " + c.g + ", " + c.b + ", 0.001)";
-		window.requestAnimationFrame(draw);
-	};
-	let draw = (timestamp) => {
-		itter--;
-		if (itter == 0) wait_a_bit();
-		ctx.beginPath();
-		ctx.arc(x, y, canvas.width / 2, 0, 2 * Math.PI);
-		ctx.fill();
-		window.requestAnimationFrame(draw);
-	};
-	new_circle();
-	*/
 };
