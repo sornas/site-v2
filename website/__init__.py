@@ -4,16 +4,20 @@ from flask import Flask, render_template, redirect
 
 app = Flask(__name__, static_folder='static')
 
+GITHUB_LINK = "https://github.com/lithekod"
+BYLAWS_LINK = "https://github.com/lithekod/bylaws/blob/master/stadgar.pdf"
+PROTOCOLS_LINK = "https://github.com/lithekod/protocols"
+
 # Elements used to create Navigation bar
-# (Name, Url, Multi-Language?)
+# ((Name_se, Name_en), Url, Multi-Language?)
 navigation = [
-        ("Start", "", True),
-        ("Posts", "/posts", True),
-        ("Contact", "/contact", True),
-        ("About us", "/about_us", True),
-        ("Our Github", "https://github.com/lithekod", False),
-        ("By-laws", "https://github.com/lithekod/bylaws/blob/master/stadgar.pdf", False),
-        ("Protocols", "https://github.com/lithekod/protocols", False)]
+        (("Start", "Start"),           "",             True),
+        (("Inlägg", "Posts"),          "/posts",       True),
+        (("Kontakt", "Contact"),       "/contact",     True),
+        (("Om oss", "About us"),       "/about_us",    True),
+        (("Vår Github", "Our Github"), GITHUB_LINK,    False),
+        (("Stadgar", "By-laws"),       BYLAWS_LINK,    False),
+        (("Protokoll", "Protocols"),   PROTOCOLS_LINK, False)]
 
 def render_page(path, nav_index, swedish):
     """Render a Markdown file into a page on the website
@@ -25,7 +29,6 @@ def render_page(path, nav_index, swedish):
     return render_template("page.html",
             html=markdown2.markdown_path(path),
             navigation=navigation,
-            page_url=navigation[nav_index][1],
             selected=nav_index,
             swedish=swedish)
 

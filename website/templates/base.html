@@ -17,7 +17,7 @@
 			</div>
 			<img id='nav-logo' src='/static/img/logo.png'>
 			<ul>
-				{%- for name, url, multi_lang in navigation -%}
+				{%- for (name_se, name_en), url, multi_lang in navigation -%}
 				<li class='item {% if loop.index0 == selected %}selected{% endif %}'
 					onclick="window.location.href=
 					{%- if not multi_lang -%}
@@ -28,7 +28,13 @@
 						'{{ url }}/en'
 					{%- endif -%};"
 					>
-					<p>{{ name }}</p>
+					<p>
+					{%- if swedish -%}
+						{{ name_se }}
+					{%- else -%}
+						{{ name_en }}
+					{%- endif -%}
+					</p>
 				</li>
 				{%- endfor -%}
 			</ul>

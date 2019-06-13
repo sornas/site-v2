@@ -82,7 +82,7 @@ nav.open {
 
 /* Navigation bar toggle button */
 #nav-toggle {
-	/* Size */
+	/* Display */
 	width: 2em;
 	height: 2em;
 	margin-left: calc(50vw + 2px);
@@ -151,14 +151,17 @@ nav p {
   margin: 0px;
 }
 
+/* Navigation bar list items */
 nav .item {
-	cursor: pointer;
 	padding: 0.5em;
 	padding-left: 1em;
 	width: calc(100% - 1.5em);
 	background-color: var(--sidebar-color);
 	color: var(--dark-text-color);
 	text-align: left;
+
+	/* Other */
+	cursor: pointer; /* Indicate that the item can be clicked on */
 }
 
 nav .item.selected {
