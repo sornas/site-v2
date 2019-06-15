@@ -11,7 +11,7 @@ idag en rad olika typer av aktiviteter såsom studiebesök, workshops,
 föreläsningar, Game-Jams, programmeringstävlingar och såklart kodstugor.
 
 <div id="introduction">
-	<div class="card">
+	<div class="intro-card">
 		<h3>Meetups</h3>
 		<i class="symbol material-icons">where_to_vote</i>
 		<p>
@@ -19,7 +19,7 @@ föreläsningar, Game-Jams, programmeringstävlingar och såklart kodstugor.
 			programmering.
 		</p>
 	</div>
-	<div class="card">
+	<div class="intro-card">
 		<h3>Andra events</h3>
 		<i class="symbol material-icons">event</i>
 		<p>
@@ -27,7 +27,7 @@ föreläsningar, Game-Jams, programmeringstävlingar och såklart kodstugor.
 			href="calendarlink">kalender</a>
 		</p>
 	</div>
-	<div class="card">
+	<div class="intro-card">
 		<h3>Kontakt</h3>
 		<i class="symbol material-icons">alternate_email</i>
 		<p>

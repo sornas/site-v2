@@ -11,14 +11,14 @@ such as study visits, workshops, lectures, Game-Jams, programming competitions a
 of course code meetups.
 
 <div id="introduction">
-	<div class="card">
+	<div class="intro-card">
 		<h3>Meetups</h3>
 		<i class="symbol material-icons">where_to_vote</i>
 		<p>
 			At 5pm every Tuesday we meet in Café Java to discuss everything related to programming.
 		</p>
 	</div>
-	<div class="card">
+	<div class="intro-card">
 		<h3>Other Events</h3>
 		<i class="symbol material-icons">event</i>
 		<p>
@@ -26,7 +26,7 @@ of course code meetups.
 			See all events in our <a href="calendarlink">calendar</a>
 		</p>
 	</div>
-	<div class="card">
+	<div class="intro-card">
 		<h3>Contact</h3>
 		<i class="symbol material-icons">alternate_email</i>
 		<p>
