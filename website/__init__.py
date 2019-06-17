@@ -66,3 +66,8 @@ def contact_se():
 def contact_en():
     """ English Contact page """
     return render_page("website/pages/contact_en.md", 2, False)
+
+@app.errorhandler(404)
+def not_found(e):
+    """ 404 Page """
+    return render_page("website/pages/404.md", -1, False), 404

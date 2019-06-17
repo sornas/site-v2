@@ -334,29 +334,34 @@ footer {
 	margin: auto;
 }
 
-/* Material style card */
-.card {
+/* A Post */
+.post {
 	background: var(--background-color);
 	border-radius: 2px;
 	display: inline-block;
 	padding: 0em;
-	margin: 0.5em;
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16), 0 6px 6px rgba(0, 0, 0, 0.23);
+	padding-bottom: 1em;
+	margin-bottom: 1em;
 }
 
-.card h1 {
-	margin: 0.5em;
+.post-border {
+	border-style: solid;
+	border-color: var(--primary-color);
+	border-width: 0 0 2px 0;
 }
 
-.card img {
+.post h1 {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.post img {
 	width: 100%;
 	height: auto;
 	display: block;
-	border-radius: 0;
 }
 
-.card p {
-	margin: 1em;
+.post p {
 }
 
 
