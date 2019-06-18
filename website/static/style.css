@@ -29,18 +29,18 @@
 }
 
 #body {
+	/* Display */
 	position: absolute;
 	left: 0px;
 	top: 0px;
 	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
 	
 	/* Text appearance */
 	line-height: 1.5;
 	font-family: "PT Sans", Helvetica, Arial, sans-serif;
-	
-	/* Display */
-	margin: 0px;
-	padding: 0px;
 	
 	/* Color */
 	background-color: var(--background-color);
@@ -76,7 +76,7 @@ nav {
 	border-right: 2px solid var(--sidebar-accent-color);
 	
 	/* Other */
-	transition: 0.2s linear; /* Animation speed of opening navigation bar */
+	transition: 0.2s ease; /* Animation speed of opening navigation bar */
 }
 
 input[name="nav-trigger-toggle"] {
