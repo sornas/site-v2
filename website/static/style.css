@@ -37,6 +37,10 @@
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
+
+	/* Flex */
+	display: flex;
+	flex-flow: column nowrap;
 	
 	/* Text appearance */
 	line-height: 1.5;
@@ -271,6 +275,7 @@ input[type="checkbox"]:checked+#body #dark-theme {
 
 header {
 	height: 12em;
+	flex: 0 0 auto;
 }
 
 header img {
@@ -290,6 +295,7 @@ article {
 	padding-left: var(--margin);
 	padding-right: var(--margin);
 	margin: auto;
+	flex: 1 0 auto;
 }
 
 article img {
@@ -332,6 +338,8 @@ footer {
 	padding-bottom: var(--margin);
 	
 	margin: auto;
+
+	flex: 0 0 auto;
 }
 
 /* A Post */
