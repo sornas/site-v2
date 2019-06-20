@@ -445,8 +445,10 @@ footer a:hover {
 
 	#introduction .intro-card .symbol {
 		width: 100%;
-		font-size: 8em;
+		font-size: 7.5em;
 		bottom: 0em;
+		margin-top: 0.1em;
+		margin-bottom: 0.1em;
 	}
 }
 
