@@ -271,7 +271,8 @@ input[type="checkbox"]:checked+#body #dark-theme {
 
 #fancy-pants-graphics {
 	position: absolute;
-	height: 12em;
+	max-height: 10em;
+	height: 15vh;
 	width: 100vw;
 	top: 0px;
 	left: 0px;
@@ -280,17 +281,20 @@ input[type="checkbox"]:checked+#body #dark-theme {
 }
 
 header {
-	height: 12em;
+	max-height: 10em;
+	height: 15vh;
 	flex: 0 0 auto;
+	margin-bottom: 2em;
 }
 
 header img {
+	position: relative;
 	margin-top: 1vh;
 	width: calc(100vw - 2 * var(--margin));
-	height: 12em;
-	position: absolute;
+	max-height: 10em;
+	height: 25vh;
 	left: 0px;
-	top: 1em;
+	bottom: 1em;
 	margin-left: var(--margin);
 	margin-right: var(--margin);
 }
