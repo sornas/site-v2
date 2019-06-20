@@ -353,8 +353,13 @@ footer a:hover {
 }
 
 .footer-block {
-	display: inline-block;
-	margin: 0 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.footer-block div {
+	justify-content: space-evenly;
+	display: flex;
 }
 
 #footer-bg {
