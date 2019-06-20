@@ -13,14 +13,14 @@ of course code meetups.
 <div id="introduction">
 	<div class="intro-card">
 		<h3>Meetups</h3>
-		<i class="symbol material-icons">where_to_vote</i>
+		<i class="symbol fas fa-mug-hot"></i>
 		<p>
 			At 5pm every Tuesday we meet in Café Java to discuss everything related to programming.
 		</p>
 	</div>
 	<div class="intro-card">
 		<h3>Other Events</h3>
-		<i class="symbol material-icons">event</i>
+		<i class="symbol fas fa-calendar-day"></i>
 		<p>
 			During the year we have lots of interesting events you can attend.
 			See all events in our <a href="calendarlink">calendar</a>
@@ -28,7 +28,7 @@ of course code meetups.
 	</div>
 	<div class="intro-card">
 		<h3>Contact</h3>
-		<i class="symbol material-icons">alternate_email</i>
+		<i class="symbol fab fa-slack"></i>
 		<p>
 			Join our <a>Slack channel</a> where we advertise events and
 			dicuss various things.

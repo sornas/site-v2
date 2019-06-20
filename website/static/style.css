@@ -7,24 +7,29 @@
 	--sidebar-accent-color: #1ec6ba;
 	--dark-text-color: #606060;
 	--max-article-width: 32em;
+	
+	--footer-fg-color: #777;
+	--footer-highlight-fg-color: #EEE;
 }
 
 /* Configure themes	*/
 #theme-trigger[type="checkbox"]:checked + #body {
+	/* Light theme */
 	--primary-color: #111;
 	--background-color: #FFF;
 	--footer-bg-color: #EEE;
-	--footer-fg-color: #777;
+	--footer-highlight-fg-color: #AAA;
 	--link-color: #228e87;
 	--page-color: #dddcdd;
 	--gray-color: #666;
 }
 
 #theme-trigger[type="checkbox"]:not(:checked) + #body {
+	/* Dark theme */
 	--primary-color: #eee;
 	--background-color: #202020;
 	--footer-bg-color: #303030;
-	--footer-fg-color: #777;
+	--footer-highlight-fg-color: #EEE;
 	--link-color: #1ec6ba;
 	--page-color: #dddcdd;
 	--gray-color: #aaa;
@@ -341,6 +346,10 @@ footer {
 footer a {
 	color: var(--footer-fg-color);
 	text-decoration: none;
+}
+
+footer a:hover {
+	color: var(--footer-highlight-fg-color);
 }
 
 .footer-block {

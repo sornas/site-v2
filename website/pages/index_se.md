@@ -13,7 +13,7 @@ föreläsningar, Game-Jams, programmeringstävlingar och såklart kodstugor.
 <div id="introduction">
 	<div class="intro-card">
 		<h3>Meetups</h3>
-		<i class="symbol material-icons">where_to_vote</i>
+		<i class="symbol fas fa-mug-hot"></i>
 		<p>
 			Klockan 17 varje tisdag träffas vi i Café Java för att snacka om allt relaterat till
 			programmering.
@@ -21,7 +21,7 @@ föreläsningar, Game-Jams, programmeringstävlingar och såklart kodstugor.
 	</div>
 	<div class="intro-card">
 		<h3>Andra events</h3>
-		<i class="symbol material-icons">event</i>
+		<i class="symbol fas fa-calendar-day"></i>
 		<p>
 			Under året har vi massor intressanta events som du kan se i vår <a
 			href="calendarlink">kalender</a>
@@ -29,7 +29,7 @@ föreläsningar, Game-Jams, programmeringstävlingar och såklart kodstugor.
 	</div>
 	<div class="intro-card">
 		<h3>Kontakt</h3>
-		<i class="symbol material-icons">alternate_email</i>
+		<i class="symbol fab fa-slack"></i>
 		<p>
 			Gå med i våran <a>slack-kanal</a> där vi annonserar events och
 			diskuterar allt möjligt.
