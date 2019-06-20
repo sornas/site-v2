@@ -14,6 +14,7 @@
 	--primary-color: #111;
 	--background-color: #FFF;
 	--footer-bg-color: #EEE;
+	--footer-fg-color: #777;
 	--link-color: #228e87;
 	--page-color: #dddcdd;
 	--gray-color: #666;
@@ -23,6 +24,7 @@
 	--primary-color: #eee;
 	--background-color: #202020;
 	--footer-bg-color: #303030;
+	--footer-fg-color: #777;
 	--link-color: #1ec6ba;
 	--page-color: #dddcdd;
 	--gray-color: #aaa;
@@ -322,24 +324,34 @@ a {
 	color: var(--link-color);
 }
 
-#footer-bg {
-	position: relative;
-	width: 100vw;
-	background-color: var(--footer-bg-color);
-}
-
 footer {
-	color: var(--primary-color);
+	color: var(--footer-fg-color);
 	width 100%;
 	max-width: var(--max-article-width);
 	padding-left: var(--margin);
 	padding-right: var(--margin);
-	padding-top: 1em;
-	padding-bottom: var(--margin);
+	padding-top: 0;
+	padding-bottom: 0;
 	
 	margin: auto;
 
 	flex: 0 0 auto;
+}
+
+footer a {
+	color: var(--footer-fg-color);
+	text-decoration: none;
+}
+
+.footer-block {
+	display: inline-block;
+	margin: 0 1em;
+}
+
+#footer-bg {
+	position: relative;
+	width: 100vw;
+	background-color: var(--footer-bg-color);
 }
 
 /* A Post */
@@ -352,6 +364,7 @@ footer {
 	margin-bottom: 1em;
 }
 
+/* Border to separate posts */
 .post-border {
 	border-style: solid;
 	border-color: var(--primary-color);
