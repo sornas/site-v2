@@ -6,8 +6,7 @@
 	--sidebar-highlight-bg-color: #333;
 	--sidebar-accent-color: #1ec6ba;
 	--dark-text-color: #606060;
-	--max-article-width: 32em;
-	
+	--max-article-width: 42em;
 	--footer-fg-color: #777;
 	--footer-highlight-fg-color: #EEE;
 }
@@ -363,6 +362,7 @@ footer a:hover {
 }
 
 #footer-bg {
+	margin-top: 2em;
 	position: relative;
 	width: 100vw;
 	background-color: var(--footer-bg-color);
