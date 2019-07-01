@@ -1,0 +1,24 @@
+Index
+	- (Vilka är vi?) Hello World, eller något liknande.
+	- Info om meetups, events, slack.
+	- Hur blir man medlem?
+		- Vad kostar det?
+		- Förmåner?
+
+Kontakt
+	- Email till alla och varför man ska emaila dom.
+
+Nytt/Posts
+	- Nya saker på sidan, som en "feed"
+
+NCPC
+	- Vad det är
+	- Hur man anmäler sig
+
+GameJams
+	- Vad det är
+	- Hur man anmäler sig
+
+Föreningen
+	- Info om github och länkar till viktiga dokument.
+	- Stadgar, Github, protokoll, årsmöte.

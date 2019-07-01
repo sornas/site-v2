@@ -52,6 +52,12 @@ Kanske du vill lära dig mer om hur versionshantering i Git fungerar,
 kanske du vill höra om hur det är att jobba på
 Spotify eller bara träffa nya människor med samma intressen som dig!
 
+## Hur blir jag medlem?
+Ta kontakt med vår kassör, det absolut lättaste är att hälsa på
+under ett meetup eller hugg tag i någon från styrelsen. 
+
+Medlems avgiften är på 20kr och ger dig medlemskap för livet, inte för att nämna alla minnen du kommer få!
+
 # Är du företagare?
 
 LiTHe kod är en knytpunkt där många av de vassaste och mest engagerade data/IT
@@ -59,23 +65,3 @@ studenterna vid Linköpings Universitet ingår.
 
 Genom att samarbeta med oss och anordna aktiviteter så får ni ett utmärkt tillfälle
 att träffa dessa studenter och skapa ett intresse för er som framtida arbetsgivare.
-
-# Kontakt
-
-Har du någon fråga? Tveka inte att kontakta oss. Vi nås dels på Facebook,
-men framförallt i vår [Slack-grupp](https://lithe-kod.slack.com/).
-Om du inte redan är med i Slack-gruppen så kan du göra det via följande
-[länk](https://lithe-kod.slack.com/signup), **Du behöver använda din LiU-mejladress.**
-
-## E-Mail
-
-* Ordförande: ordf@lithekod.se, Frans Skarman (frask812)
-* Vice ordförande: vordf@lithekod.se, Emil Segerbäck (emise935)
-* Kassör: kassor@lithekod.se, Robin Sliwa (robsl733)
-* Verksamhetsledare: verks@lithekod.se, Viktor Holmgren (vikho394)
-* PR: verks@lithekod.se, Christoffer Sjöbergsson (chrsj812)
-* Gamejam-Ansvarig gamejam@lithekod.se, Erik Mansén (erima668)
-
-## Postaddress
-
-LiTHe kod Kårallen, Universitetet 581 83 Linköping
