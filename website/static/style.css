@@ -374,7 +374,8 @@ footer a:hover {
 	background: var(--background-color);
 	display: inline-block;
 	padding: 1em;
-	margin: 1em;
+	margin: 0;
+	text-align: center;
 }
 
 .card img {
@@ -390,6 +391,12 @@ footer a:hover {
 
 .card h6 {
 	margin-top: 0;
+}
+
+#card-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
 }
 
 /* A Post */
