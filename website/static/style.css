@@ -340,6 +340,7 @@ footer {
 	padding-right: var(--margin);
 	padding-top: 0;
 	padding-bottom: 0;
+	top: 0;
 	
 	margin: auto;
 
@@ -356,13 +357,9 @@ footer a:hover {
 }
 
 .footer-block {
-	margin-top: 1em;
-	margin-bottom: 1em;
-}
-
-.footer-block div {
-	justify-content: space-evenly;
-	display: flex;
+	vertical-align: top;
+	display: inline-block;
+	margin: 1em 1em;
 }
 
 #footer-bg {
