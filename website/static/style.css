@@ -369,6 +369,29 @@ footer a:hover {
 	background-color: var(--footer-bg-color);
 }
 
+/* A Card */
+.card {
+	background: var(--background-color);
+	display: inline-block;
+	padding: 1em;
+	margin: 1em;
+}
+
+.card img {
+	width: 15em;
+	height: 24em;
+	display: block;
+	margin: 0;
+}
+
+.card h2 {
+	margin: 0;
+}
+
+.card h6 {
+	margin-top: 0;
+}
+
 /* A Post */
 .post {
 	background: var(--background-color);
