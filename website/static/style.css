@@ -369,35 +369,47 @@ footer a:hover {
 	background-color: var(--footer-bg-color);
 }
 
-/* A Card */
-.card {
+/* ============================================================
+ * Profile card
+ * ============================================================ */
+
+/* A Card which should be placed inside a card-container */
+.profile-card {
 	background: var(--background-color);
 	display: inline-block;
 	padding: 1em;
-	margin: 0;
+	margin: 0 auto;
 	text-align: center;
 }
 
-.card img {
+/* Image with ratio 9:16 */
+.profile-card img {
 	width: 15em;
 	height: 24em;
 	display: block;
 	margin: 0;
 }
 
-.card h2 {
+/* Heading for name */
+.profile-card h2 {
 	margin: 0;
 }
 
-.card h6 {
+/* Heading for role and email */
+.profile-card h6 {
 	margin-top: 0;
 }
 
+/* Container for Cards */
 #card-container {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 }
+
+/* ============================================================
+ * Post
+ * ============================================================ */
 
 /* A Post */
 .post {
@@ -416,16 +428,19 @@ footer a:hover {
 	border-width: 0 0 2px 0;
 }
 
+/* Heading for title */
 .post h1 {
 	margin-top: 0.5em;
 	margin-bottom: 0;
 }
 
+/* Heading for date */
 .post h6 {
 	margin-top: 0;
 	margin-bottom: 0.5em;
 }
 
+/* Image fills width and keeps ratio */
 .post img {
 	width: 100%;
 	height: auto;
