@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Git Cheat Sheet</title>
+<style>
+
+.heart {
+    color: #C11;
+	animation-direction: alternate;
+	animation-name: heart-anim;
+    animation-duration: 2s;
+}
+
+@keyframes heart-anim {
+    from { color: #000; };
+    to { color: #F33; };
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+	width: 80%;
+	max-width: 50em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+
+	background-color: #EEE;
+}
+
+.text-box.terminology {
+	background-color: #CCC;
+	padding: 1em;
+	border-radius: 0.3em;
+}
+
+.text-box.terminology div {
+	margin-top: 2em;
+}
+
+.text-box.terminology .term {
+	font-size: 1.2em;
+	text-decoration: bold;
+	margin-bottom: 0.5em;
+}
+
+.text-box.terminology .desc {
+	font-size: 1.0em;
+	text-decoration: bold;
+	margin-top: 0.5em;
+}
+
+.avoid-wrap {
+	display: inline-block;
+}
+
+.text-box.code {
+	padding: 1em;
+	border-radius: 0.3em;
+	background-color: #222;
+	font-family: monospace;
+	font-size: 1.2em;
+	color: #CCC;
+}
+
+.text-box.code .comment {
+	color: #6A6;
+}
+
+.text-box.code .string {
+	color: #66A;
+}
+
+</style>
+    </head>
+    <body>
+		<h1><span class="avoid-wrap">The ultimate git sheet-cheat</span><span class="avoid-wrap">(of doom)</span></h1>
+        <p>Git can be very confusing and hard to grasp. This is a small little
+        sheet cheat with what is mostly done. If you need further help...
+        Ask someone who looks smart. <span class="heart"><3</span></p>
+		<h2>Why should I bother learning git?</h2>
+		<p>Many of the most powerfull tools are hard to learn, git is no different. Learning git will let you more easily work with people on large code bases, move changes over the network, organize your work, structure your team and save you from hard drive failures.<span class="avoid-wrap">(It will also make you objectively cooler <span class="heart"><3</span>)</span></p>
+		<div class="text-box terminology">
+			<h1>Terminology</h1>
+			<div>
+				<p class="term">Repository/Repo</p><p class="desc">A project</p>
+			</div>
+			<div>
+				<p class="term">Commit</p><p class="desc">A bundle of changes</p>
+			</div>
+			<div>
+				<p class="term">Staged</p><p class="desc">Mark changes as "I want to keep these".</p>
+			</div>
+			<div>
+				<p class="term">Branch</p><p class="desc">A bundle of commits (A bundle of bundles with changes)</p>
+			</div>
+			<div>
+				<p class="term">Hash</p><p class="desc">A series of letters 0-F, usually looks like "25bb8e26be86e67c235f47fc37e578a699c69a1e"</p>
+			</div>
+			<div>
+				<p class="term">Remote</p><p class="desc">The project, but on a different computer</p>
+			</div>
+			<div>
+				<p class="term">Upstream</p><p class="desc">The "main" repository, usually on someone elses computer.</p>
+			</div>
+		</div>
+		<h1>Push changes</h1>
+        <div class="text-box code">
+                <p><span class="comment"># Mark what you want to push</span></p>
+                <p>$ git add .</p>
+                <p><span class="comment"># Check that it makes sense</span></p>
+                <p>$ git status</p>
+                <p><span class="comment"># Create the commit and say what is in it</span></p>
+                <p>$ git commit -m <span class="string">"Descriptive message"</span></p>
+                <p><span class="comment"># Send them to someone else's computer</span></p>
+                <p>$ git push</p>
+        </div>
+		<h1>Checkout a new branch</h1>
+        <div class="text-box code">
+			<p>$ git checkout -b descriptive-branch-name</p>
+        </div>
+		<h1>Checkout a specific commit</h1>
+        <div class="text-box code">
+                <p><span class="comment"># Copy the hash for the commit you want</span></p>
+                <p>$ git log</p>
+                <p><span class="comment"># Paste what you copied in the last command</span></p>
+                <p>$ git checkout 25bb8e26be86e67c235f47fc37e578a699c69a1e</p>
+        </div>
+		<h1>Merge a branch</h1>
+        <div class="text-box code">
+                <p><span class="comment"># Move to the branch you want to have both changes, usually "master"</span></p>
+                <p>$ git checkout branch-to-merge-from</p>
+                <p><span class="comment"># Merge in the new branch</span></p>
+                <p>$ git checkout topic-branch-to-merge</p>
+        </div>
+            <h1>Solve a merge conflict</h1>
+        <div class="text-box code">
+                <p><span class="comment"># See which files have conflicts</span></p>
+                <p>$ git status</p>
+                <p><span class="comment"># Edit the files and make sure they look like you want.</span></p>
+                <p><span class="comment"># Git adds ">>>>>>>>>> HEAD" to show where conflicts are</span></p>
+                <p><span class="comment"># When done simply add them and commit</span></p>
+                <p>$ git add file_a file_b</p>
+                <p>$ git commit -m <span class="string">"Descriptive message"</span></p>
+        </div>
+		<h1>Make a git repo</h1>
+        <div class="text-box code">
+                <p><span class="comment"># Paste what you copied in the last command</span></p>
+                <p>$ git init</p>
+                <p><span class="comment"># Give in the URL to your remote repo</span></p>
+                <p>$ git remote set-url origin <span class="string">"https://gitlab.ida.liu.se/liuid123/reponame"</span></p>
+        </div>
+    </body>
+</html>
