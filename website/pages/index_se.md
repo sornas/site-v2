@@ -53,10 +53,11 @@ kanske du vill höra om hur det är att jobba på
 Spotify eller bara träffa nya människor med samma intressen som dig!
 
 ## Hur blir jag medlem?
-Ta kontakt med vår kassör, det absolut lättaste är att hälsa på
-under ett meetup eller hugg tag i någon från styrelsen. 
+Du kan bli medlem genom att ta kontakt med någon i styrelsen.
+Det gör du enklast genom att gå på ett av våra meetups som vi har varje tisdag
+Kl 17.00 i Café Java.
 
-Medlems avgiften är på 20kr och ger dig medlemskap för livet, inte för att nämna alla minnen du kommer få!
+Medlemsavgiften är på 20kr och ger dig medlemskap för livet, inte för att nämna alla minnen du kommer få!
 
 # Är du företagare?
 

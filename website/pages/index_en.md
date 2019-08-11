@@ -51,6 +51,14 @@ Maybe you want to learn more about version control in Git,
 maybe you want to hear about how it is to work at Spotify,
 or maybe you just want to meet new people who share your interests!
 
+# Becoming a member
+
+You can become a member by contacting us. The easies way to do that
+is to go to one of our meetups that we have every tuesday at 17.00 in Café Java
+
+The fee of 20kr gives you membership for life, not to mention all
+the memories you will make!
+
 # Are you an employer?
 
 LiTHe kod is a gathering point where many of the sharpest and most engaged data/IT
@@ -58,19 +66,3 @@ students at Linköpings University are included.
 
 By working together with us to arrange activities you get a perfect opporunity to
 meet these students and create an interest for you as a future employer.
-
-# Contact
-
-Do you have a question? Don't hesitate to contact us! You can reach us on Facebook,
-but we are more available in our [Slack group](https://lithe-kod.slack.com/).
-
-If you haven't already joined our Slack group, you can do so using the following
-[link](https://lithe-kod.slack.com/signup), **You need to use your LiU e-mail address**.
-
-## E-Mail
-
-* PR - Erik Mattfolk - pr@lithekod.se
-
-## Mailing address
-
-LiTHe kod Kårallen, Universitetet 581 83 Linköping
