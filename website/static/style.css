@@ -430,12 +430,12 @@ footer a:hover {
 
 /* Heading for title */
 .post h1 {
-	margin-top: 0.5em;
-	margin-bottom: 0;
 }
 
 /* Heading for date */
 .post h6 {
+	color: var(--gray-color);
+	text-align: right;
 	margin-top: 0;
 	margin-bottom: 0.5em;
 }
