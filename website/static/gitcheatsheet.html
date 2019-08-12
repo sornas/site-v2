@@ -19,7 +19,7 @@
 body {
 	padding: 0px;
 	margin: 0px;
-	font-family: sans-serif;
+	font-family: serif;
 	width: 80%;
 	max-width: 50em;
 	margin-left: auto;
@@ -27,6 +27,17 @@ body {
 	margin-top: 2em;
 
 	background-color: #EEE;
+}
+
+footer {
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    margin-top: 2em;
+    padding-bottom: 2em;
+    background-color: #222;
+    color: #CCC;
+    text-align: center;
 }
 
 .text-box.terminology {
@@ -40,9 +51,11 @@ body {
 }
 
 .text-box.terminology .term {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	text-decoration: bold;
+	color: #A55;
 	margin-bottom: 0.5em;
+
 }
 
 .text-box.terminology .desc {
@@ -72,13 +85,22 @@ body {
 	color: #66A;
 }
 
+a {
+    color: #66A;
+}
+
+a:hover {
+    color: #55C;
+    text-decoration: bold;
+}
+
 </style>
     </head>
     <body>
 		<h1><span class="avoid-wrap">The ultimate git sheet-cheat</span><span class="avoid-wrap">(of doom)</span></h1>
         <p>Git can be very confusing and hard to grasp. This is a small little
         sheet cheat with things you might need. If you need further help...
-        Ask someone who looks smart. <span class="heart"><3</span></p>
+        Ask someone who looks smart.</p>
 		<h2>Why should I bother learning git?</h2>
 		<p>Many of the most powerfull tools are hard to learn, git is no different. Learning git will let you more easily work with people on large code bases, move changes over the network, organize your work, structure your team and save you from hard drive failures.<span class="avoid-wrap">(It will also make you objectively cooler <span class="heart"><3</span>)</span></p>
 		<div class="text-box terminology">
@@ -105,6 +127,21 @@ body {
 				<p class="term">Upstream</p><p class="desc">The "main" repository, usually on someone elses computer.</p>
 			</div>
 		</div>
+		<h1>Make a git repo</h1>
+        <div class="text-box code">
+                <p><span class="comment"># Paste what you copied in the last command</span></p>
+                <p>$ git init</p>
+                <p><span class="comment"># Give in the URL to your remote repo</span></p>
+                <p>$ git remote set-url origin <span class="string">"https://gitlab.ida.liu.se/liuid123/reponame"</span></p>
+        </div>
+        <h1>Show staged changes (to be committed)</h1>
+        <div class="text-box code">
+			<p>$ git diff --staged</p>
+        </div>
+        <h1>Show unstaged changes</h1>
+        <div class="text-box code">
+			<p>$ git diff</p>
+        </div>
 		<h1>Push changes</h1>
         <div class="text-box code">
                 <p><span class="comment"># Mark what you want to push</span></p>
@@ -127,6 +164,10 @@ body {
                 <p><span class="comment"># Paste what you copied in the last command</span></p>
                 <p>$ git checkout 25bb8e26be86e67c235f47fc37e578a699c69a1e</p>
         </div>
+        <h1>Remove all uncommitted work</h1>
+        <div class="text-box code">
+			<p>$ git reset</p>
+        </div>
 		<h1>Merge a branch</h1>
         <div class="text-box code">
                 <p><span class="comment"># Move to the branch you want to have both changes, usually "master"</span></p>
@@ -134,7 +175,7 @@ body {
                 <p><span class="comment"># Merge in the new branch</span></p>
                 <p>$ git checkout topic-branch-to-merge</p>
         </div>
-            <h1>Solve a merge conflict</h1>
+        <h1>Solve a merge conflict</h1>
         <div class="text-box code">
                 <p><span class="comment"># See which files have conflicts</span></p>
                 <p>$ git status</p>
@@ -144,12 +185,19 @@ body {
                 <p>$ git add file_a file_b</p>
                 <p>$ git commit -m <span class="string">"Descriptive message"</span></p>
         </div>
-		<h1>Make a git repo</h1>
+        <h1>Move un-commited changes to another brnch</h1>
         <div class="text-box code">
-                <p><span class="comment"># Paste what you copied in the last command</span></p>
-                <p>$ git init</p>
-                <p><span class="comment"># Give in the URL to your remote repo</span></p>
-                <p>$ git remote set-url origin <span class="string">"https://gitlab.ida.liu.se/liuid123/reponame"</span></p>
+            <p><span class="comment"># Put the changes in the stash</span></p>
+			<p>$ git stash</p>
+            <p><span class="comment"># Check out the branch to move to</span></p>
+			<p>$ git checkout better-branch</p>
+            <p><span class="comment"># Move the changes from the stash</span></p>
+			<p>$ git stash apply</p>
         </div>
+
+        <footer>
+            <p>Made with <span class="heart"><3</span> by <a href="www.lithekod.se">LiTHe kod</a>.</p>
+            <a href="https://dangitgit.com/">If you really mess up.</a>
+        </footer>
     </body>
 </html>
