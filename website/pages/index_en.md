@@ -1,6 +1,6 @@
 # Who are we?
 
-LiTHe kod is a student association at Linköpings Uiversity whose mission
+LiTHe kod is a student association at Linköpings University whose mission
 is to promote and inspire the interest for programming,
 software engineering and everything related.
 
