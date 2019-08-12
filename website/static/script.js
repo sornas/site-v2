@@ -47,15 +47,20 @@ window.onload = () => {
 	}
 
     // Super secret easter egg
-    let secret_password = "LiTHeKodÄrBäst";
+    let secret_password = "LiTHe kod är bäst";
     let secret_password_progress = 0;
-    document.onkeypress = (e) => {
-        console.log(e);
-        console.log(e.key);
-        console.log(e.key == "s");
+    document.querySelector("body").onkeypress = function(e) {
         if (e.key == "s") {
             let nav_toggle = document.querySelector("#nav-trigger-toggle");
             nav_toggle.checked = !nav_toggle.checked;
+        }
+        if (e.key == "l") {
+            let lang = document.querySelector("#toggle-lang");
+            lang.click();
+        }
+        if (e.key == "t") {
+            let theme = document.querySelector("#toggle-theme");
+            theme.click();
         }
         if (e.key == secret_password[secret_password_progress]) {
             secret_password_progress++;
@@ -65,5 +70,6 @@ window.onload = () => {
         } else {
             secret_password_progress = 0;
         }
+        this.dispatchEvent(e);
     };
 };
