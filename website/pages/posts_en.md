@@ -5,6 +5,6 @@
 </div>
 <div class="post">
 	<h1>New homepage!</h1>
-	<p>During the summer we at LiTHe kod have created a new homepage. There is now support for light/dark theme and a toggle for switching between english and swedish. We have also added to and updated the information from last year to make it more accessible.</p>
+	<p>During the summer we at LiTHe kod have created a new homepage. There is now support for light/dark theme and a toggle for switching between English and Swedish. We have also added to, and updated the information from last year to make it more accessible.</p>
 	<h6>03-07-2019</h6>
 </div>
