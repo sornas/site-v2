@@ -13,8 +13,7 @@ PROTOCOLS_LINK = "https://github.com/lithekod/protocols"
 navigation = [
         (("Start", "Start"),           "",             True),
         (("Inlägg", "Posts"),          "/posts",       True),
-        (("Kontakt", "Contact"),       "/contact",     True),
-        (("Om oss", "About us"),       "/about_us",    True),
+        (("Kontakt", "Contact us"),    "/contact",     True),
         (("Vår Github", "Our Github"), GITHUB_LINK,    False),
         (("Stadgar", "By-laws"),       BYLAWS_LINK,    False),
         (("Protokoll", "Protocols"),   PROTOCOLS_LINK, False)]
@@ -66,16 +65,6 @@ def contact_se():
 def contact_en():
     """ English Contact page """
     return render_page("website/pages/contact_en.md", 2, False)
-
-@app.route("/about_us/se")
-def about_us_se():
-    """ Swedish About Us page """
-    return render_page("website/pages/about_us_se.md", 2, True)
-
-@app.route("/about_us/en")
-def about_us_en():
-    """ English About Us page """
-    return render_page("website/pages/about_us_en.md", 2, False)
 
 @app.errorhandler(404)
 def not_found(e):

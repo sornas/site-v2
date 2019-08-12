@@ -1,4 +1,4 @@
-# Contact
+# Contact us
 
 Have a question? Don't hesitate to contact us! You can reach us on Facebook,
 but we are more available in our [Slack group](https://lithe-kod.slack.com/).
@@ -11,32 +11,32 @@ We have meetups **every** tuesday in Café Java at 17.00. Swing by for some free
 <div id="card-container">
 	<div class="profile-card">
 		<h2>Olav Övrebö</h2>
-		<h6>Ordförande - ordf@lithekod.se</h6>
+		<h6>Chairman - ordf@lithekod.se</h6>
 		<img src="/static/lithekod_olav.png" alt="Olav Övrebö">
 	</div>
 	<div class="profile-card">
 		<h2>Edvard Thörnros</h2>
-		<h6>Kassör - kassor@lithekod.se</h6>
+		<h6>Cashier - kassor@lithekod.se</h6>
 		<img src="/static/lithekod_edvard.png" alt="Edvard Thörnros">
 	</div>
 	<div class="profile-card">
 		<h2>Annie Wång</h2>
-		<h6>Vice ordförande - vordf@lithekod.se</h6>
+		<h6>Vice Chairman - vordf@lithekod.se</h6>
 		<img src="/static/lithekod_annie.png" alt="Annie Wång">
 	</div>
 	<div class="profile-card">
 		<h2>Gabriel Tofvesson</h2>
-		<h6>Verksamhetsledare - verks@lithekod.se</h6>
+		<h6>Executive Manager - verks@lithekod.se</h6>
 		<img src="/static/lithekod_gabriel.png" alt="Gabriel Tofvesson">
 	</div>
 	<div class="profile-card">
 		<h2>Erik Mattfolk</h2>
-		<h6>PR ansvarig - pr@lithekod.se</h6>
+		<h6>Public Relations - pr@lithekod.se</h6>
 		<img src="/static/lithekod_erik.png" alt="Erik Mattfolk">
 	</div>
 	<div class="profile-card">
 		<h2>Axel Nordanskog</h2>
-		<h6>Gamejam ansvarig - gamejam@lithekod.se</h6>
+		<h6>Gamejam Manager - gamejam@lithekod.se</h6>
 		<img src="/static/lithekod_axel.png" alt="Axel Nordanskog">
 	</div>
 </div>
