@@ -1,11 +1,11 @@
 # Who are we?
 
-LiTHe kod is a student association at Linköpings Uiversity which mission
+LiTHe kod is a student association at Linköpings University whose mission
 is to promote and inspire the interest for programming,
 software engineering and everything related.
 
 We were founded in the fall of 2013 to organize code meetups where students could
-meet, talk and help eachother with evertyhing code related.
+meet, talk and help eachother with everything code related.
 We have since continued to develop and now we arrange several types of activites
 such as study visits, workshops, lectures, Game-Jams, programming competitions and
 of course code meetups.
@@ -23,7 +23,7 @@ of course code meetups.
 		<i class="symbol fas fa-calendar-day"></i>
 		<p>
 			During the year we have lots of interesting events you can attend.
-			See all events in our <a href="calendarlink">calendar</a>
+			See all events in our <a href="calendarlink">calendar</a>.
 		</p>
 	</div>
 	<div class="intro-card">
@@ -54,7 +54,7 @@ or maybe you just want to meet new people who share your interests!
 # Becoming a member
 
 You can become a member by contacting us. The easies way to do that
-is to go to one of our meetups that we have every tuesday at 17.00 in Café Java
+is to go to one of our meetups that we have every Tuesday at 17.00 in Café Java.
 
 The fee of 20kr gives you membership for life, not to mention all
 the memories you will make!
