@@ -6,7 +6,7 @@ but we are more available in our [Slack group](https://lithe-kod.slack.com/).
 If you haven't already joined our Slack group, you can do so using the following
 [link](https://lithe-kod.slack.com/signup), **You need to use your LiU e-mail address**.
 
-We have meetups **every** tuesday in Café Java at 17.00. Swing by for some free fika!
+We have meetups **every** Tuesday in Café Java at 17.00. Swing by for some free fika!
 
 <div id="card-container">
 	<div class="profile-card">
