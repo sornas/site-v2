@@ -45,4 +45,25 @@ window.onload = () => {
 		ctx.arc(x, y, canvas.width / 2, 0, 2 * Math.PI);
 		ctx.fill();
 	}
+
+    // Super secret easter egg
+    let secret_password = "LiTHeKodÄrBäst";
+    let secret_password_progress = 0;
+    document.onkeypress = (e) => {
+        console.log(e);
+        console.log(e.key);
+        console.log(e.key == "s");
+        if (e.key == "s") {
+            let nav_toggle = document.querySelector("#nav-trigger-toggle");
+            nav_toggle.checked = !nav_toggle.checked;
+        }
+        if (e.key == secret_password[secret_password_progress]) {
+            secret_password_progress++;
+            if (secret_password_progress == secret_password.length) {
+                document.write("<h1>I know ;)</h1>");
+            }
+        } else {
+            secret_password_progress = 0;
+        }
+    };
 };
