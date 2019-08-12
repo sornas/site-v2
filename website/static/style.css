@@ -398,6 +398,7 @@ footer a:hover {
 /* Heading for role and email */
 .profile-card h6 {
 	margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* Container for Cards */
