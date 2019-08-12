@@ -10,6 +10,12 @@ window.onload = () => {
 		}
 	}
 
+    // Clicking on the page removes the sidebar
+    let article = document.querySelector("article");
+    article.onclick = () =>  {
+        document.querySelector("#nav-trigger-toggle").checked = false;
+    };
+
 	// Fancy header image.
 	let canvas = document.getElementById("fancy-pants-graphics");
 	canvas.width = canvas.offsetWidth;
