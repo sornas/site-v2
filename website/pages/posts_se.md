@@ -5,6 +5,6 @@
 </div>
 <div class="post">
 	<h1>Ny hemsida!</h1>
-	<p>Under sommaren har vi i LiTHekod skrivit ihop en ny hemsida. Sidan har nu stöd för mörkt/ljust tema och enkelt byte mellan svenska och engelska. Vi har även lagt till och uppdaterat informationen från förra året så att den är mer lättåtkomlig.</p>
+	<p>Under sommaren har vi i LiTHe kod skrivit ihop en ny hemsida. Sidan har nu stöd för mörkt/ljust tema och enkelt byte mellan svenska och engelska. Vi har även uppdaterat informationen från förra året så att den är mer lättåtkomlig.</p>
 	<h6>03-07-2019</h6>
 </div>
