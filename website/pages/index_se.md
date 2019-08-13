@@ -8,7 +8,7 @@ Vi grundades hösten 2013 för att anordna kodstugor där studenter kunde träff
 prata och hjälpa varandra med allt kodrelaterat.
 Vi har sedan dess fortsatt att utvecklas och arrangerar
 idag en rad olika typer av aktiviteter såsom studiebesök, workshops,
-föreläsningar, Game-Jams, programmeringstävlingar och—såklart—kodstugor.
+föreläsningar, Game Jams, programmeringstävlingar och—såklart—kodstugor.
 
 <div id="introduction">
 	<div class="intro-card">
@@ -31,7 +31,7 @@ föreläsningar, Game-Jams, programmeringstävlingar och—såklart—kodstugor.
 		<h3>Kontakt</h3>
 		<i class="symbol fab fa-slack"></i>
 		<p>
-			Gå med i vår <a>slack-kanal</a> där vi annonserar events och
+			Gå med i vår <a>Slack-kanal</a> där vi annonserar events och
 			diskuterar allt möjligt.
 		</p>
 	</div>

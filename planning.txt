@@ -1,6 +1,6 @@
 Index
 	- (Vilka är vi?) Hello World, eller något liknande.
-	- Info om meetups, events, slack.
+	- Info om meetups, events, Slack.
 	- Hur blir man medlem?
 		- Vad kostar det?
 		- Förmåner?
@@ -15,7 +15,7 @@ NCPC
 	- Vad det är
 	- Hur man anmäler sig
 
-GameJams
+Game Jams
 	- Vad det är
 	- Hur man anmäler sig
 
