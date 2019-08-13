@@ -8,7 +8,7 @@ Vi grundades hösten 2013 för att anordna kodstugor där studenter kunde träff
 prata och hjälpa varandra med allt kodrelaterat.
 Vi har sedan dess fortsatt att utvecklas och arrangerar
 idag en rad olika typer av aktiviteter såsom studiebesök, workshops,
-föreläsningar, Game-Jams, programmeringstävlingar och--såklart kodstugor.
+föreläsningar, Game-Jams, programmeringstävlingar och--såklart--kodstugor.
 
 <div id="introduction">
 	<div class="intro-card">
