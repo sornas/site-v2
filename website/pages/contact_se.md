@@ -36,7 +36,7 @@ Vi har meetups **varje tisdag** i café java kl 17.00. Kom förbi så bjuder vi 
 	</div>
 	<div class="profile-card">
 		<h2>Axel Nordanskog</h2>
-		<h6>GameJam-ansvarig - gamejam@lithekod.se</h6>
+		<h6>Game Jam-ansvarig - gamejam@lithekod.se</h6>
 		<img src="/static/img/lithekod_axel.png" alt="Axel Nordanskog">
 	</div>
 </div>

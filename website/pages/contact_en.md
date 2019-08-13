@@ -36,7 +36,7 @@ We have meetups **every** Tuesday in Café Java at 17.00. Swing by for some free
 	</div>
 	<div class="profile-card">
 		<h2>Axel Nordanskog</h2>
-		<h6>Gamejam Manager - gamejam@lithekod.se</h6>
+		<h6>Game Jam Manager - gamejam@lithekod.se</h6>
 		<img src="/static/img/lithekod_axel.png" alt="Axel Nordanskog">
 	</div>
 </div>
