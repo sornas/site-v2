@@ -34,34 +34,34 @@ def render_page(path, nav_index, swedish):
 @app.route("/")
 def index():
     """ Redirect the index page to the swedish version of the index page """
-    return redirect("/se", code=302)
+    return redirect("/se/", code=302)
 
-@app.route("/se")
+@app.route("/se/")
 def index_se():
     """ Swedish Index page """
     return render_page("website/pages/index_se.md", 0, True)
 
-@app.route("/en")
+@app.route("/en/")
 def index_en():
     """ English Index page """
     return render_page("website/pages/index_en.md", 0, False)
 
-@app.route("/posts/se")
+@app.route("/posts/se/")
 def posts_se():
     """ Swedish Posts page """
     return render_page("website/pages/posts_se.md", 1, True)
 
-@app.route("/posts/en")
+@app.route("/posts/en/")
 def posts_en():
     """ English Posts page """
     return render_page("website/pages/posts_en.md", 1, False)
 
-@app.route("/contact/se")
+@app.route("/contact/se/")
 def contact_se():
     """ Swedish Contact page """
     return render_page("website/pages/contact_se.md", 2, True)
 
-@app.route("/contact/en")
+@app.route("/contact/en/")
 def contact_en():
     """ English Contact page """
     return render_page("website/pages/contact_en.md", 2, False)

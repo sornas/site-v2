@@ -28,18 +28,18 @@
 					{%- if not multi_lang -%}
 						"{{ url }}"
 					{%- elif swedish -%}
-						"{{ url }}/se"
+						"{{ url }}/se/"
 					{%- else -%}
-						"{{ url }}/en"
+						"{{ url }}/en/"
 					{%- endif -%};'
 					>
 					<a href=
 					{%- if not multi_lang -%}
 						'{{ url }}'
 					{%- elif swedish -%}
-						'{{ url }}/se'
+						'{{ url }}/se/'
 					{%- else -%}
-						'{{ url }}/en'
+						'{{ url }}/en/'
 					{%- endif %}>
 					{%- if swedish -%}
 						{{ name_se }}
@@ -51,9 +51,9 @@
 				{%- endfor -%}
 			</ul>
 			{% if swedish %}
-				<a class='button' id='toggle-lang' href="en"><img  onclick='window.location.href="en"' src='/static/img/en.svg'/></a>
+				<a class='button' id='toggle-lang' href="../en/"><img  onclick='window.location.href="en"' src='/static/img/en.svg'/></a>
 			{% else %}
-				<a class='button' id='toggle-lang' href="se"><img  src='/static/img/se.svg'/></a>
+				<a class='button' id='toggle-lang' href="../se/"><img  src='/static/img/se.svg'/></a>
 			{% endif %}
 			<label class='button' id='toggle-theme' for='theme-trigger'>
 				<img id='dark-theme' src='/static/img/dark-theme.svg'/>
