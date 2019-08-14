@@ -7,10 +7,10 @@ fi
 echo "Publishing..."
 
 git checkout -b gh-pages
-git pull origin gh-pages
+git pull --ff-only origin gh-pages
 
 python freezer.py
-mv website/build/* .
+rsync -av website/build/* .
 
 git add --all
 git commit -m "Publish $(date -I)"
