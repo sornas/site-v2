@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+if [[ $(git status -s) ]]; then
+	echo "Make sure working tree is clean before publishing"
+fi
+
+echo "Publishing..."
+
+git checkout -b gh-pages
+python freezer.py
+mv website/build/* .
+git commit -am "Publish $(date -I)"
+git push --set-upstream origin gh-pages
+git checkout master
+git branch -d gh-pages
+
+echo "Done publishing"
