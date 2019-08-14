@@ -1,6 +1,6 @@
 # Vilka är vi?
 
-LiTHe kod är en studentförening vid Linköpings Universitet vars syfte
+LiTHe kod är en studentförening vid Linköpings universitet vars syfte
 är att främja och inspirera intresset för programmering,
 mjukvaruutveckling och allt som hör till.
 
@@ -8,7 +8,7 @@ Vi grundades hösten 2013 för att anordna kodstugor där studenter kunde träff
 prata och hjälpa varandra med allt kodrelaterat.
 Vi har sedan dess fortsatt att utvecklas och arrangerar
 idag en rad olika typer av aktiviteter såsom studiebesök, workshops,
-föreläsningar, Game-Jams, programmeringstävlingar och—såklart—kodstugor.
+föreläsningar, Game Jams, programmeringstävlingar och—såklart—kodstugor.
 
 <div id="introduction">
 	<div class="intro-card">
@@ -31,7 +31,7 @@ föreläsningar, Game-Jams, programmeringstävlingar och—såklart—kodstugor.
 		<h3>Kontakt</h3>
 		<i class="symbol fab fa-slack"></i>
 		<p>
-			Gå med i vår <a>slack-kanal</a> där vi annonserar events och
+			Gå med i vår <a>Slack-kanal</a> där vi annonserar events och
 			diskuterar allt möjligt.
 		</p>
 	</div>
@@ -60,7 +60,7 @@ Medlemsavgiften är på 20kr och ger dig medlemskap för livet, för att inte n�
 # Är du företagare?
 
 LiTHe kod är en knytpunkt där många av de vassaste och mest engagerade data- och IT-
-studenterna vid Linköpings Universitet ingår.
+studenterna vid Linköpings universitet ingår.
 
 Genom att samarbeta med oss och anordna aktiviteter får ni ett utmärkt tillfälle
 att träffa dessa studenter och skapa ett intresse för er som framtida arbetsgivare.
