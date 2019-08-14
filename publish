@@ -7,7 +7,7 @@ fi
 echo "Publishing..."
 
 git checkout -b gh-pages
-git pull --ff-only origin gh-pages
+git pull --commit origin gh-pages
 
 python freezer.py
 rsync -av website/build/* .
