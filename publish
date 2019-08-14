@@ -7,10 +7,15 @@ fi
 echo "Publishing..."
 
 git checkout -b gh-pages
+git pull origin gh-pages
+
 python freezer.py
 mv website/build/* .
-git commit -am "Publish $(date -I)"
+
+git add --all
+git commit -m "Publish $(date -I)"
 git push --set-upstream origin gh-pages
+
 git checkout master
 git branch -d gh-pages
 
