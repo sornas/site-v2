@@ -24,15 +24,17 @@ föreläsningar, Game Jams, programmeringstävlingar och—såklart—kodstugor.
 		<i class="symbol fas fa-calendar-day"></i>
 		<p>
 			Under året har vi ett flertal intressanta evenemang som du kan se i vår <a
-			href="https://calendar.google.com/calendar/b/1?cid=bGl0aGVrb2Quc2VfZmE0bXNnbDdxcG1zZG5zNW9jNGZxNDhhZ29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">kalender</a>.
+			href="https://calendar.google.com/calendar/b/1?cid=bGl0aGVrb2Quc2VfZmE0bXNnbDdxcG1zZG5zNW9jNGZxNDhhZ29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">kalender</a>
+			(<a href="https://calendar.google.com/calendar/ical/lithekod.se_fa4msgl7qpmsdns5oc4fq48ago%40group.calendar.google.com/public/basic.ics">iCal</a>).
 		</p>
 	</div>
 	<div class="intro-card">
 		<h3>Kontakt</h3>
 		<i class="symbol fab fa-slack"></i>
 		<p>
-			Gå med i vår <a>Slack-kanal</a> där vi annonserar events och
-			diskuterar allt möjligt.
+			Gå med i vår <a href="https://lithe-kod.slack.com/">Slack-kanal</a> där vi
+			annonserar events och diskuterar allt möjligt.
+			Du kan också <a href="/contact/se/">kontakta</a> oss på andra sätt.
 		</p>
 	</div>
 </div>

@@ -1,6 +1,7 @@
 # Contact us
 
-Have a question? Don't hesitate to contact us! You can reach us on Facebook,
+Have a question? Don't hesitate to contact us!
+You can reach us on [Facebook](https://www.facebook.com/LitheKod/),
 but we are more available in our [Slack group](https://lithe-kod.slack.com/).
 
 If you haven't already joined our Slack group, you can do so using the following
