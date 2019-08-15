@@ -23,7 +23,7 @@ of course code meetups.
 		<i class="symbol fas fa-calendar-day"></i>
 		<p>
 			During the year we have lots of interesting events you can attend.
-			See all events in our <a href="calendarlink">calendar</a>.
+			See all events in our <a href="https://calendar.google.com/calendar/b/1?cid=bGl0aGVrb2Quc2VfZmE0bXNnbDdxcG1zZG5zNW9jNGZxNDhhZ29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">calendar</a>.
 		</p>
 	</div>
 	<div class="intro-card">
