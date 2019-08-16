@@ -24,7 +24,7 @@ of course code meetups.
 		<p>
 			During the year we have lots of interesting events you can attend.
 			See all events in our <a
-			href="https://calendar.google.com/calendar/b/1?cid=bGl0aGVrb2Quc2VfZmE0bXNnbDdxcG1zZG5zNW9jNGZxNDhhZ29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">calendar</a>
+			href="https://calendar.google.com/calendar/b/0?cid=bGl0aGVrb2Quc2VfZmE0bXNnbDdxcG1zZG5zNW9jNGZxNDhhZ29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">calendar</a>
 			(<a href="https://calendar.google.com/calendar/ical/lithekod.se_fa4msgl7qpmsdns5oc4fq48ago%40group.calendar.google.com/public/basic.ics">iCal</a>).
 		</p>
 	</div>
