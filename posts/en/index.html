@@ -1,0 +1,110 @@
+<!doctype HTML>
+<html lang='en'>
+	<head>
+		<title>LiTHe kod</title>
+		<link rel='icon' type='image/png' href='/static/img/icon.png'>
+		<link href='/static/style.css' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+		<script src="/static/script.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset='utf-8'/>
+	</head>
+	<body>
+		<input name='theme-trigger' id='theme-trigger' type='checkbox'>
+		<div id="body">
+		<script>document.getElementById("theme-trigger").checked = window.localStorage.getItem("theme") === "light";</script>
+		<input name='nav-trigger-toggle' id='nav-trigger-toggle' type='checkbox'>
+		<nav id='nav'>
+			<label for='nav-trigger-toggle'>
+				<div id='nav-toggle' >
+					<i class="fas fa-bars"></i>
+				</div>
+			</label>
+			<img id='nav-logo' src='/static/img/logo.png'>
+			<ul><li class='item '
+					onclick='window.location.href="/en/";'
+					>
+					<a href='/en/'>Start</a>
+				</li><li class='item selected'
+					onclick='window.location.href="/posts/en/";'
+					>
+					<a href='/posts/en/'>Posts</a>
+				</li><li class='item '
+					onclick='window.location.href="/contact/en/";'
+					>
+					<a href='/contact/en/'>Contact us</a>
+				</li><li class='item '
+					onclick='window.location.href="https://github.com/lithekod";'
+					>
+					<a href='https://github.com/lithekod'>Our Github</a>
+				</li><li class='item '
+					onclick='window.location.href="https://github.com/lithekod/bylaws/blob/master/stadgar.pdf";'
+					>
+					<a href='https://github.com/lithekod/bylaws/blob/master/stadgar.pdf'>By-laws</a>
+				</li><li class='item '
+					onclick='window.location.href="https://github.com/lithekod/protocols";'
+					>
+					<a href='https://github.com/lithekod/protocols'>Protocols</a>
+				</li></ul>
+			
+				<a class='button' id='toggle-lang' href="../se/"><img  src='/static/img/se.svg'/></a>
+			
+			<label class='button' id='toggle-theme' for='theme-trigger'>
+				<img id='dark-theme' src='/static/img/dark-theme.svg'/>
+				<img id='light-theme' src='/static/img/light-theme.svg'/>
+			</label>
+		</nav>
+		<header>
+			<canvas id="fancy-pants-graphics"></canvas>
+			<img src='/static/img/totalrippad.svg'>
+		</header>
+		<article>
+			<noscript>
+				<h1>Oh snag, no JS!</h1>
+				<p id="no-script">Oh, it looks like you don't have JavaScript enabled, it's understandable really, but some of the functionality on this site won't work. Unfortunately you can't get light or dark theme or automatically switch between English and Swedish.</p>
+			</noscript>
+			
+<div class="post post-border">
+    <h1>Nolle-P</h1>
+    <p>During Nolle-P you, as D- or Y-Nollan, will have the chance to meet us! We will, among other things, have a station at Fångarna på STYFEN and a lecture for D-Nollan. We hope to meet you there!</p>
+    <h6>11-08-2019</h6>
+</div>
+
+<div class="post">
+    <h1>New homepage!</h1>
+    <p>During the summer, we at LiTHe kod have created a new homepage. There is now support for light/dark theme and a toggle for switching between English and Swedish. We have also added to, and updated, the information from last year to make it more accessible.</p>
+    <h6>03-07-2019</h6>
+</div>
+
+
+		</article>
+		<div id="footer-bg">
+			<footer>
+				<div class="footer-block">
+					<h2>Contact us</h2>
+					<p>
+						<a href="https://www.facebook.com/LitheKod/">
+							<i class="fab fa-facebook"></i> Facebook
+						</a>
+					</p>
+					<p>
+						<a href="https://lithe-kod.slack.com/">
+							<i class="fab fa-slack"></i> Slack
+						</a>
+					</p>
+					<p>
+						<a href="mailto:ordf@lithekod.se">
+							<i class="fas fa-at"></i> ordf@lithekod.se
+						</a>
+					</p>
+				</div>
+				<div class="footer-block">
+					<h2>Address</h2>
+					<p>LiTHe kod Kårallen, Universitetet</p>
+					<p>581 83 Linköping</p>
+				</div>
+			</footer>
+		</div>
+		</div>
+	</body>
+</html>
