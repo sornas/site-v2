@@ -14,6 +14,9 @@ git pull origin gh-pages
 python freezer.py
 rsync -av website/build/* .
 
+# Move Git cheat sheats and what-not to the root folder
+rsync -av website/other/* .
+
 # Push site to remote
 git add --all
 git commit -m "Publish $(date -I)"
