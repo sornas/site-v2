@@ -12,6 +12,12 @@ git pull origin gh-pages
 
 # Move static files to the root folder
 python freezer.py
+local RET=$?
+if [[ $RET -ne "0" ]]; then
+    echo "Failed to build, have you setup the environment."
+    exit 1
+fi
+
 rsync -av website/build/* .
 
 # Move Git cheat sheats and what-not to the root folder
