@@ -1,164 +1,331 @@
+/* General Configuration */
+:root {
+	--margin: 3em;
+	--sidebar-color: #222;
+	--sidebar-highlight-color: #EEE;
+	--sidebar-highlight-bg-color: #333;
+	--sidebar-accent-color: #1ec6ba;
+	--dark-text-color: #606060;
+	--max-article-width: 42em;
+	--footer-fg-color: #777;
+	--footer-highlight-fg-color: #EEE;
+}
 
-.light {
+/* Configure themes */
+#theme-trigger[type="checkbox"]:checked + #body {
+	/* Light theme */
 	--primary-color: #111;
-	--gray-color: #666;
 	--background-color: #FFF;
-	--dark-text-color: rgb(80, 80, 80);
+	--footer-bg-color: #EEE;
+	--footer-highlight-fg-color: #AAA;
 	--link-color: #228e87;
 	--page-color: #dddcdd;
-	--highbackground-color: #1ec6ba;
-	--sidebar-color: #222;
-	--sidebar-highlight-color: #EEE;
-	--margin: 3em;
+	--gray-color: #666;
 }
 
-.dark {
+#theme-trigger[type="checkbox"]:not(:checked) + #body {
+	/* Dark theme */
 	--primary-color: #eee;
-	--gray-color: #aaa;
-	--background-color: rgb(32, 32, 32);
-	--dark-text-color: rgb(80, 80, 80);
+	--background-color: #202020;
+	--footer-bg-color: #303030;
+	--footer-highlight-fg-color: #EEE;
 	--link-color: #1ec6ba;
 	--page-color: #dddcdd;
-	--sidebar-highlight-color: #EEE;
-	--highbackground-color: #1ec6ba;
-	--sidebar-color: #222;
-	--margin: 3em;
+	--gray-color: #aaa;
 }
 
-
-body {
-	line-height: 1.5;
-	font-family: "PT Sans", Helvetica, Arial, sans-serif;
-	margin: 0px;
-	padding: 0px;
-	background-color: var(--background-color);
-	color: var(--primary-color);
-	overflow-x: hidden;
-}
-
-nav {
-	z-index: 100;
-	position: fixed;
-	width: 50vw;
-	max-width: 20em;
-	height: 100vh;
-	background-color: var(--sidebar-color);
+#body {
+	/* Display */
+	position: absolute;
+	left: 0px;
 	top: 0px;
-	left: calc(-50vw);
-	transition: 0.2s linear;
-	font-size: 1.2em;
-	font-weight: bold;
-	color: var(--color-light);
-}
-
-nav.open {
-	left: calc(0px);
-}
-
-#nav-toggle {
-	width: 2em;
-	height: 2em;
-	margin-left: 50vw;;
-	background-color: rgba(0, 0, 0, 0.1);
-	border-radius: 0em 0.0em 0.5em 0em;
-	cursor: pointer;
-	user-select: none;
-}
-
-#nav-toggle i {
 	width: 100%;
 	height: 100%;
+	margin: 0px;
+	padding: 0px;
+
+	/* Flex */
+	display: flex;
+	flex-flow: column nowrap;
+
+	/* Text appearance */
+	line-height: 1.5;
+	font-family: "PT Sans", Helvetica, Arial, sans-serif;
+
+	/* Color */
+	background-color: var(--background-color);
+	color: var(--primary-color);
+
+	/* Other */
+	overflow-x: hidden; /* Hide horizontal scroll bar */
+}
+
+/* ============================================================
+ * Navigation bar
+ * ============================================================ */
+
+nav {
+	/* Position */
+	position: fixed;
+	top: 0px;
+	left: calc(-32vw - 2px);
+	height: calc(100vh + 20em);
+	z-index: 100;
+
+	/* Display */
+	width: 32vw;
+	max-width: 15em;
+
+	/* Font */
+	font-size: 1.2em;
+	font-weight: bold;
+
+	/* Color */
+	color: var(--color-light);
+	background-color: var(--sidebar-color);
+	border-right: 2px solid var(--sidebar-accent-color);
+
+	/* Other */
+	transition: 0.2s ease; /* Animation speed of opening navigation bar */
+}
+
+input[name="nav-trigger-toggle"] {
+	visibility: hidden;
+}
+
+input[type="checkbox"]:checked + nav {
+	left: 0px;
+}
+
+/* Position of Navigation bar when opened */
+nav.open {
+	left: 0px;
+}
+
+/* Navigation bar toggle button */
+#nav-toggle {
+	/* Display */
+	width: 2em;
+	height: 2em;
+	margin-left: calc(32vw + 2px);
+
+	/* Color */
+	background-color: rgba(0, 0, 0, 0.1);
+
+	/* Other */
+	border-radius: 0em 0.0em 0.5em 0em; /* Round the bottom right corner a bit */
+	cursor: pointer; /* Indicate that the button can be clicked on */
+}
+
+/* Toggle button icon */
+#nav-toggle i {
+	/* Display */
+	width: 100%;
+	height: 100%;
+	margin-top: 0.2em;
 	text-align: center;
 	vertical-align: center;
+
+	/* Color */
 	color: var(--primary-color);
-	margin-top: 0.2em;
+
+	/* Font */
 	font-size: 1.4em;
-	transform: rotation(0deg);
-	transition: 0.2s linear;
-	user-select: none;
+
+	/* Other */
+	user-select: none; /* Prevent user from selecting button TODO: check if this works*/
 }
 
-.open #nav-toggle i {
-	transform: rotate(0deg);
-}
-
-@media screen and (min-width: 40em) {
+/* Set Navigation bar width to a constant value if screen is large enough */
+@media screen and (min-width:  56.25em) {
 	nav {
-		left: -20em;
+		left: calc(-15em - 2px);
 	}
 	#nav-toggle {
-		margin-left: 20em;
+		margin-left: calc(15em + 2px);
 	}
 }
 
-nav img {
+/* Logo in the Navigation bar */
+nav #nav-logo {
+	/* Display */
 	margin: auto;
 	margin-top: -2em;
 	padding: 2em;
 	padding-left: calc((100% - 75% - 2em) / 2);
 	width: 75%;
+
+	/* Other */
+	cursor: pointer; /* Indicate that the logo can be clicked on */
 }
 
-nav>ul {
-	text-align: left;
-	list-style: none;
+@media screen and (max-height: 50em) {
+	nav #nav-logo {
+		/* Display */
+		padding-left: calc((100% - 40% - 0.5em) / 2);
+		width: 40%;
+		padding-bottom: 1em;
+		padding-top: 1em;
+
+		/* Other */
+		cursor: pointer; /* Indicate that the logo can be clicked on */
+	}
+}
+
+
+/* Navigation bar list */
+nav ul {
+	/* Display */
 	padding: 0px;
 	margin: 0px;
+	text-align: left;
+	list-style: none; /* Remove list bullets */
 }
 
+/* Remove margin from list text */
 nav a {
-	padding-right: calc(100% - var(--margin));
-	text-decoration: none;
+	margin: 0px;
 	color: inherit;
+	text-decoration: none;
 }
 
-nav .item:hover, nav .item.selected:hover {
-  color: var(--sidebar-highlight-color);
-}
-
-nav .item.selected {
-	 color: var(--sidebar-color);
-}
-
+/* Navigation bar list items */
 nav .item {
-	cursor: pointer;
 	padding: 0.5em;
 	padding-left: 1em;
 	width: calc(100% - 1.5em);
 	background-color: var(--sidebar-color);
 	color: var(--dark-text-color);
 	text-align: left;
+
+	/* Other */
+	cursor: pointer; /* Indicate that the item can be clicked on */
 }
 
 nav .item.selected {
-	background-color: var(--highbackground-color);
+	background-color: var(--sidebar-accent-color);
+	color: var(--sidebar-color);
+}
+
+nav .item:hover {
+	background-color: var(--sidebar-highlight-bg-color);
+	color: var(--sidebar-highlight-color)
+}
+
+nav .item.selected:hover {
+	color: var(--sidebar-highlight-color);
+}
+
+
+#toggle-lang:hover, #toggle-theme:hover {
+	background-color: var(--sidebar-highlight-bg-color);
+}
+
+nav .button {
+	position: absolute;
+	left: calc(0.8em);
+	bottom: calc(1em + 20em);
+	width: 1.5em;
+	height: 1.5em;
+	padding: 0.2em;
+	cursor: pointer;
+	background-color: var(--sidebar-bg-color);
+	border-radius: 1em;
+}
+
+nav .button img {
+	width: 1.5em;
+	height: 1.5em;
+}
+
+#toggle-theme {
+	left: 3em;
+}
+
+#toggle-theme img {
+	position: absolute;
+}
+
+#light-theme {
+	visibility: visible;
+}
+
+#dark-theme {
+	visibility: hidden;
+}
+
+input[type="checkbox"]:checked+#body #light-theme {
+	visibility: hidden;
+}
+
+input[type="checkbox"]:checked+#body #dark-theme {
+	visibility: visible;
+}
+
+@media screen and not (script) {
+	#toggle-theme {
+		visibility: hidden;
+		z-index: -1000;
+	}
+}
+
+#fancy-pants-graphics {
+	position: absolute;
+	max-height: 10em;
+	height: 15vh;
+	width: 100vw;
+	top: 0px;
+	left: 0px;
+	padding: 0px;
+	background-color: #F0F;
 }
 
 header {
-	margin-left: var(--margin);
-	margin-top: 5vh;
-	margin-bottom: 5vh;
+	max-height: 10em;
+	height: 15vh;
+	flex: 0 0 auto;
+	margin-bottom: 2em;
 }
 
 header img {
-	margin-top: 20px;
-	height: 8em;
-}
-
-header h2 {
-	margin-top: 0px;
-	font-size: 1.3em;
-	color: var(--gray-color);
+	position: relative;
+	margin-top: 1vh;
+	width: calc(100vw - 2 * var(--margin));
+	max-height: 10em;
+	height: 25vh;
+	left: 0px;
+	bottom: 1em;
+	margin-left: var(--margin);
+	margin-right: var(--margin);
 }
 
 article {
-	width: calc(100% - 2 * var(--margin));
+	font-size: 1em;
+	max-width: var(--max-article-width);
+	padding-left: var(--margin);
+	padding-right: var(--margin);
 	margin: auto;
+	flex: 1 0 auto;
 }
 
-img {
+article img {
 	width: 100%;
-	border-radius: 0.3em;
+	float: right;
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+	border-radius: 0.5em;
+}
+
+
+@media screen and (min-width: 50em) {
+	article img {
+		width: 30em;
+		float: right;
+	}
+}
+
+article img.banner {
+	width: 100%;
 }
 
 a {
@@ -166,26 +333,136 @@ a {
 }
 
 footer {
-	background-color: var(--background-color);
-	color: var(--primary-color);
+	color: var(--footer-fg-color);
 	width 100%;
+	max-width: var(--max-article-width);
 	padding-left: var(--margin);
 	padding-right: var(--margin);
-	padding-top: 1em;
-	padding-bottom: var(--margin);
+	padding-top: 0;
+	padding-bottom: 0;
+	top: 0;
+
+	margin: auto;
+
+	flex: 0 0 auto;
 }
 
-#introduction .card h3 {
-  margin-bottom: 0em;
+footer a {
+	color: var(--footer-fg-color);
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: var(--footer-highlight-fg-color);
+}
+
+.footer-block {
+	vertical-align: top;
+	display: inline-block;
+	margin: 1em 1em;
+}
+
+#footer-bg {
+	margin-top: 2em;
+	position: relative;
+	width: 100vw;
+	background-color: var(--footer-bg-color);
+}
+
+/* ============================================================
+ * Profile card
+ * ============================================================ */
+
+/* A Card which should be placed inside a card-container */
+.profile-card {
+	background: var(--background-color);
+	display: inline-block;
+	padding: 1em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* Image with ratio 3:4 */
+.profile-card img {
+	width: 15em;
+	height: 20em;
+	display: block;
+	margin: 0;
+}
+
+/* Heading for name */
+.profile-card h2 {
+	margin: 0;
+}
+
+/* Heading for role and email */
+.profile-card h6 {
+	margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Container for Cards */
+#card-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+/* ============================================================
+ * Post
+ * ============================================================ */
+
+/* A Post */
+.post {
+	background: var(--background-color);
+	border-radius: 2px;
+	display: inline-block;
+	padding: 0em;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+}
+
+/* Border to separate posts */
+.post-border {
+	border-style: solid;
+	border-color: var(--primary-color);
+	border-width: 0 0 2px 0;
+}
+
+/* Heading for title */
+.post h1 {
+}
+
+/* Heading for date */
+.post h6 {
+	color: var(--gray-color);
+	text-align: right;
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+
+/* Image fills width and keeps ratio */
+.post img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.post p {
+}
+
+
+#introduction .intro-card h3 {
+	margin-bottom: 0em;
 	margin-left: 2em;
 }
 
-#introduction .card {
+#introduction .intro-card {
 	width: 100%;
 	text-align: left;
 }
 
-#introduction .card .symbol {
+#introduction .intro-card .symbol {
 	width: 100%;
 	font-size: 2em;
 	position: relative;
@@ -193,7 +470,7 @@ footer {
 	display: inline-block
 }
 
-#introduction .card p {
+#introduction .intro-card p {
 	position: relative;
 	bottom: 3em;
 }
@@ -204,24 +481,24 @@ footer {
 		justify-content: space-between;
 	}
 
-	#introduction .card h3 {
+	#introduction .intro-card h3 {
 		margin-left: 0em;
-  }
-	
-	#introduction .card {
+	}
+
+	#introduction .intro-card {
 		width: 30%;
 		text-align: center;
 	}
-	
-	#introduction .card p {
-		bottom: 0em;		
-	}
-	
 
-	#introduction .card .symbol {
-		width: 100%;
-		font-size: 8em;
+	#introduction .intro-card p {
 		bottom: 0em;
 	}
-}
 
+	#introduction .intro-card .symbol {
+		width: 100%;
+		font-size: 7.5em;
+		bottom: 0em;
+		margin-top: 0.1em;
+		margin-bottom: 0.1em;
+	}
+}

@@ -1,82 +1,111 @@
 <!doctype HTML>
-<html lang='en'>
+<html lang='se'>
 	<head>
-		<title>LiTHe-Kod 4.8, The website returns</title>
-		<!-- We need an icon. -->
+		<title>LiTHe kod</title>
 		<link rel='icon' type='image/png' href='/static/img/icon.png'>
-		<link href='static/style.css' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link href='/static/style.css' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+		<script src="/static/script.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset='utf-8'/>
 	</head>
-	<body class="dark">
+	<body>
+		<input name='theme-trigger' id='theme-trigger' type='checkbox'>
+		<div id="body">
+		<script>document.getElementById("theme-trigger").checked = window.localStorage.getItem("theme") === "light";</script>
+		<input name='nav-trigger-toggle' id='nav-trigger-toggle' type='checkbox'>
 		<nav id='nav'>
-			<div id='nav-toggle' onclick='let n = document.querySelector("#nav"); if (n.className) n.className = ""; else n.className += "open";'>
-				<i class='material-icons'>menu</i>
-			</div>
-				<img src='static/img/logo.png'>
-			<ul><li class='item selected'>
-					<a href=''>Start</a>
-				</li><li class='item '>
-					<a href='posts'>Posts</a>
-				</li><li class='item '>
-					<a href='contact'>Contact</a>
-				</li><li class='item '>
-					<a href='about_us'>About us</a>
+			<label for='nav-trigger-toggle'>
+				<div id='nav-toggle' >
+					<i class="fas fa-bars"></i>
+				</div>
+			</label>
+			<img id='nav-logo' src='/static/img/logo.png'>
+			<ul><li class='item selected'
+					onclick='window.location.href="/se/";'
+					>
+					<a href='/se/'>Start</a>
+				</li><li class='item '
+					onclick='window.location.href="/posts/se/";'
+					>
+					<a href='/posts/se/'>Inlägg</a>
+				</li><li class='item '
+					onclick='window.location.href="/contact/se/";'
+					>
+					<a href='/contact/se/'>Kontakt</a>
+				</li><li class='item '
+					onclick='window.location.href="https://github.com/lithekod";'
+					>
+					<a href='https://github.com/lithekod'>Vår Github</a>
+				</li><li class='item '
+					onclick='window.location.href="https://github.com/lithekod/bylaws/blob/master/stadgar.pdf";'
+					>
+					<a href='https://github.com/lithekod/bylaws/blob/master/stadgar.pdf'>Stadgar</a>
+				</li><li class='item '
+					onclick='window.location.href="https://github.com/lithekod/protocols";'
+					>
+					<a href='https://github.com/lithekod/protocols'>Protokoll</a>
 				</li></ul>
+			
+				<a class='button' id='toggle-lang' href="../en/"><img  onclick='window.location.href="en"' src='/static/img/en.svg'/></a>
+			
+			<label class='button' id='toggle-theme' for='theme-trigger'>
+				<img id='dark-theme' src='/static/img/dark-theme.svg'/>
+				<img id='light-theme' src='/static/img/light-theme.svg'/>
+			</label>
 		</nav>
 		<header>
-			<img src='static/img/totalrippad.svg'>
+			<canvas id="fancy-pants-graphics"></canvas>
+			<img src='/static/img/totalrippad.svg'>
 		</header>
 		<article>
+			<noscript>
+				<h1>Oh snag, no JS!</h1>
+				<p id="no-script">Oh, it looks like you don't have JavaScript enabled, it's understandable really, but some of the functionality on this site won't work. Unfortunately you can't get light or dark theme or automatically switch between English and Swedish.</p>
+			</noscript>
 			
 <h1>Vilka är vi?</h1>
-ööööööööööööööööööööööööööööööööööö
-<p>LiTHe kod är en studentförening vid Linköpings Universitet vars syfte
+
+<p>LiTHe kod är en studentförening vid Linköpings universitet vars syfte
 är att främja och inspirera intresset för programmering,
-mjukvaruutveckling och sånt som hör till.</p>
+mjukvaruutveckling och allt som hör till.</p>
 
 <p>Vi grundades hösten 2013 för att anordna kodstugor där studenter kunde träffas,
 prata och hjälpa varandra med allt kodrelaterat.
 Vi har sedan dess fortsatt att utvecklas och arrangerar
 idag en rad olika typer av aktiviteter såsom studiebesök, workshops,
-föreläsningar, Game-Jams, programmeringstävlingar och - såklart - kodstugor.</p>
+föreläsningar, Game Jams, programmeringstävlingar och—såklart—kodstugor.</p>
 
 <div id="introduction">
-    <div class="card">
+    <div class="intro-card">
         <h3>Meetups</h3>
-        <i class="symbol material-icons">where_to_vote</i>
+        <i class="symbol fas fa-mug-hot"></i>
         <p>
-            Klockan 17 varje tisdag träffas vi i Café Java för att snacka om allt relaterat till
+            Klockan 17 varje tisdag träffas vi i Café Java för att prata om allt relaterat till
             programmering.
         </p>
     </div>
-    <div class="card">
+    <div class="intro-card">
         <h3>Andra events</h3>
-        <i class="symbol material-icons">event</i>
+        <i class="symbol fas fa-calendar-day"></i>
         <p>
-            Under året har vi massor intressanta events som du kan se i vår <a
-            href="calendarlink">kalender</a>
+            Under året har vi ett flertal intressanta evenemang som du kan se i vår <a
+            href="https://calendar.google.com/calendar/b/0?cid=bGl0aGVrb2Quc2VfZmE0bXNnbDdxcG1zZG5zNW9jNGZxNDhhZ29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">kalender</a>
+            (<a href="https://calendar.google.com/calendar/ical/lithekod.se_fa4msgl7qpmsdns5oc4fq48ago%40group.calendar.google.com/public/basic.ics">iCal</a>).
         </p>
     </div>
-    <div class="card">
+    <div class="intro-card">
         <h3>Kontakt</h3>
-        <i class="symbol material-icons">alternate_email</i>
+        <i class="symbol fab fa-slack"></i>
         <p>
-            Gå med i våran <a>slack-kanal</a> där vi annonserar events och
-            diskuterar allt möjligt.
+            Gå med i vår <a href="https://lithe-kod.slack.com/">Slack-kanal</a> där vi
+            annonserar events och diskuterar allt möjligt.
+            Du kan också <a href="/contact/se/">kontakta</a> oss på andra sätt.
         </p>
     </div>
 </div>
 
-<p><img src="https://lithekod.se/assets/spotify2016-2.jpg" alt="Bild" /></p>
-
-<p><strong>Låter det intressant?</strong>
-Här är vår kalender där vi lägger in alla våra olika evenemang.
-Varje tisdag klockan 5 har vi också meetups i Café Java
-där vi bjuder på fika och snackar om allt relaterat till programmering.</p>
-
-<p>Här är några länkar till olika evenemang som vi anordnar:</p>
+<p>Läs gärna mer om några av de olika evenemang som vi anordnar:</p>
 
 <ul>
 <li><a href="https://www.ida.liu.se/projects/impa/new/">IDA-Mästerskapet i Programmering och Algoritmer (IMPA)</a></li>
@@ -86,48 +115,56 @@ där vi bjuder på fika och snackar om allt relaterat till programmering.</p>
 <h1>Är du student?</h1>
 
 <p>Tokfint! Det är nämligen just dig som vi jobbar för.
-För oavsett dina kunskaper så finns det alltid någon aktivitet för just dig och
+<strong>Oavsett</strong> dina kunskaper finns det alltid någon aktivitet för just dig och
 dina intressen inom programmering.</p>
 
-<p>Kanske du vill lära dig mer om hur versionshantering i Git fungerar,
-kanske du vill höra om hur det är att jobba på
-Spotify eller bara träffa nya människor med samma intressen som dig!</p>
+<p>Kanske du vill lära dig mer om hur versionshantering i Git fungerar, höra om hur det är att jobba på Spotify eller bara träffa nya människor med liknande intressen? Allt det kan LiTHe kod hjälpa dig med!</p>
+
+<h2>Hur blir jag medlem?</h2>
+
+<p>Du kan bli medlem genom att ta kontakt med någon i styrelsen.
+Det gör du enklast genom att gå på ett av våra meetups som vi har varje tisdag
+Kl 17.00 i Café Java.</p>
+
+<p>Medlemsavgiften är på 20kr och ger dig medlemskap för livet, för att inte nämna alla minnen du kommer få!</p>
 
 <h1>Är du företagare?</h1>
 
-<p>LiTHe kod är en knytpunkt där många av de vassaste och mest engagerade data/IT
-studenterna vid Linköpings Universitet ingår.</p>
+<p>LiTHe kod är en knytpunkt där många av de vassaste och mest engagerade data- och IT-
+studenterna vid Linköpings universitet ingår.</p>
 
-<p>Genom att samarbeta med oss och anordna aktiviteter så får ni ett utmärkt tillfälle
+<p>Genom att samarbeta med oss och anordna aktiviteter får ni ett utmärkt tillfälle
 att träffa dessa studenter och skapa ett intresse för er som framtida arbetsgivare.</p>
-
-<h1>Kontakt</h1>
-
-<p>Har du någon fråga? Tveka inte att kontakta oss. Vi nås dels på Facebook,
-men framförallt i vår <a href="https://lithe-kod.slack.com/">Slack-grupp</a>.
-Om du inte redan är med i Slack-gruppen så kan du göra det via följande
-<a href="https://lithe-kod.slack.com/signup">länk</a>, <strong>Du behöver använda din LiU-mejladress.</strong></p>
-
-<h2>E-Mail</h2>
-
-<ul>
-<li>Ordförande: ordf@lithekod.se, Frans Skarman (frask812)</li>
-<li>Vice ordförande: vordf@lithekod.se, Emil Segerbäck (emise935)</li>
-<li>Kassör: kassor@lithekod.se, Robin Sliwa (robsl733)</li>
-<li>Verksamhetsledare: verks@lithekod.se, Viktor Holmgren (vikho394)</li>
-<li>PR: verks@lithekod.se, Christoffer Sjöbergsson (chrsj812)</li>
-<li>Gamejam-Ansvarig gamejam@lithekod.se, Erik Mansén (erima668)</li>
-</ul>
-
-<h2>Postaddress</h2>
-
-<p>LiTHe kod Kårallen, Universitetet 581 83 Linköping</p>
 
 
 		</article>
-		<footer>
-			<p>This is a footer with a lot of content!</p>
-			<!-- TODO: Info -->
-		</footer>
+		<div id="footer-bg">
+			<footer>
+				<div class="footer-block">
+					<h2>Kontakt</h2>
+					<p>
+						<a href="https://www.facebook.com/LitheKod/">
+							<i class="fab fa-facebook"></i> Facebook
+						</a>
+					</p>
+					<p>
+						<a href="https://lithe-kod.slack.com/">
+							<i class="fab fa-slack"></i> Slack
+						</a>
+					</p>
+					<p>
+						<a href="mailto:ordf@lithekod.se">
+							<i class="fas fa-at"></i> ordf@lithekod.se
+						</a>
+					</p>
+				</div>
+				<div class="footer-block">
+					<h2>Adress</h2>
+					<p>LiTHe kod Kårallen, Universitetet</p>
+					<p>581 83 Linköping</p>
+				</div>
+			</footer>
+		</div>
+		</div>
 	</body>
 </html>
