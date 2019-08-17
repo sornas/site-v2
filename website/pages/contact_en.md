@@ -1,6 +1,7 @@
 # Contact us
 
-Have a question? Don't hesitate to contact us! You can reach us on Facebook,
+Have a question? Don't hesitate to contact us!
+You can reach us on [Facebook](https://www.facebook.com/LitheKod/),
 but we are more available in our [Slack group](https://lithe-kod.slack.com/).
 
 If you haven't already joined our Slack group, you can do so using the following
@@ -36,7 +37,7 @@ We have meetups **every** Tuesday in Café Java at 17.00. Swing by for some free
 	</div>
 	<div class="profile-card">
 		<h2>Axel Nordanskog</h2>
-		<h6>Gamejam Manager - gamejam@lithekod.se</h6>
+		<h6>Game Jam Manager - gamejam@lithekod.se</h6>
 		<img src="/static/img/lithekod_axel.png" alt="Axel Nordanskog">
 	</div>
 </div>

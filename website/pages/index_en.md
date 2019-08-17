@@ -1,13 +1,13 @@
 # Who are we?
 
-LiTHe kod is a student association at Linköpings University whose mission
+LiTHe kod is a student association at Linköping University whose mission
 is to promote and inspire the interest for programming,
 software engineering and everything related.
 
 We were founded in the fall of 2013 to organize code meetups where students could
-meet, talk and help eachother with everything code related.
-We have since continued to develop and now we arrange several types of activites
-such as study visits, workshops, lectures, Game-Jams, programming competitions and
+meet, talk and help each other with everything code related.
+We have since continued to develop and now we arrange several types of activities
+such as study visits, workshops, lectures, GameJams, programming competitions and
 of course code meetups.
 
 <div id="introduction">
@@ -23,15 +23,18 @@ of course code meetups.
 		<i class="symbol fas fa-calendar-day"></i>
 		<p>
 			During the year we have lots of interesting events you can attend.
-			See all events in our <a href="calendarlink">calendar</a>.
+			See all events in our <a
+			href="https://calendar.google.com/calendar/b/0?cid=bGl0aGVrb2Quc2VfZmE0bXNnbDdxcG1zZG5zNW9jNGZxNDhhZ29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">calendar</a>
+			(<a href="https://calendar.google.com/calendar/ical/lithekod.se_fa4msgl7qpmsdns5oc4fq48ago%40group.calendar.google.com/public/basic.ics">iCal</a>).
 		</p>
 	</div>
 	<div class="intro-card">
 		<h3>Contact</h3>
 		<i class="symbol fab fa-slack"></i>
 		<p>
-			Join our <a>Slack channel</a> where we advertise events and
-			dicuss various things.
+			Join our <a href="https://lithe-kod.slack.com/">Slack channel</a> where we advertise events and
+			discuss various things.
+			You can also <a href="/contact/en/">contact us</a> in other ways.
 		</p>
 	</div>
 </div>
@@ -62,7 +65,7 @@ the memories you will make!
 # Are you an employer?
 
 LiTHe kod is a gathering point where many of the sharpest and most engaged data/IT
-students at Linköpings University are included.
+students at Linköping University are included.
 
-By working together with us to arrange activities you get a perfect opporunity to
+By working together with us to arrange activities you get a perfect opportunity to
 meet these students and create an interest for you as a future employer.

@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+if [[ $(git status -s) ]]; then
+	echo "Make sure working tree is clean before publishing"
+fi
+
+echo "Publishing..."
+
+# Create a temporary branch to publish changes
+git checkout -b gh-pages
+git pull origin gh-pages
+
+# Move static files to the root folder
+python freezer.py
+rsync -av website/build/* .
+
+# Push site to remote
+git add --all
+git commit -m "Publish $(date -I)"
+git push --set-upstream origin gh-pages
+
+# Remove temporary branch
+git checkout master
+git branch -d gh-pages
+
+echo "Done publishing"

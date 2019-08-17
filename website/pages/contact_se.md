@@ -1,7 +1,8 @@
 # Kontakt
 
-Har du någon fråga? Tveka inte att kontakta oss! Vi nås på Facebook, men
-framförallt i vår [Slack-grupp](https://lithe-kod.slack.com/).
+Har du någon fråga? Tveka inte att kontakta oss!
+Vi nås på [Facebook](https://www.facebook.com/LitheKod/),
+men framförallt i vår [Slack-grupp](https://lithe-kod.slack.com/).
 
 Om du inte redan är med i Slack-gruppen så kan du
 [gå med](https://lithe-kod.slack.com/signup) genom att använda din **LiU-mejladress**.
@@ -36,7 +37,7 @@ Vi har meetups **varje tisdag** i café java kl 17.00. Kom förbi så bjuder vi 
 	</div>
 	<div class="profile-card">
 		<h2>Axel Nordanskog</h2>
-		<h6>GameJam-ansvarig - gamejam@lithekod.se</h6>
+		<h6>Game Jam-ansvarig - gamejam@lithekod.se</h6>
 		<img src="/static/img/lithekod_axel.png" alt="Axel Nordanskog">
 	</div>
 </div>
