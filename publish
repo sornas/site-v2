@@ -18,7 +18,7 @@ echo "Making sure local branch is up to date..."
 git pull -q
 
 echo "Creating temporary branch..."
-git checkout -bq gh-pages
+git checkout -qb gh-pages
 git pull -q origin gh-pages
 
 echo "Generating static files..."
@@ -35,11 +35,11 @@ rsync -aq website/other/* .
 
 echo "Sending files to remote..."
 git add --all
-git commit -mq "Publish $(date -I)"
+git commit -qm "Publish $(date -I)"
 git push -q --set-upstream origin gh-pages
 
 echo "Removing temporary branch..."
 git checkout -q master
-git branch -dq gh-pages
+git branch -qd gh-pages
 
 echo "Done publishing"
