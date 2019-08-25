@@ -54,10 +54,10 @@ window.onload = () => {
             neg_frame_count = 0;
         prev_touches = touches;
         let nav_toggle = document.querySelector("#nav-trigger-toggle");
-        if (neg_frame_count > 3) {
+        if (neg_frame_count > 2) {
             nav_toggle.checked = false;
         }
-        if (pos_frame_count > 3) {
+        if (pos_frame_count > 2) {
             nav_toggle.checked = true;
         }
     }

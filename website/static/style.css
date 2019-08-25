@@ -137,7 +137,7 @@ nav.open {
 }
 
 /* Set Navigation bar width to a constant value if screen is large enough */
-@media screen and (min-width:  56.25em) {
+@media screen and (min-width:  35.75em) {
 	nav {
 		left: calc(-15em - 2px);
 	}
