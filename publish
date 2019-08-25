@@ -1,16 +1,27 @@
 #!/usr/bin/env bash
 
+# Ensure changes are committed
 if [[ $(git status -s) ]]; then
-	echo "Make sure working tree is clean before publishing"
+	echo "Error: Make sure working tree is clean before publishing"
+	exit 1
+fi
+
+# Ensure user is publishing from master branch
+if [[ "$(git rev-parse --abbrev-ref HEAD)" != "master" ]]; then
+	echo "Error: Can only publish from \"master\" branch"
+	exit 1
 fi
 
 echo "Publishing..."
 
-# Create a temporary branch to publish changes
-git checkout -b gh-pages
-git pull origin gh-pages
+echo "Making sure local branch is up to date..."
+git pull -q
 
-# Move static files to the root folder
+echo "Creating temporary branch..."
+git checkout -qb gh-pages
+git pull -q origin gh-pages
+
+echo "Generating static files..."
 python freezer.py
 local RET=$?
 if [[ $RET -ne "0" ]]; then
@@ -18,18 +29,17 @@ if [[ $RET -ne "0" ]]; then
     exit 1
 fi
 
-rsync -av website/build/* .
+echo "Moving static files..."
+rsync -aq website/build/* .
+rsync -aq website/other/* .
 
-# Move Git cheat sheats and what-not to the root folder
-rsync -av website/other/* .
-
-# Push site to remote
+echo "Sending files to remote..."
 git add --all
-git commit -m "Publish $(date -I)"
-git push --set-upstream origin gh-pages
+git commit -qm "Publish $(date -I)"
+git push -q --set-upstream origin gh-pages
 
-# Remove temporary branch
-git checkout master
-git branch -d gh-pages
+echo "Removing temporary branch..."
+git checkout -q master
+git branch -qd gh-pages
 
 echo "Done publishing"
