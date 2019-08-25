@@ -68,12 +68,12 @@ nav {
 	/* Position */
 	position: fixed;
 	top: 0px;
-	left: calc(-32vw - 2px);
+	left: calc(-50vw - 2px);
 	height: calc(100vh + 20em);
 	z-index: 100;
 
 	/* Display */
-	width: 32vw;
+	width: 50vw;
 	max-width: 15em;
 
 	/* Font */
@@ -107,7 +107,7 @@ nav.open {
 	/* Display */
 	width: 2em;
 	height: 2em;
-	margin-left: calc(32vw + 2px);
+	margin-left: calc(50vw + 2px);
 
 	/* Color */
 	background-color: rgba(0, 0, 0, 0.1);

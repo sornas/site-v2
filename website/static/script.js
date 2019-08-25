@@ -16,6 +16,52 @@ window.onload = () => {
         document.querySelector("#nav-trigger-toggle").checked = false;
     };
 
+    // Sliding for side menu
+    let body = document.querySelector("body");
+    let prev_touches = [];
+    let pos_frame_count = 0;
+    let neg_frame_count = 0;
+    body.ontouchmove = (e) => {
+        let touches = [];
+        let inc_pos_frame = false;
+        let inc_neg_frame = false;
+        // TODO(ed): This should probably be in EM, but that requires fancy pants stuff.
+        let threshold = 0.25; // pixels / ms
+        for (let i = 0; i < e.touches.length; i++) {
+            let curr = { x: e.touches[i].pageX, y: e.touches[i].pageY, t: e.timeStamp};
+            touches.push(curr);
+
+            if (prev_touches.length > i) {
+                let prev = prev_touches[i];
+                let delta_t = prev.t - curr.t;
+                let delta_x = (prev.x - curr.x) / delta_t;
+                let delta_y = (prev.y - curr.y) / delta_t;
+                if (Math.abs(delta_x) > 3 * Math.abs(delta_y)) {
+                    e.preventDefault();
+                    if (delta_x > threshold) {
+                        inc_pos_frame = true;
+                        pos_frame_count++;
+                    } else if (delta_x < -threshold) {
+                        inc_neg_frame = true;
+                        neg_frame_count++;
+                    }
+                }
+            }
+        }
+        if (!inc_pos_frame)
+            pos_frame_count = 0;
+        if (!inc_neg_frame)
+            neg_frame_count = 0;
+        prev_touches = touches;
+        let nav_toggle = document.querySelector("#nav-trigger-toggle");
+        if (neg_frame_count > 3) {
+            nav_toggle.checked = false;
+        }
+        if (pos_frame_count > 3) {
+            nav_toggle.checked = true;
+        }
+    }
+
 	// Fancy header image.
 	let canvas = document.getElementById("fancy-pants-graphics");
 	canvas.width = canvas.offsetWidth;
