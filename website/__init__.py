@@ -14,7 +14,7 @@ navigation = [
         (("Start", "Start"),           "",             True),
         (("Inlägg", "Posts"),          "/posts",       True),
         (("Kontakt", "Contact us"),    "/contact",     True),
-        (("Fusk", "Cheats"),           "/cheats",     True),
+        (("Fusk", "Cheats"),           "/cheats",      True),
         (("Vår Github", "Our Github"), GITHUB_LINK,    False),
         (("Stadgar", "By-laws"),       BYLAWS_LINK,    False),
         (("Protokoll", "Protocols"),   PROTOCOLS_LINK, False)]
@@ -75,7 +75,7 @@ def cheats_se():
 @app.route("/cheats/en/")
 def cheats_en():
     """ English Contact page """
-    return render_page("website/pages/cheats_en.md", 3, True)
+    return render_page("website/pages/cheats_en.md", 3, False)
 
 @app.errorhandler(404)
 def not_found(e):
