@@ -1,4 +1,9 @@
 <div class="post post-border">
+	<h1>KALAS!</h1>
+	<p>Vi kommer ha ett bord på KALAS 2019 i hus Terra. Som gammal eller ny student får du gärna komma för att antingen hänga med oss, lära dig mer om föreningen eller försöka dig på någon av de utmaningar vi skapat. Hoppas vi ses där!</p>
+	<h6>04-09-2019</h6>
+</div>
+<div class="post post-border">
 	<h1>Introkväll</h1>
 	<p>Inför det nya läsåret kommer vi att ha en introkväll tisdag den 17:e september 17:00 i café Java. Här kommer du ha möjlighet att träffa nya vänner och se vad LiTHe kod gör. Vi kommer även att bjuda på mat, du vill inte missa detta!</p>
 	<h6>02-09-2019</h6>
