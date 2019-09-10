@@ -15,6 +15,7 @@ navigation = [
         (("Inlägg", "Posts"),          "/posts",       True),
         (("Kontakt", "Contact us"),    "/contact",     True),
         (("Fusk", "Cheats"),           "/cheats",      True),
+        (("NCPC", "NCPC"),             "/ncpc",        True),
         (("Vår Github", "Our Github"), GITHUB_LINK,    False),
         (("Stadgar", "By-laws"),       BYLAWS_LINK,    False),
         (("Protokoll", "Protocols"),   PROTOCOLS_LINK, False)]
@@ -76,6 +77,16 @@ def cheats_se():
 def cheats_en():
     """ English Contact page """
     return render_page("website/pages/cheats_en.md", 3, False)
+
+@app.route("/ncpc/se/")
+def ncpc_se():
+    """ Swedish NCPC page """
+    return render_page("website/pages/ncpc_se.md", 4, True)
+
+@app.route("/ncpc/en/")
+def ncpc_en():
+    """ English NCPC page """
+    return render_page("website/pages/ncpc_en.md", 4, False)
 
 @app.errorhandler(404)
 def not_found(e):
