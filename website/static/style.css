@@ -502,3 +502,16 @@ footer a:hover {
 		margin-bottom: 0.1em;
 	}
 }
+
+/* Images for sponsors */
+img.sponsor {
+    display: inline-block;
+    width: 12em;
+    height: auto;
+}
+
+/* Container for sponsor images */
+#sponsor-container {
+    display: flex;
+    align-items: center;
+}
