@@ -1,20 +1,38 @@
 <div class="post post-border">
-	<h1>KALAS!</h1>
-	<p>Vi kommer ha ett bord på KALAS 2019 i hus Terra. Som gammal eller ny student får du gärna komma för att antingen hänga med oss, lära dig mer om föreningen eller försöka dig på någon av de utmaningar vi skapat. Hoppas vi ses där!</p>
-	<h6>04-09-2019</h6>
+    <h1>Höstmöte HT19</h1>
+    <p>Den 12 November kommer LiTHe kod hålla sitt årliga höstmöte. Samtliga medlemmar får närvara med rösträtt. Nedan följer höstmötets föredragningslista.</p>
+    <ul>
+        <li>Val av mötesordförande</li>
+        <li>Val av mötessekreterare</li>
+        <li>Val av justeringsperson tillika rösträknare</li>
+        <li>Fastställande av röstlängden</li>
+        <li>Beslut om mötets stadgeenliga utlysande</li>
+        <li>Föregående verksamhetsårs styrelses verksamhetsberättelse</li>
+        <li>Föregående verksamhetsårs styrelses ekomomiska berättelse</li>
+        <li>Revisorns granskning av föregående verksamhetsårs styrelses arbete</li>
+        <li>Beslut om ansvarsfrihet av föregående verksamhetsårs styrelse</li>
+        <li>Motioner och propositioner</li>
+        <li>Övriga frågor</li>
+    </ul>
+    <h6>09-10-2019</h6>
 </div>
 <div class="post post-border">
-	<h1>Introkväll</h1>
-	<p>Inför det nya läsåret kommer vi att ha en introkväll tisdag den 17:e september 17:00 i café Java. Här kommer du ha möjlighet att träffa nya vänner och se vad LiTHe kod gör. Vi kommer även att bjuda på mat, du vill inte missa detta!</p>
-	<h6>02-09-2019</h6>
+    <h1>KALAS!</h1>
+    <p>Vi kommer ha ett bord på KALAS 2019 i hus Terra. Som gammal eller ny student får du gärna komma för att antingen hänga med oss, lära dig mer om föreningen eller försöka dig på någon av de utmaningar vi skapat. Hoppas vi ses där!</p>
+    <h6>04-09-2019</h6>
 </div>
 <div class="post post-border">
-	<h1>Nolle-P</h1>
-	<p>Under Nolle-P kommer du som D- eller Y-Nollan få en chans att träffa oss! Vi kommer bland annat ha en station på Fångarna på STYFEN och en föreläsning för D-Nollan. Hoppas vi ses då!</p>
-	<h6>11-08-2019</h6>
+    <h1>Introkväll</h1>
+    <p>Inför det nya läsåret kommer vi att ha en introkväll tisdag den 17:e september 17:00 i café Java. Här kommer du ha möjlighet att träffa nya vänner och se vad LiTHe kod gör. Vi kommer även att bjuda på mat, du vill inte missa detta!</p>
+    <h6>02-09-2019</h6>
+</div>
+<div class="post post-border">
+    <h1>Nolle-P</h1>
+    <p>Under Nolle-P kommer du som D- eller Y-Nollan få en chans att träffa oss! Vi kommer bland annat ha en station på Fångarna på STYFEN och en föreläsning för D-Nollan. Hoppas vi ses då!</p>
+    <h6>11-08-2019</h6>
 </div>
 <div class="post">
-	<h1>Ny hemsida!</h1>
-	<p>Under sommaren har vi i LiTHe kod skrivit ihop en ny hemsida. Sidan har nu stöd för mörkt/ljust tema och enkelt byte mellan svenska och engelska. Vi har även uppdaterat informationen från förra året så att den är mer lättåtkomlig.</p>
-	<h6>03-07-2019</h6>
+    <h1>Ny hemsida!</h1>
+    <p>Under sommaren har vi i LiTHe kod skrivit ihop en ny hemsida. Sidan har nu stöd för mörkt/ljust tema och enkelt byte mellan svenska och engelska. Vi har även uppdaterat informationen från förra året så att den är mer lättåtkomlig.</p>
+    <h6>03-07-2019</h6>
 </div>
