@@ -1,28 +1,25 @@
+# IMPA
+
+Welcome to the IDA Championship in Programming and Algorithms (IMPA).
+The competition is aimed at students of all levels at Linköping University
+who are interested in algorithms, programming and problem solving.
+
+This fall's IMPA competition consists of 4 rounds, each of which is available for
+3 weeks. Each round is its own competition with SEK 3000 in winnings.
+The first round starts on Sunday 22nd of September and the last round ends on
+Sunday 15th of December 2019.
+
+The purpose of IMPA is that students at Linköping University should become better
+at programming, algorithms and problem solving. The goal is partly that LiU should
+position itself better in national and international programming competitions and
+partly that students who participate can become more sought after in the
+labor market thanks to their documented skills.
+
+More information can be found on the IMPA [website](https://www.ida.liu.se/projects/impa/new/)
+
 # NCPC 2019
 
-Here follows some information about The Nordic Collegiate Programming Contest.
-
-* Registration: [link](http://nordic.icpc.io/ncpc2019/reg.html)
-* Information: [link](https://nordic.icpc.io/#ncpc)
-
-The event starts off at 10:00 (Note: no 'akademisk kvart', but 10 am sharp) in
-Ada Lovelace, entrance 27 of B-building, with information detailing the contest rules,
-and words from our sponsors. Sign-up is free, and closes on the 2nd of October.
-Lunch will be provided - we'll be ordering pizza.
-
-Registration can be done via the link above, for teams of size up to three members.
-If you want to compete, don't have a team, and don't want to participate alone,
-you can alternatively send an email to vordf@lithekod.se with "ncpc signup" in
-the title, and stating whether you are ICPC eligible (see below),
-before 12:00 on the 2:nd of October.
-
-Note that prizes and progress to nationals can only be offered to teams that are
-ICPC eligible, that is if your participants:
-
-* Have not participated in NCPC or equivalent five different years
-* Have not participated in ICPC more than once
-* Were born in 1996 or later
-* Did not begin studying at a university or comparable before 2015
+NCPC has ended and will return next year. We hope to see you then!
 
 <div id="sponsor-container">
     <img class="sponsor" src="/static/img/idainfront_logo.png" alt="ida infront">

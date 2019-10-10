@@ -11,14 +11,14 @@ PROTOCOLS_LINK = "https://github.com/lithekod/protocols"
 # Elements used to create Navigation bar
 # ((Name_se, Name_en), Url, Multi-Language?)
 navigation = [
-        (("Start", "Start"),           "",             True),
-        (("Inlägg", "Posts"),          "/posts",       True),
-        (("Kontakt", "Contact us"),    "/contact",     True),
-        (("Fusk", "Cheats"),           "/cheats",      True),
-        (("NCPC", "NCPC"),             "/ncpc",        True),
-        (("Vår Github", "Our Github"), GITHUB_LINK,    False),
-        (("Stadgar", "By-laws"),       BYLAWS_LINK,    False),
-        (("Protokoll", "Protocols"),   PROTOCOLS_LINK, False)]
+        (("Start", "Start"),            "",             True),
+        (("Inlägg", "Posts"),           "/posts",       True),
+        (("Kontakt", "Contact us"),     "/contact",     True),
+        (("Tävlingar", "Competitions"), "/ncpc",        True),
+        (("Fusk", "Cheats"),            "/cheats",      True),
+        (("Vår Github", "Our Github"),  GITHUB_LINK,    False),
+        (("Stadgar", "By-laws"),        BYLAWS_LINK,    False),
+        (("Protokoll", "Protocols"),    PROTOCOLS_LINK, False)]
 
 def render_page(path, nav_index, swedish):
     """Render a Markdown file into a page on the website
@@ -68,25 +68,25 @@ def contact_en():
     """ English Contact page """
     return render_page("website/pages/contact_en.md", 2, False)
 
+@app.route("/ncpc/se/")
+def ncpc_se():
+    """ Swedish Competiton page """
+    return render_page("website/pages/ncpc_se.md", 3, True)
+
+@app.route("/ncpc/en/")
+def ncpc_en():
+    """ English Competiton page """
+    return render_page("website/pages/ncpc_en.md", 3, False)
+
 @app.route("/cheats/se/")
 def cheats_se():
     """ Swedish Contact page """
-    return render_page("website/pages/cheats_se.md", 3, True)
+    return render_page("website/pages/cheats_se.md", 4, True)
 
 @app.route("/cheats/en/")
 def cheats_en():
     """ English Contact page """
-    return render_page("website/pages/cheats_en.md", 3, False)
-
-@app.route("/ncpc/se/")
-def ncpc_se():
-    """ Swedish NCPC page """
-    return render_page("website/pages/ncpc_se.md", 4, True)
-
-@app.route("/ncpc/en/")
-def ncpc_en():
-    """ English NCPC page """
-    return render_page("website/pages/ncpc_en.md", 4, False)
+    return render_page("website/pages/cheats_en.md", 4, False)
 
 @app.errorhandler(404)
 def not_found(e):
