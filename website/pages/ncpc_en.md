@@ -6,7 +6,7 @@ competition in which programming problems are solved each day untilchristmas day
 
 If all problems of the day are solved, two silver stars (one gold star)
 are awarded. LiTHe kod will donate one tree for every two silver stars to
-[teamtrees.org](https://www.teamtrees.org) for chairty.
+[teamtrees.org](https://www.teamtrees.org) for charity.
 
 The 10 best competitors will win gift cards with matching sums:
 
