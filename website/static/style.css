@@ -507,10 +507,13 @@ img.sponsor {
     border-radius: 0;
     width: 12em;
     height: auto;
+    margin: auto;
+    padding: 0.5em;
 }
 
 /* Container for sponsor images */
 #sponsor-container {
     display: flex;
+    flex-flow: wrap;
     align-items: center;
 }
