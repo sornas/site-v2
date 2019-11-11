@@ -1,4 +1,12 @@
 <div class="post post-border">
+    <h1>Fall meeting</h1>
+    <p>
+        The Fall meeting will be held in P18, C-huset,
+        Tuesday 12th of November at 5pm
+    </p>
+    <h6>11-11-2019</h6>
+</div>
+<div class="post post-border">
     <h1>Fall meeting HT19</h1>
     <p>The 12th of November LiTHe kod will host its yearly fall meeting. All members can attend and vote at the meeting.</p>
     <h6>09-10-2019</h6>

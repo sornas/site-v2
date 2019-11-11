@@ -1,4 +1,9 @@
 <div class="post post-border">
+    <h1>Höstmöte</h1>
+    <p>Höstmötet kommer att hållas i P18, C-huset, Tisdag 12:e November kl 17.00</p>
+    <h6>11-11-2019</h6>
+</div>
+<div class="post post-border">
     <h1>Höstmöte HT19</h1>
     <p>Den 12 November kommer LiTHe kod hålla sitt årliga höstmöte. Samtliga medlemmar får närvara med rösträtt. Nedan följer höstmötets föredragningslista.</p>
     <ul>
