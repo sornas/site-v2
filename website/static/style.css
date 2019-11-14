@@ -68,13 +68,14 @@ nav {
     /* Position */
     position: fixed;
     top: 0px;
+    bottom: 0px;
     left: calc(-50vw - 2px);
-    height: calc(100vh + 20em);
     z-index: 100;
 
     /* Display */
     width: 50vw;
     max-width: 15em;
+    overflow-y: scroll;
 
     /* Font */
     font-size: 1.2em;
@@ -87,6 +88,10 @@ nav {
 
     /* Other */
     transition: 0.2s ease; /* Animation speed of opening navigation bar */
+}
+
+nav>label {
+    position: fixed;
 }
 
 input[name="nav-trigger-toggle"] {
@@ -150,7 +155,6 @@ nav.open {
 nav #nav-logo {
     /* Display */
     margin: auto;
-    margin-top: -2em;
     padding: 2em;
     padding-left: calc((100% - 75% - 2em) / 2);
     width: 75%;
@@ -224,10 +228,9 @@ nav .item.selected:hover {
 nav .button {
     position: absolute;
     left: calc(0.8em);
-    bottom: calc(1em + 20em);
     width: 1.5em;
     height: 1.5em;
-    padding: 0.2em;
+    padding: 0.5em;
     cursor: pointer;
     background-color: var(--sidebar-bg-color);
     border-radius: 1em;
