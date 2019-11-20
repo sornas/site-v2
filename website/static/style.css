@@ -526,3 +526,14 @@ img.sponsor {
     flex-flow: wrap;
     align-items: center;
 }
+
+/* Snow for when it's December */
+#snowflakes {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    z-index: 1337;
+    pointer-events: none;
+}

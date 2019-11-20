@@ -1,14 +1,71 @@
 window.onload = () => {
-	// Themes
-	let theme_toggle = document.getElementById("theme-trigger");
-	let on = theme_toggle.value;
-	theme_toggle.onchange = () => {
-		if (theme_toggle.checked) {
-			window.localStorage.setItem("theme", "light");
-		} else {
-			window.localStorage.setItem("theme", "dark");
-		}
-	}
+    // Themes
+    let theme_toggle = document.getElementById("theme-trigger");
+    let on = theme_toggle.value;
+    theme_toggle.onchange = () => {
+        if (theme_toggle.checked) {
+            window.localStorage.setItem("theme", "light");
+        } else {
+            window.localStorage.setItem("theme", "dark");
+        }
+    }
+
+    // Snowflakes
+    if (new Date().getMonth() == 11) {
+        let snow_canvas = document.getElementById("snowflakes");
+        let snow_ctx = snow_canvas.getContext("2d");
+        window.onresize = () => {
+            snow_ctx.canvas.width = window.innerWidth;
+            snow_ctx.canvas.height = window.innerHeight;
+            snow_ctx.fillStyle = "#ffffff";
+            snow_ctx.globalAlpha = 0.5;
+        };
+        window.onresize();
+        let snowflakes = [];
+        for (let i = 0; i < 100; i++) {
+            snowflakes.push(
+                {
+                    "x": Math.random() * snow_ctx.canvas.width,
+                    "y": Math.random() * snow_ctx.canvas.height,
+                    "radius": 1 + Math.random(),
+                    "vx": 2 + Math.random() * 4,
+                    "vy": 10 + Math.random() * 10,
+                }
+            );
+        }
+        let last_snow_update = 0;
+        const FPS = 20;
+        paint_snow = (timestamp) => {
+            setTimeout(() => {
+                window.requestAnimationFrame(paint_snow);
+
+                let dt = (timestamp - last_snow_update) / 1000 || 0.01;
+                last_snow_update = timestamp;
+
+                snow_ctx.clearRect(0, 0, snow_ctx.canvas.width, snow_ctx.canvas.height);
+                for (let i = 0; i < snowflakes.length; i++) {
+                    snowflakes[i].x += snowflakes[i].vx * dt;
+                    snowflakes[i].y += snowflakes[i].vy * dt;
+                    if (snowflakes[i].y - snowflakes[i].radius > snow_ctx.canvas.height) {
+                        snowflakes[i].y = -snowflakes[i].radius;
+                    }
+                    if (snowflakes[i].x - snowflakes[i].radius > snow_ctx.canvas.width) {
+                        snowflakes[i].x = -snowflakes[i].radius;
+                    }
+                    snow_ctx.beginPath();
+                    snow_ctx.ellipse(snowflakes[i].x,
+                        snowflakes[i].y,
+                        snowflakes[i].radius,
+                        snowflakes[i].radius,
+                        0,
+                        0,
+                        2 * Math.PI);
+                    snow_ctx.fill();
+                }
+            }, 1000 / FPS);
+        };
+        paint_snow();
+    }
 
     // Clicking on the page removes the sidebar
     let article = document.querySelector("article");
@@ -62,35 +119,35 @@ window.onload = () => {
         }
     }
 
-	// Fancy header image.
-	let canvas = document.getElementById("fancy-pants-graphics");
-	canvas.width = canvas.offsetWidth;
-	canvas.height = canvas.offsetHeight;
-	let ctx = canvas.getContext("2d");
+    // Fancy header image.
+    let canvas = document.getElementById("fancy-pants-graphics");
+    canvas.width = canvas.offsetWidth;
+    canvas.height = canvas.offsetHeight;
+    let ctx = canvas.getContext("2d");
 
-	let colors = [
-		{ r: 0,   g: 0,   b: 255 },
-		{ r: 255, g: 255,   b: 0 },
-		{ r: 0,   g: 255, b: 0 },
-		{ r: 255, g: 0,   b: 255 },
-	];
+    let colors = [
+        { r: 0,   g: 0,   b: 255 },
+        { r: 255, g: 255,   b: 0 },
+        { r: 0,   g: 255, b: 0 },
+        { r: 255, g: 0,   b: 255 },
+    ];
 
-	let current_color = Math.floor(Math.random() * colors.length);
-	let color_offset = Math.floor(Math.random() * (colors.length - 1) + 1);
-	let random_color = () => {
-		current_color = (current_color + color_offset) % colors.length; 
-		return colors[current_color];
-	};
+    let current_color = Math.floor(Math.random() * colors.length);
+    let color_offset = Math.floor(Math.random() * (colors.length - 1) + 1);
+    let random_color = () => {
+        current_color = (current_color + color_offset) % colors.length;
+        return colors[current_color];
+    };
 
-	for (let q = 0; q < 5; q++) {
-		let x = Math.random() * canvas.width;
-		let y = Math.random() * canvas.height;
-		let c = random_color();
-		ctx.fillStyle = "rgba(" + c.r + ", " + c.g + ", " + c.b + ", 0.2)";
-		ctx.beginPath();
-		ctx.arc(x, y, canvas.width / 2, 0, 2 * Math.PI);
-		ctx.fill();
-	}
+    for (let q = 0; q < 5; q++) {
+        let x = Math.random() * canvas.width;
+        let y = Math.random() * canvas.height;
+        let c = random_color();
+        ctx.fillStyle = "rgba(" + c.r + ", " + c.g + ", " + c.b + ", 0.2)";
+        ctx.beginPath();
+        ctx.arc(x, y, canvas.width / 2, 0, 2 * Math.PI);
+        ctx.fill();
+    }
 
     // Super secret easter egg
     let secret_password = "LiTHe kod är bäst";
