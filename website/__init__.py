@@ -66,6 +66,9 @@ def ncpc_redir(): return redirect("/ncpc/se/", code=302)
 @app.route("/impa/")
 def impa_redir(): return redirect("/impa/se/", code=302)
 
+# Temporary
+@app.route("/opera/")
+def opera_redir(): return redirect("https://forms.gle/4dcwCGrvcWP7qo6R8", code=302)
 
 """Pages on sidebar
 These pages are shown on and can be accessed from the sidebar.
