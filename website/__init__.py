@@ -12,7 +12,7 @@ GITHUB_LINK = "https://github.com/lithekod"
 BYLAWS_LINK = "https://github.com/lithekod/bylaws/blob/master/stadgar.pdf"
 PROTOCOLS_LINK = "https://github.com/lithekod/protocols"
 
-# Elements used to create Navigation bar
+# Elements used to create navigation bar
 # ((Name_se, Name_en), Url, Internal?)
 navigation = [
         (("Start", "Start"),            "/",              True),
@@ -25,8 +25,9 @@ navigation = [
         (("Stadgar", "By-laws"),        BYLAWS_LINK,     False),
         (("Protokoll", "Protocols"),    PROTOCOLS_LINK,  False)]
 
+
 def render_page(path, url, nav_index, swedish):
-    """Render a Markdown file into a page on the website
+    """Render a Markdown file into a page on the website.
 
     Arguments:
     path - Path to a markdown file.
@@ -42,38 +43,52 @@ def render_page(path, url, nav_index, swedish):
             swedish=swedish)
 
 
+def redirect_external(url):
+    """Workaround for redirecting to external websites.
+    Use 'redirect' for redirecting to pages on the site.
+
+    Arguments:
+    url - The url which should be redirected to.
+    """
+    return render_template("redirect.html", url=url)
+
+
+"""Temporary pages
+These pages should be removed when apropriate.
+"""
+
+@app.route("/opera/")
+def opera_redir(): return redirect_external("https://forms.gle/4dcwCGrvcWP7qo6R8")
+
+
 """Redirects
 The default page when accessing a link will be in swedish.
 """
 
 @app.route("/")
-def index_redir(): return redirect("/se/", code=302)
+def index_redir(): return redirect("/se/")
 
 @app.route("/posts/")
-def posts_redir(): return redirect("/posts/se/", code=302)
+def posts_redir(): return redirect("/posts/se/")
 
 @app.route("/contact/")
-def contact_redir(): return redirect("/contact/se/", code=302)
+def contact_redir(): return redirect("/contact/se/")
 
 @app.route("/aoc/")
-def aoc_redir(): return redirect("/aoc/se/", code=302)
+def aoc_redir(): return redirect("/aoc/se/")
 
 @app.route("/competitions/")
-def competitions_redir(): return redirect("/competitions/se/", code=302)
+def competitions_redir(): return redirect("/competitions/se/")
 
 @app.route("/cheats/")
-def cheats_redir(): return redirect("/cheats/se/", code=302)
+def cheats_redir(): return redirect("/cheats/se/")
 
 @app.route("/ncpc/")
-def ncpc_redir(): return redirect("/ncpc/se/", code=302)
+def ncpc_redir(): return redirect("/ncpc/se/")
 
 @app.route("/impa/")
-def impa_redir(): return redirect("/impa/se/", code=302)
+def impa_redir(): return redirect("/impa/se/")
 
-# Temporary
-@app.route("/opera/")
-def opera_redir():
-    return render_template("redirect.html", url="https://forms.gle/4dcwCGrvcWP7qo6R8")
 
 """Pages on sidebar
 These pages are shown on and can be accessed from the sidebar.
