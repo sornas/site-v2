@@ -72,6 +72,8 @@ nav {
     left: calc(-50vw - 2px);
     z-index: 100;
 
+    scrollbar-width: none;
+
     /* Display */
     width: 50vw;
     max-width: 15em;
@@ -88,6 +90,10 @@ nav {
 
     /* Other */
     transition: 0.2s ease; /* Animation speed of opening navigation bar */
+}
+
+nav::-webkit-scrollbar {
+    display: none;
 }
 
 nav>label {
@@ -519,4 +525,15 @@ img.sponsor {
     display: flex;
     flex-flow: wrap;
     align-items: center;
+}
+
+/* Snow for when it's December */
+#snowflakes {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    z-index: 1337;
+    pointer-events: none;
 }
