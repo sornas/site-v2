@@ -1,3 +1,7 @@
+"""
+TODO: Better way of redirecting to other sites from a link.
+"""
+
 import markdown2
 
 from flask import Flask, render_template, redirect
@@ -68,7 +72,8 @@ def impa_redir(): return redirect("/impa/se/", code=302)
 
 # Temporary
 @app.route("/opera/")
-def opera_redir(): return redirect("https://forms.gle/4dcwCGrvcWP7qo6R8", code=302)
+def opera_redir():
+    return render_template("redirect.html", url="https://forms.gle/4dcwCGrvcWP7qo6R8")
 
 """Pages on sidebar
 These pages are shown on and can be accessed from the sidebar.
