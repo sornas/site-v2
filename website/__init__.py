@@ -1,7 +1,3 @@
-"""
-TODO: Better way of redirecting to other sites from a link.
-"""
-
 import markdown2
 
 from flask import Flask, render_template, redirect
@@ -189,7 +185,7 @@ def impa_en():
     """ English IMPA page """
     return render_page("website/pages/impa_en.md", "/impa/", -1, False)
 
-@app.route("/lithejulshhh")
+@app.route("/lithejulshhh/")
 def lithejul():
     """ A season special """
     return static_page("lithejul.html")
