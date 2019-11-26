@@ -38,11 +38,13 @@ def render_page(path, url, nav_index, swedish):
             selected=nav_index,
             swedish=swedish)
 
+
 def static_page(path):
     """
-    Renders a html file to a static file.
+    Renders a file to a static webpage.
     """
-    return render_template(path)
+    with open(path) as f:
+        return f.read()
 
 
 def redirect_external(url):
@@ -61,6 +63,9 @@ These pages should be removed when apropriate.
 
 @app.route("/opera/")
 def opera_redir(): return redirect_external("https://forms.gle/4dcwCGrvcWP7qo6R8")
+
+@app.route("/lithejulshhh/")
+def lithejul(): return static_page("website/other/lithejul.html")
 
 
 """Redirects
@@ -185,10 +190,10 @@ def impa_en():
     """ English IMPA page """
     return render_page("website/pages/impa_en.md", "/impa/", -1, False)
 
-@app.route("/lithejulshhh/")
-def lithejul():
-    """ A season special """
-    return static_page("lithejul.html")
+@app.route("/gitcheatsheet/")
+def gitcheatsheet():
+    """ The git cheat-sheet of doom! """
+    return static_page("website/other/gitcheatsheet.html")
 
 """Errorhandlers
 For now we only handle pages that are not found.
