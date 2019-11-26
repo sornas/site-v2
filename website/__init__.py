@@ -42,6 +42,12 @@ def render_page(path, url, nav_index, swedish):
             selected=nav_index,
             swedish=swedish)
 
+def static_page(path):
+    """
+    Renders a html file to a static file.
+    """
+    return render_template(path)
+
 
 def redirect_external(url):
     """Workaround for redirecting to external websites.
@@ -183,6 +189,10 @@ def impa_en():
     """ English IMPA page """
     return render_page("website/pages/impa_en.md", "/impa/", -1, False)
 
+@app.route("/lithejulshhh")
+def lithejul():
+    """ A season special """
+    return static_page("lithejul.html")
 
 """Errorhandlers
 For now we only handle pages that are not found.
