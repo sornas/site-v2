@@ -1,5 +1,8 @@
 # Advent of Code
 
+Join our [leaderboard](https://adventofcode.com/2019/leaderboard)
+<span style="font-family: monospace">637041-f5ee40da</span> to participate!
+
 LiTHe kod will be hosting the yearly [Advent of Code](https://adventofcode.com/)
 competition from the 1st of December until its end the 25th. Advent of Code is a
 competition in which programming problems are solved each day until Christmas day.

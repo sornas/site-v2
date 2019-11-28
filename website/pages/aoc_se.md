@@ -1,5 +1,8 @@
 # Advent of Code
 
+Gå med i vår [leaderboard](https://adventofcode.com/2019/leaderboard)
+<span style="font-family: monospace">637041-f5ee40da</span> för att delta!
+
 LiTHe kod kommer att hålla i den årliga [Advent of Code](https://adventofcode.com/)
 tävlingen från 1:a December till tävlingens slut den 25:e. Advent of Code går ut på
 att lösa programmeringsproblem vaje dag i December till juldagen.
