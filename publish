@@ -28,6 +28,9 @@ echo "Generating static files..."
 python freezer.py
 if [[ $? -ne 0 ]]; then
 	echo "Failed to build, have you setup the environment."
+	echo "Removing temporary branch..."
+	git checkout master
+	git branch -D gh-pages
 	exit 1
 fi
 
@@ -42,6 +45,6 @@ git push -f --set-upstream origin gh-pages
 
 echo "Removing temporary branch..."
 git checkout master
-git branch -d gh-pages
+git branch -D gh-pages
 
 echo "Done publishing"
