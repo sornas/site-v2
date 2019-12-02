@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import markdown2
 
 from flask import Flask, render_template, redirect
