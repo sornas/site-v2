@@ -1,6 +1,6 @@
 # Advent of Code
 
-Gå med i vårt [leaderboard](https://adventofcode.com/2019/leaderboard)
+Gå med i vår [leaderboard](https://adventofcode.com/2019/leaderboard)
 <span style="font-family: monospace">637041-f5ee40da</span> för att delta!
 
 LiTHe kod kommer att hålla i den årliga [Advent of Code](https://adventofcode.com/
