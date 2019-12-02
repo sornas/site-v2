@@ -31,5 +31,4 @@ Winners are chosen primarily based on the amount of problems solved and
 secondly on the points awarded by Advent of Code.
 
 The competing is free and there will be a startup event on the 3rd of December
-in Café Java at 5:15 pm. Instructions on how to join the competition will be
-provided at a later time.
+in Café Java at 5:15 pm.

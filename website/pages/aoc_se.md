@@ -30,5 +30,4 @@ Vinnarna kommer att utses främst utifrån antal lösta problem och därefter
 utifrån poäng som utdelas av Advent of Code.
 
 Deltagande i tävlingen är helt gratis och det kommer att hållas ett
-startup-event den 3:e december i Café Java vid 17:15. Instruktioner för hur
-man går med i tävlingen kommer vid ett senare tillfälle.
+startup-event den 3:e december i Café Java vid 17:15.
