@@ -1,0 +1,13 @@
+<h2 id='money'>Money raised</h2>
+<p>We have currently raised <b>{{raised}}</b> sek, to plant <b>{{trees}}</b> trees, great job! Keep solving those problems you!</p>
+<div id='standings'>
+<h2>Current standings</h2>
+<ul>
+    {%- for c in contestants -%}
+    <li class='contestant'>
+        <span class='stars'>{{c[0]}}</span>
+        <span class='name'>{{c[2]}}</span>
+    </li>
+    {%- endfor -%}
+</ul>
+</div>

@@ -510,6 +510,44 @@ footer a:hover {
     }
 }
 
+#standings {
+    max-width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#standings h2 {
+    font-size: 2.2em;
+    text-align: center;
+    margin-bottom: -0.5em;
+}
+
+#standings span.stars {
+    float: left;   
+    left: 0;
+}
+
+#standings .contestant {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+#standings ul li:nth-child(1) {
+    font-size: 1.5em;
+    text-shadow: 1px 1px 10px gold;
+}
+
+#standings ul li:nth-child(2) {
+    font-size: 1.25em;
+    text-shadow: 1px 1px 10px silver;
+}
+
+#standings ul li:nth-child(3) {
+    font-size: 1.1em;
+    text-shadow: 1px 1px 10px brown;
+}
+
 /* Images for sponsors */
 img.sponsor {
     display: inline-block;

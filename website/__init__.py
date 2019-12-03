@@ -23,7 +23,7 @@ navigation = [
         (("Protokoll", "Protocols"),    PROTOCOLS_LINK,  False)]
 
 
-def render_page(path, url, nav_index, swedish):
+def render_page(path, url, nav_index, swedish, injection=""):
     """Render a Markdown file into a page on the website.
 
     Arguments:
@@ -34,6 +34,7 @@ def render_page(path, url, nav_index, swedish):
     """
     return render_template("page.html",
             html=markdown2.markdown_path(path),
+            injection=injection,
             url=url,
             navigation=navigation,
             selected=nav_index,
@@ -137,12 +138,14 @@ def contact_en():
 @app.route("/aoc/se/")
 def aoc_se():
     """ Swedish Advent of Code page """
-    return render_page("website/pages/aoc_se.md", "/aoc/", 3, True)
+    return render_page("website/pages/aoc_se.md", "/aoc/", 3, True, 
+                       injection=aoc_standings())
 
 @app.route("/aoc/en/")
 def aoc_en():
     """ English Advent of Code page """
-    return render_page("website/pages/aoc_en.md", "/aoc/", 3, False)
+    return render_page("website/pages/aoc_en.md", "/aoc/", 3, False,
+                       injection=aoc_standings())
 
 @app.route("/competitions/se/")
 def competitions_se():
@@ -195,6 +198,26 @@ def impa_en():
 def gitcheatsheet():
     """ The git cheat-sheet of doom! """
     return static_page("website/other/gitcheatsheet.html")
+
+
+def aoc_standings():
+    """ The current standings in AoC """
+    import json
+    with open("aoc_standings.json", "r") as f:
+        standings_json = json.loads(f.read())
+
+    contestants = []
+    for member_id in standings_json["members"]:
+        m = standings_json["members"][member_id]
+        if m["name"] is None: continue
+        contestants.append((int(m["stars"]), int(m["local_score"]), m["name"]))
+
+    sorting = lambda x: x[0] * 1000 + x[1]
+    raised = sum(map(lambda x: (x[0] // 2) * 10, contestants))
+    return render_template("aoc_leaderboard.html",
+                           raised=raised,
+                           trees=round(raised / 95.4) * 10,
+                           contestants=sorted(contestants, key=sorting, reverse=True))
 
 """Errorhandlers
 For now we only handle pages that are not found.
