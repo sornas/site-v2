@@ -1,7 +1,9 @@
 # Advent of Code
 
-Join our [leaderboard](https://adventofcode.com/2019/leaderboard)
-<span style="font-family: monospace">637041-f5ee40da</span> to participate!
+**To enter the competition you need to be logged in. After logging in you can add our private leaderboard with the code: <span style="font-family:
+ monospace; background-color: var(--link-color); color:
+ var(--background-color); padding-left: 1em; padding-right:
+ 1em;">637041-f5ee40da</span>**
 
 LiTHe kod will be hosting the yearly [Advent of Code](https://adventofcode.com/)
 competition from the 1st of December until its end on the 25th. Advent of Code
