@@ -216,10 +216,11 @@ def aoc_standings():
 
     sorting = lambda x: x[0] * 1000 + x[1]
     raised = sum(map(lambda x: (x[0] // 2) * 10, contestants))
+    placements = [(x[0], x[1][0], x[1][2]) for x in enumerate(sorted(contestants, key=sorting, reverse=True))]
     return render_template("aoc_leaderboard.html",
                            raised=raised,
                            trees=round(raised / 95.4) * 10,
-                           contestants=sorted(contestants, key=sorting, reverse=True))
+                           contestants=placements)
 
 """Errorhandlers
 For now we only handle pages that are not found.

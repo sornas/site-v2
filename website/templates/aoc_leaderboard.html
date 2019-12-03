@@ -5,8 +5,9 @@
 <ul>
     {%- for c in contestants -%}
     <li class='contestant'>
-        <span class='stars'>{{c[0]}}</span>
+        <span class='placement'>{{c[0]}}.</span>
         <span class='name'>{{c[2]}}</span>
+        <span class='stars'>{{c[1]}}</span>
     </li>
     {%- endfor -%}
 </ul>

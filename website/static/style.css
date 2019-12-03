@@ -523,8 +523,12 @@ footer a:hover {
 }
 
 #standings span.stars {
+    float: right;   
+    text-shadow: 1px 1px 5px gold;
+}
+
+#standings span.placement {
     float: left;   
-    left: 0;
 }
 
 #standings .contestant {
@@ -547,6 +551,11 @@ footer a:hover {
     font-size: 1.1em;
     text-shadow: 1px 1px 10px brown;
 }
+
+#standings ul li:nth-child(10) {
+    padding-bottom: 1em;
+}
+
 
 /* Images for sponsors */
 img.sponsor {
