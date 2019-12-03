@@ -209,8 +209,10 @@ def aoc_standings():
     contestants = []
     for member_id in standings_json["members"]:
         m = standings_json["members"][member_id]
-        if m["name"] is None: continue
-        contestants.append((int(m["stars"]), int(m["local_score"]), m["name"]))
+        if m["name"] is not None:
+            contestants.append((int(m["stars"]), int(m["local_score"]), m["name"]))
+        else:
+            contestants.append((int(m["stars"]), int(m["local_score"]), "Anon." + m["id"]))
 
     sorting = lambda x: x[0] * 1000 + x[1]
     raised = sum(map(lambda x: (x[0] // 2) * 10, contestants))
