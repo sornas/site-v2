@@ -1,7 +1,10 @@
 # Advent of Code
 
-Gå med i vår [leaderboard](https://adventofcode.com/2019/leaderboard)
-<span style="font-family: monospace">637041-f5ee40da</span> för att delta!
+ **För att gå med i tävlingen behöver du vara inloggad. Därefter kan du
+ lägga till vår privata leaderboard med koden: <span style="font-family:
+ monospace; background-color: var(--link-color); color:
+ var(--background-color); padding-left: 1em; padding-right:
+ 1em;">637041-f5ee40da</span>**
 
 LiTHe kod kommer att hålla i den årliga [Advent of Code](https://adventofcode.com/
 )-tävlingen från 1:a december till tävlingens slut den 25:e. Advent of Code går
