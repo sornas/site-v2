@@ -201,7 +201,7 @@ def gitcheatsheet():
 
 
 def aoc_standings():
-    """ The current standings in AoC """
+    """ Get the current standings in AoC. """
     import json
     with open("aoc_standings.json", "r") as f:
         standings_json = json.loads(f.read())
