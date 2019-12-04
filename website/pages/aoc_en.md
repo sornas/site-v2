@@ -18,16 +18,16 @@ many problems have been solved at the end of the competition.
 
 The 10 best competitors will win gift cards with matching sums:
 
-1.  1500 SEK
-2.  1000 SEK
-3.  750 SEK
+0.  1500 SEK
+1.  1000 SEK
+2.  750 SEK
+3.  500 SEK
 4.  500 SEK
 5.  500 SEK
-6.  500 SEK
+6.  200 SEK
 7.  200 SEK
 8.  200 SEK
 9.  200 SEK
-10. 200 SEK
 
 Winners are chosen primarily based on the amount of problems solved and
 secondly on the points awarded by Advent of Code.
