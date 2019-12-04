@@ -6,6 +6,11 @@
  var(--background-color); padding-left: 1em; padding-right:
  1em;">637041-f5ee40da</span>**
 
+<div style="align-items: left;" id="sponsor-container">
+    <p>Sponsrat av:</p>
+    <img style="margin-left: 1em" class="sponsor" src="/static/img/mindroad_logo.png" alt="mindroad">
+</div>
+
 LiTHe kod kommer att hålla i den årliga [Advent of Code](https://adventofcode.com/
 )-tävlingen från 1:a december till tävlingens slut den 25:e. Advent of Code går
 ut på att lösa programmeringsproblem varje dag fram till juldagen.
