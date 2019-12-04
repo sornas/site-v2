@@ -14,25 +14,27 @@ window.onload = () => {
     if (new Date().getMonth() == 11) {
         let snow_canvas = document.getElementById("snowflakes");
         let snow_ctx = snow_canvas.getContext("2d");
+        let snowflakes = [];
         window.onresize = () => {
             snow_ctx.canvas.width = window.innerWidth;
             snow_ctx.canvas.height = window.innerHeight;
             snow_ctx.fillStyle = "#ffffff";
             snow_ctx.globalAlpha = 0.5;
+
+            snowflakes = [];
+            for (let i = 0; i < 100; i++) {
+                snowflakes.push(
+                    {
+                        "x": Math.random() * snow_ctx.canvas.width,
+                        "y": Math.random() * snow_ctx.canvas.height,
+                        "radius": 1 + Math.random(),
+                        "vx": 2 + Math.random() * 4,
+                        "vy": 10 + Math.random() * 10,
+                    }
+                );
+            }
         };
         window.onresize();
-        let snowflakes = [];
-        for (let i = 0; i < 100; i++) {
-            snowflakes.push(
-                {
-                    "x": Math.random() * snow_ctx.canvas.width,
-                    "y": Math.random() * snow_ctx.canvas.height,
-                    "radius": 1 + Math.random(),
-                    "vx": 2 + Math.random() * 4,
-                    "vy": 10 + Math.random() * 10,
-                }
-            );
-        }
         let last_snow_update = 0;
         const FPS = 20;
         paint_snow = (timestamp) => {

@@ -16,7 +16,7 @@ We have meetups **every** Tuesday in Café Java at 17.00. Swing by for some free
 		<img src="/static/img/lithekod_olav.png" alt="Olav Övrebö">
 	</div>
 	<div class="profile-card">
-		<h2>Edvard Thörnros</h2>
+		<h2>Edvard Thörnros<br>Snowman</h2>
 		<h6>Cashier - kassor@lithekod.se</h6>
 		<img src="/static/img/lithekod_edvard.png" alt="Edvard Thörnros">
 	</div>
