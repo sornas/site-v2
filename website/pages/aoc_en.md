@@ -5,6 +5,11 @@
  var(--background-color); padding-left: 1em; padding-right:
  1em;">637041-f5ee40da</span>**
 
+<div style="align-items: left;" id="sponsor-container">
+    <p>Sponsored by:</p>
+    <img style="margin-left: 1em" class="sponsor" src="/static/img/mindroad_logo.png" alt="mindroad">
+</div>
+
 LiTHe kod will be hosting the yearly [Advent of Code](https://adventofcode.com/)
 competition from the 1st of December until its end on the 25th. Advent of Code
 is a competition in which programming problems are solved each day until
