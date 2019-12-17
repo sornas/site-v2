@@ -215,11 +215,11 @@ def aoc_standings():
             contestants.append((int(m["stars"]), int(m["local_score"]), "Anon." + m["id"]))
 
     sorting = lambda x: x[0] * 1000 + x[1]
-    raised = sum(map(lambda x: (x[0] // 2) * 10, contestants))
+    raised = sum(map(lambda x: x[0] * 10, contestants)) // 2
     placements = [(x[0], x[1][0], x[1][2]) for x in enumerate(sorted(contestants, key=sorting, reverse=True))]
     return render_template("aoc_leaderboard.html",
                            raised=raised,
-                           trees=round(raised / 95.4) * 10,
+                           trees=round(raised / 10),
                            contestants=placements)
 
 """Errorhandlers
