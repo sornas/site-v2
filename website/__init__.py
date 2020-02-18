@@ -15,7 +15,6 @@ navigation = [
         (("Start", "Start"),            "/",              True),
         (("Inlägg", "Posts"),           "/posts/",        True),
         (("Kontakt", "Contact us"),     "/contact/",      True),
-        (("AoC", "AoC"),                "/aoc/",          True),
         (("Tävlingar", "Competitions"), "/competitions/", True),
         (("Fusk", "Cheats"),            "/cheats/",       True),
         (("Vår Github", "Our Github"),  GITHUB_LINK,     False),
@@ -62,13 +61,6 @@ def redirect_external(url):
 """Temporary pages
 These pages should be removed when apropriate.
 """
-
-@app.route("/opera/")
-def opera_redir(): return redirect_external("https://forms.gle/4dcwCGrvcWP7qo6R8")
-
-@app.route("/lithejulshhh/")
-def lithejul(): return static_page("website/other/lithejul.html")
-
 
 """Redirects
 The default page when accessing a link will be in swedish.
@@ -135,37 +127,25 @@ def contact_en():
     """ English Contact page """
     return render_page("website/pages/contact_en.md", "/contact/", 2, False)
 
-@app.route("/aoc/se/")
-def aoc_se():
-    """ Swedish Advent of Code page """
-    return render_page("website/pages/aoc_se.md", "/aoc/", 3, True, 
-                       injection=aoc_standings())
-
-@app.route("/aoc/en/")
-def aoc_en():
-    """ English Advent of Code page """
-    return render_page("website/pages/aoc_en.md", "/aoc/", 3, False,
-                       injection=aoc_standings())
-
 @app.route("/competitions/se/")
 def competitions_se():
     """ Swedish Competitons page """
-    return render_page("website/pages/competitions_se.md", "/competitions/", 4, True)
+    return render_page("website/pages/competitions_se.md", "/competitions/", 3, True)
 
 @app.route("/competitions/en/")
 def competitions_en():
     """ English Competitons page """
-    return render_page("website/pages/competitions_en.md", "/competitions/", 4, False)
+    return render_page("website/pages/competitions_en.md", "/competitions/", 3, False)
 
 @app.route("/cheats/se/")
 def cheats_se():
     """ Swedish Cheats page """
-    return render_page("website/pages/cheats_se.md", "/cheats/", 5, True)
+    return render_page("website/pages/cheats_se.md", "/cheats/", 4, True)
 
 @app.route("/cheats/en/")
 def cheats_en():
     """ English Cheats page """
-    return render_page("website/pages/cheats_en.md", "/cheats/", 5, False)
+    return render_page("website/pages/cheats_en.md", "/cheats/", 4, False)
 
 
 """Other pages
@@ -193,6 +173,18 @@ def impa_se():
 def impa_en():
     """ English IMPA page """
     return render_page("website/pages/impa_en.md", "/impa/", -1, False)
+
+@app.route("/aoc/se/")
+def aoc_se():
+    """ Swedish Advent of Code page """
+    return render_page("website/pages/aoc_se.md", "/aoc/", -1, True,
+                       injection=aoc_standings())
+
+@app.route("/aoc/en/")
+def aoc_en():
+    """ English Advent of Code page """
+    return render_page("website/pages/aoc_en.md", "/aoc/", -1, False,
+                       injection=aoc_standings())
 
 @app.route("/gitcheatsheet/")
 def gitcheatsheet():
