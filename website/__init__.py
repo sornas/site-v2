@@ -5,21 +5,15 @@ from flask import Flask, render_template, redirect
 
 app = Flask(__name__, static_folder='static')
 
-GITHUB_LINK = "https://github.com/lithekod"
-BYLAWS_LINK = "https://github.com/lithekod/bylaws/blob/master/stadgar.pdf"
-PROTOCOLS_LINK = "https://github.com/lithekod/protocols"
-
 # Elements used to create navigation bar
 # ((Name_se, Name_en), Url, Internal?)
 navigation = [
-        (("Start", "Start"),            "/",              True),
-        (("Inlägg", "Posts"),           "/posts/",        True),
-        (("Kontakt", "Contact us"),     "/contact/",      True),
-        (("Tävlingar", "Competitions"), "/competitions/", True),
-        (("Fusk", "Cheats"),            "/cheats/",       True),
-        (("Vår Github", "Our Github"),  GITHUB_LINK,     False),
-        (("Stadgar", "By-laws"),        BYLAWS_LINK,     False),
-        (("Protokoll", "Protocols"),    PROTOCOLS_LINK,  False)]
+        (("Start", "Start"),               "/",              True),
+        (("Inlägg", "Posts"),              "/posts/",        True),
+        (("Kontakt", "Contact us"),        "/contact/",      True),
+        (("Tävlingar", "Competitions"),    "/competitions/", True),
+        (("Organisation", "Organization"), "/organization/", True),
+        (("Fusk", "Cheats"),               "/cheats/",       True)]
 
 
 def render_page(path, url, nav_index, swedish, injection=""):
@@ -81,6 +75,9 @@ def aoc_redir(): return redirect("/aoc/se/")
 @app.route("/competitions/")
 def competitions_redir(): return redirect("/competitions/se/")
 
+@app.route("/organization/")
+def organization_redir(): return redirect("/organization/se/")
+
 @app.route("/cheats/")
 def cheats_redir(): return redirect("/cheats/se/")
 
@@ -137,15 +134,25 @@ def competitions_en():
     """ English Competitons page """
     return render_page("website/pages/competitions_en.md", "/competitions/", 3, False)
 
+@app.route("/organization/se/")
+def organization_se():
+    """ Swedish Organization page """
+    return render_page("website/pages/organization_se.md", "/organization/", 4, True)
+
+@app.route("/organization/en/")
+def organization_en():
+    """ English Organization page """
+    return render_page("website/pages/organization_en.md", "/organization/", 4, False)
+
 @app.route("/cheats/se/")
 def cheats_se():
     """ Swedish Cheats page """
-    return render_page("website/pages/cheats_se.md", "/cheats/", 4, True)
+    return render_page("website/pages/cheats_se.md", "/cheats/", 5, True)
 
 @app.route("/cheats/en/")
 def cheats_en():
     """ English Cheats page """
-    return render_page("website/pages/cheats_en.md", "/cheats/", 4, False)
+    return render_page("website/pages/cheats_en.md", "/cheats/", 5, False)
 
 
 """Other pages
