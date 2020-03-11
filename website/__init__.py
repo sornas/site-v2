@@ -56,6 +56,10 @@ def redirect_external(url):
 These pages should be removed when apropriate.
 """
 
+@app.route("/codingcup/")
+def codingcup():
+    return redirect_external("https://forms.gle/FXj6UGV6xmrj9fQP6")
+
 """Redirects
 The default page when accessing a link will be in swedish.
 """
