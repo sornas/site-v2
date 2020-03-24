@@ -202,6 +202,11 @@ def gitcheatsheet():
     """ The git cheat-sheet of doom! """
     return static_page("website/other/gitcheatsheet.html")
 
+@app.route("/lacc/")
+def lacc():
+    """ The git cheat-sheet of doom! """
+    return static_page("website/other/lacc.html")
+
 
 def aoc_standings():
     """ Get the current standings in AoC. """
