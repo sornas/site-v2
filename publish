@@ -19,7 +19,7 @@ if [[ "$(git rev-parse --abbrev-ref HEAD)" != "master" ]]; then
 	errors=1
 fi
 
-if [[ $errors ]]; then
+if [[ $errors -eq 1 ]]; then
     echo "Aborting due to error"
     exit 1
 fi
