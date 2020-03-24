@@ -1,17 +1,28 @@
 #!/usr/bin/env bash
 
+errors=0
 # Ensure changes are committed
 if [[ $(git status -s) ]]; then
 	echo "Error: Make sure working tree is clean before publishing"
-	exit 1
+	errors=1
+fi
+
+# Make sure the person running this script has rsync
+if ! type rsync &> /dev/null; then
+    echo "Error: You have to install rsync to run this script"
+	errors=1
 fi
 
 # Ensure user is publishing from master branch
 if [[ "$(git rev-parse --abbrev-ref HEAD)" != "master" ]]; then
 	echo "Error: Can only publish from \"master\" branch"
-	exit 1
+	errors=1
 fi
 
+if [[ $errors ]]; then
+    echo "Aborting due to error"
+    exit 1
+fi
 echo "Publishing..."
 
 echo "Making sure local branch is up to date..."
