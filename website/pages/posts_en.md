@@ -1,4 +1,10 @@
 <div class="post post-border">
+    <h1>COVID-19</h1>
+    <p>Because of the COVID-19 outbreak and lius new regulations concerning campus, we at LiThe kod have also decided to practice social distancing. This means that all of our events will be cancelled or changed. Coding Cup 2020 and our weekly meetups <b>will not</b> be cancelled, but will instead be held online. More information about Coding Cup 2020 can be found under the Competitions tab. Meetups will  for the foreseeable future be held in our new <a href="https://discord.gg/UG5YYsN">discord server</a> at the same time as our regular meetups would.
+    Keep safe and wash your hands!</p>
+    <h6>29-03-2020</h6>
+</div>
+<div class="post post-border">
     <h1>Fall meeting</h1>
     <p>
         The Fall meeting will be held in P18, C-huset,

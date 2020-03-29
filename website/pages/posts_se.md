@@ -1,4 +1,10 @@
 <div class="post post-border">
+    <h1>COVID-19</h1>
+    <p>På grund av COVID-19 utbrottet och lius nya regler gällande campus har vi på LiTHe kod bestämt oss för att också gå in i distansläge. Detta innebär att alla våra event kommer att ställas in eller förändras. Coding Cup 2020 och våra meetups kommer <b>inte</b> att ställas in, utan kommer istället att ske online. Mer information om Coding Cup 2020 finns att hitta under tävlings fliken. Meetups kommer tillsvidare ske i vår nya <a href="https://discord.gg/UG5YYsN">discord server</a> under samma tid som våra vanliga meetups. 
+    Håll er säkra och tvätta händerna!</p>
+    <h6>29-03-2020</h6>
+</div>
+<div class="post post-border">
     <h1>Höstmöte</h1>
     <p>Höstmötet kommer att hållas i P18, C-huset, Tisdag 12:e November kl 17.00</p>
     <h6>11-11-2019</h6>
