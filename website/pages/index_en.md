@@ -15,7 +15,9 @@ of course code meetups.
 		<h3>Meetups</h3>
 		<i class="symbol fas fa-mug-hot"></i>
 		<p>
-			At 5pm every Tuesday we meet in Café Java to discuss everything related to programming.
+			<!--At 5pm every Tuesday we meet in Café Java to discuss everything related to programming.-->
+			(COVID-19) Meetups are now held in our <a href="https://discord.gg/UG5YYsN">discord server</a>.
+			But will resume as usuall in Café Java when COVID-19 subsides.
 		</p>
 	</div>
 	<div class="intro-card">
