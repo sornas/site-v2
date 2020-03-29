@@ -56,10 +56,6 @@ def redirect_external(url):
 These pages should be removed when apropriate.
 """
 
-@app.route("/codingcup/")
-def codingcup():
-    return redirect_external("https://forms.gle/FXj6UGV6xmrj9fQP6")
-
 """Redirects
 The default page when accessing a link will be in swedish.
 """
@@ -91,6 +87,9 @@ def ncpc_redir(): return redirect("/ncpc/se/")
 @app.route("/impa/")
 def impa_redir(): return redirect("/impa/se/")
 
+@app.route("/codingcup/")
+def codingcup_redir():
+    return redirect("/codingcup/se/")
 
 """Pages on sidebar
 These pages are shown on and can be accessed from the sidebar.
@@ -161,8 +160,8 @@ def cheats_en():
 
 """Other pages
 These pages can be accessed from a direct link. They do not show up
-on the sidebar. render_page is therefore given the index -1 to highlight
-which results in no page being highlighted.
+on the sidebar. render_page is therefore given the index -1
+which results in no page being highlighted on the sidebar.
 """
 
 @app.route("/ncpc/se/")
@@ -197,6 +196,16 @@ def aoc_en():
     return render_page("website/pages/aoc_en.md", "/aoc/", -1, False,
                        injection=aoc_standings())
 
+@app.route("/codingcup/se/")
+def codingcup_se():
+    """ Swedish Coding Cup page """
+    return render_page("website/pages/codingcup_se.md", "/codingcup/", -1, True)
+
+@app.route("/codingcup/en/")
+def codingcup_en():
+    """ English Coding Cup page """
+    return render_page("website/pages/codingcup_en.md", "/codingcup/", -1, False)
+
 @app.route("/gitcheatsheet/")
 def gitcheatsheet():
     """ The git cheat-sheet of doom! """
@@ -204,7 +213,7 @@ def gitcheatsheet():
 
 @app.route("/lacc/")
 def lacc():
-    """ The git cheat-sheet of doom! """
+    """ LiTHe kod's Amazing Coding Challenges """
     return static_page("website/other/lacc.html")
 
 
