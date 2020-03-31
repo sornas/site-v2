@@ -51,7 +51,7 @@ rsync -a website/other/* .
 
 echo "Sending files to remote..."
 git add --all
-git commit -m "Publish $(date -I)"
+git commit -m "Publish $(date -I)" --no-gpg-sign
 git push -f --set-upstream origin gh-pages
 
 echo "Removing temporary branch..."
