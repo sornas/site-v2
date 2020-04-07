@@ -15,9 +15,6 @@ föreläsningar, Game Jams, programmeringstävlingar och—såklart—kodstugor.
 		<h3>Meetups</h3>
 		<i class="symbol fas fa-mug-hot"></i>
 		<p>
-			Klockan 17 varje tisdag träffas vi i Café Java för att prata om allt relaterat till
-			programmering.
-			
 			(COVID-19) Meetups hålls nu i <a href="https://discord.gg/UG5YYsN">discord server</a>.
 			Men kommer fortsätta i Café Java när COVID-19 lugnar sig.
 		</p>
