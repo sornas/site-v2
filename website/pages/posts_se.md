@@ -46,7 +46,9 @@
 
  - Styrelsen önskar diskutera ett eventuellt införande av en etisk granskningsprocess vid hantering av tilltänkta sponsorer. *I nuläget finns inget konkret förslag om hur ett sådant arbete skulle gå till, varför styrelsen endast vill höja detta som en opinionsmätning/diskution, snarare än som proposition.*
 
-<div class="post-border"></div>
+<div style="width: 100%;" class="post post-border">
+    <h6>14-04-2020</h6>
+</div>
 
 <div class="post post-border">
     <h1>COVID-19</h1>

@@ -247,3 +247,6 @@ For now we only handle pages that are not found.
 def not_found(e):
     """ 404 Page """
     return render_page("website/pages/404.md", "/404/", -1, False), 404
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
