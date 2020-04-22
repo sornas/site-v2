@@ -56,9 +56,11 @@ def redirect_external(url):
 These pages should be removed when apropriate.
 """
 
+
 """Redirects
 The default page when accessing a link will be in swedish.
 """
+
 
 @app.route("/")
 def index_redir(): return redirect("/se/")
@@ -91,11 +93,13 @@ def impa_redir(): return redirect("/impa/se/")
 def codingcup_redir():
     return redirect("/codingcup/se/")
 
+
 """Pages on sidebar
 These pages are shown on and can be accessed from the sidebar.
 The render_page is given an index to indicate which link
 from the sidebar to highlight.
 """
+
 
 @app.route("/se/")
 def index_se():
@@ -239,6 +243,7 @@ def aoc_standings():
                            trees=round(raised / 10),
                            contestants=placements)
 
+
 """Errorhandlers
 For now we only handle pages that are not found.
 """
@@ -247,6 +252,12 @@ For now we only handle pages that are not found.
 def not_found(e):
     """ 404 Page """
     return render_page("website/pages/404.md", "/404/", -1, False), 404
+
+@app.route("/404.html")
+def not_found_gh_pages():
+    """ 404 page to please GitHub pages """
+    return render_page("website/pages/404.md", "/404/", -1, False)
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
