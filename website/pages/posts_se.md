@@ -1,42 +1,54 @@
-## Preliminär föredragningslista för stormöte 2020-05-12
+## Föredragningslista för stormöte 2020-05-12
 
- **1. Mötets öppnande**
-		 
- **2. Val av mötesfunktionärer**
+**1. Mötets öppnande**
+
+**2. Val av mötesfunktionärer**
+
 - Mötesordförande
 - Mötessekreterare
 - Justeringsperson tillika rösträknare
 
- **3. Adjungeringar och fastställande av röstlängden**
+**3. Adjungeringar och fastställande av röstlängden**
 
 *Under rådande omständigheter kommer en inledande röstlängd fastställas, varefter röstning läggs fram kring huruvida mötesfunktionärerna ges möjlighet att på digitalt vis fastställa röstlängd inför var röstning efter behov. Detta, då, för att hantera eventuella svårigheter med om medlemmar regelbundet kopplas till eller det digitala forum där mötet hålls. Exempel på digital fastställning är att gå ut med ett textmeddelande och begära att alla närvarande tickar i en reaktion. Detta kommer även föreslås som röstningsmetod, då med valbara reaktioner beroende på ställningstagande för/emot.*
 
- **4. Fastställande av mötets stadgaenliga utlysande**
+**4. Fastställande av mötets stadgaenliga utlysande**
 
- **5. Fastställande av föredragningslista**	
+**5. Fastställande av föredragningslista**
 
- **6. Motioner och propositioner**
+**6. Motioner och propositioner**
 
-*Dessa kommer uppdateras löpande efter det att motioner kommer in. Motioner skall vara inne hos styrelsen senast två veckor innan mötet, och kommer kompletteras med ett motionssvar från styrelsen senast en vecka innan mötet.*
- - (Motion från ickestuderande) Upphöj ickestuderande exmedlemmar till fullt medlemskap, medförande bl.a. full rösträtt.
+- (Motion från ickestuderande) Upphöj ickestuderande exmedlemmar till fullt medlemskap, medförande bl.a. full rösträtt.
+
+Motionssvar från styrelsen:
+Merparten av föreningens aktiviteter tillåter exmedlemmar att närvara, om de
+har några begränsningar alls. För de aktiviteter som är begränsade till vad
+som idag är "fullvärdiga" medlemmar anser styrelsen att det finns god grund
+att även begränsa dessa till studerantemedlemmar, e.g. vissa tävlingar med
+monetära priser. Vad gäller rösträtt kan detta ordnas med ett enkelt
+majoritetsbeslut på vardera stormöte, och har inte hittills utgjort ett
+problem. Vidare riskerar den föreslagna ändringen försvåra för kommnande
+styrelser att försäkra sig om krav på att en majoritet av medlemmar utgörs av
+studenter (ett krav för att få utgöra en studentförening).
 
 **4. Verksamhetsåret 19/20**
- - Styrelsens verksamhetsbärettelse
- - Styrelsens ekonomiska berättelse
- - Revisorns granskning av verksamhetsåret
+
+- Styrelsens verksamhetsbärettelse
+- Styrelsens ekonomiska berättelse
+- Revisorns granskning av verksamhetsåret
 
 **5. Personval**
 
 *Styrelsen avser dela nuvarande roll "PR- och web-ansvarig" i två.*
 
- - Val av ordförande 20/21
- - Val av vice ordförande 20/21
- - Val av kassör 20/21
- - Val av verksamhetsansvarig 20/21
- - Val av PR-ansvarig 20/21
- - Val av webansvarig 20/21
- - Val av Game Jam-ansvarig 20/21
- - Val av revisor 20/21
+- Val av ordförande 20/21
+- Val av vice ordförande 20/21
+- Val av kassör 20/21
+- Val av verksamhetsansvarig 20/21
+- Val av PR-ansvarig 20/21
+- Val av webansvarig 20/21
+- Val av Game Jam-ansvarig 20/21
+- Val av revisor 20/21
 
 **6. Fastställande av föreningens budget 20/21**
 
@@ -44,7 +56,7 @@
 
 **8. Övrigt**
 
- - Styrelsen önskar diskutera ett eventuellt införande av en etisk granskningsprocess vid hantering av tilltänkta sponsorer. *I nuläget finns inget konkret förslag om hur ett sådant arbete skulle gå till, varför styrelsen endast vill höja detta som en opinionsmätning/diskution, snarare än som proposition.*
+- Styrelsen önskar diskutera ett eventuellt införande av en etisk granskningsprocess vid hantering av tilltänkta sponsorer. *I nuläget finns inget konkret förslag om hur ett sådant arbete skulle gå till, varför styrelsen endast vill höja detta som en opinionsmätning/diskution, snarare än som proposition.*
 
 <div style="width: 100%;" class="post post-border">
     <h6>14-04-2020</h6>
@@ -52,7 +64,7 @@
 
 <div class="post post-border">
     <h1>COVID-19</h1>
-    <p>På grund av COVID-19 utbrottet och lius nya regler gällande campus har vi på LiTHe kod bestämt oss för att också gå in i distansläge. Detta innebär att alla våra event kommer att ställas in eller förändras. Coding Cup 2020 och våra meetups kommer <b>inte</b> att ställas in, utan kommer istället att ske online. Mer information om Coding Cup 2020 finns att hitta under tävlings fliken. Meetups kommer tillsvidare ske i vår nya <a href="https://discord.gg/UG5YYsN">discord server</a> under samma tid som våra vanliga meetups. 
+    <p>På grund av COVID-19 utbrottet och lius nya regler gällande campus har vi på LiTHe kod bestämt oss för att också gå in i distansläge. Detta innebär att alla våra event kommer att ställas in eller förändras. Coding Cup 2020 och våra meetups kommer <b>inte</b> att ställas in, utan kommer istället att ske online. Mer information om Coding Cup 2020 finns att hitta under tävlings fliken. Meetups kommer tillsvidare ske i vår nya <a href="https://discord.gg/UG5YYsN">discord server</a> under samma tid som våra vanliga meetups.
     Håll er säkra och tvätta händerna!</p>
     <h6>29-03-2020</h6>
 </div>
