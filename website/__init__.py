@@ -61,7 +61,6 @@ These pages should be removed when apropriate.
 The default page when accessing a link will be in swedish.
 """
 
-
 @app.route("/")
 def index_redir(): return redirect("/se/")
 
@@ -93,13 +92,16 @@ def impa_redir(): return redirect("/impa/se/")
 def codingcup_redir():
     return redirect("/codingcup/se/")
 
+@app.route("/microjam/")
+def microjam_redir():
+    return redirect("/microjam/se")
+
 
 """Pages on sidebar
 These pages are shown on and can be accessed from the sidebar.
 The render_page is given an index to indicate which link
 from the sidebar to highlight.
 """
-
 
 @app.route("/se/")
 def index_se():
@@ -209,6 +211,16 @@ def codingcup_se():
 def codingcup_en():
     """ English Coding Cup page """
     return render_page("website/pages/codingcup_en.md", "/codingcup/", -1, False)
+
+@app.route("/microjam/se/")
+def microjam_se():
+    """ Swedish microjam page """
+    return render_page("website/pages/microjam_se.md", "/microjam/", -1, True)
+
+@app.route("/microjam/en/")
+def microjam_en():
+    """ English microjam page """
+    return render_page("website/pages/microjam_en.md", "/microjam/", -1, False)
 
 @app.route("/gitcheatsheet/")
 def gitcheatsheet():
