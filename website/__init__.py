@@ -56,53 +56,13 @@ def redirect_external(url):
 These pages should be removed when apropriate.
 """
 
-
-"""Redirects
-The default page when accessing a link will be in swedish.
-"""
-
-@app.route("/")
-def index_redir(): return redirect("/se/")
-
-@app.route("/posts/")
-def posts_redir(): return redirect("/posts/se/")
-
-@app.route("/contact/")
-def contact_redir(): return redirect("/contact/se/")
-
-@app.route("/aoc/")
-def aoc_redir(): return redirect("/aoc/se/")
-
-@app.route("/competitions/")
-def competitions_redir(): return redirect("/competitions/se/")
-
-@app.route("/organization/")
-def organization_redir(): return redirect("/organization/se/")
-
-@app.route("/cheats/")
-def cheats_redir(): return redirect("/cheats/se/")
-
-@app.route("/ncpc/")
-def ncpc_redir(): return redirect("/ncpc/se/")
-
-@app.route("/impa/")
-def impa_redir(): return redirect("/impa/se/")
-
-@app.route("/codingcup/")
-def codingcup_redir():
-    return redirect("/codingcup/se/")
-
-@app.route("/microjam/")
-def microjam_redir():
-    return redirect("/microjam/se")
-
-
 """Pages on sidebar
 These pages are shown on and can be accessed from the sidebar.
 The render_page is given an index to indicate which link
 from the sidebar to highlight.
 """
 
+@app.route("/")
 @app.route("/se/")
 def index_se():
     """ Swedish Index page """
@@ -113,6 +73,7 @@ def index_en():
     """ English Index page """
     return render_page("website/pages/index_en.md", "/", 0, False)
 
+@app.route("/posts/")
 @app.route("/posts/se/")
 def posts_se():
     """ Swedish Posts page """
@@ -123,6 +84,7 @@ def posts_en():
     """ English Posts page """
     return render_page("website/pages/posts_en.md", "/posts/", 1, False)
 
+@app.route("/contact/")
 @app.route("/contact/se/")
 def contact_se():
     """ Swedish Contact page """
@@ -133,6 +95,7 @@ def contact_en():
     """ English Contact page """
     return render_page("website/pages/contact_en.md", "/contact/", 2, False)
 
+@app.route("/competitions/")
 @app.route("/competitions/se/")
 def competitions_se():
     """ Swedish Competitons page """
@@ -143,6 +106,7 @@ def competitions_en():
     """ English Competitons page """
     return render_page("website/pages/competitions_en.md", "/competitions/", 3, False)
 
+@app.route("/organization/")
 @app.route("/organization/se/")
 def organization_se():
     """ Swedish Organization page """
@@ -153,6 +117,7 @@ def organization_en():
     """ English Organization page """
     return render_page("website/pages/organization_en.md", "/organization/", 4, False)
 
+@app.route("/cheats/")
 @app.route("/cheats/se/")
 def cheats_se():
     """ Swedish Cheats page """
@@ -170,6 +135,7 @@ on the sidebar. render_page is therefore given the index -1
 which results in no page being highlighted on the sidebar.
 """
 
+@app.route("/ncpc/")
 @app.route("/ncpc/se/")
 def ncpc_se():
     """ Swedish NCPC page """
@@ -180,6 +146,7 @@ def ncpc_en():
     """ English NCPC page """
     return render_page("website/pages/ncpc_en.md", "/ncpc/", -1, False)
 
+@app.route("/impa/")
 @app.route("/impa/se/")
 def impa_se():
     """ Swedish IMPA page """
@@ -190,6 +157,7 @@ def impa_en():
     """ English IMPA page """
     return render_page("website/pages/impa_en.md", "/impa/", -1, False)
 
+@app.route("/aoc/")
 @app.route("/aoc/se/")
 def aoc_se():
     """ Swedish Advent of Code page """
@@ -202,6 +170,7 @@ def aoc_en():
     return render_page("website/pages/aoc_en.md", "/aoc/", -1, False,
                        injection=aoc_standings())
 
+@app.route("/codingcup/")
 @app.route("/codingcup/se/")
 def codingcup_se():
     """ Swedish Coding Cup page """
@@ -212,6 +181,7 @@ def codingcup_en():
     """ English Coding Cup page """
     return render_page("website/pages/codingcup_en.md", "/codingcup/", -1, False)
 
+@app.route("/microjam/")
 @app.route("/microjam/se/")
 def microjam_se():
     """ Swedish microjam page """
