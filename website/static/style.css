@@ -384,11 +384,12 @@ footer a:hover {
 
 /* A Card which should be placed inside a card-container */
 .profile-card {
-    background: var(--background-color);
+    background: var(--footer-bg-color);
     display: inline-block;
-    padding: 1em;
-    margin: 0 auto;
+    margin: 1em 2em;
     text-align: center;
+
+    border-radius: 0.5em;
 }
 
 /* Image with ratio 3:4 */
@@ -397,6 +398,8 @@ footer a:hover {
     height: 20em;
     display: block;
     margin: 0;
+
+    border-radius: 0.5em 0.5em 0 0;
 }
 
 /* Heading for name */
@@ -405,9 +408,10 @@ footer a:hover {
 }
 
 /* Heading for role and email */
-.profile-card h6 {
+.profile-card p {
+    font-size: 0.7em;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 0.5em;
 }
 
 /* Container for Cards */

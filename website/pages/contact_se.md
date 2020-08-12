@@ -11,33 +11,38 @@ Vi har meetups **varje tisdag** i café java kl 17.00. Kom förbi så bjuder vi 
 
 <div id="card-container">
 	<div class="profile-card">
-		<h2>Olav Övrebö</h2>
-		<h6>Ordförande - ordf@lithekod.se</h6>
-		<img src="/static/img/lithekod_olav.png" alt="Olav Övrebö">
+		<img src="/static/img/edvard.png" alt="Edvard Thörnros">
+		<h2>Edvard Thörnros</h2>
+		<p>Ordförande - <a href="mailto:ordf@lithekod.se">ordf@lithekod.se</a></p>
 	</div>
 	<div class="profile-card">
-		<h2>Edvard Thörnros<br>Snögubben</h2>
-		<h6>Kassör - kassor@lithekod.se</h6>
-		<img src="/static/img/lithekod_edvard.png" alt="Edvard Thörnros">
+		<img src="/static/img/victor.png" alt="Victor Lells">
+		<h2>Victor Lells</h2>
+		<p>Kassör - <a href="mailto:kassor@lithekod.se">kassor@lithekod.se</a></p>
 	</div>
 	<div class="profile-card">
+		<img src="/static/img/annie.png" alt="Annie Wång">
 		<h2>Annie Wång</h2>
-		<h6>Vice ordförande - vordf@lithekod.se</h6>
-		<img src="/static/img/lithekod_annie.png" alt="Annie Wång">
+		<p>Game Jam-ansvarig - <a href="mailto:gamejam@lithekod.se">gamejam@lithekod.se</a></p>
 	</div>
 	<div class="profile-card">
+		<img src="/static/img/gustav.png" alt="Gustav Sörnäs">
+		<h2>Gustav Sörnäs</h2>
+		<p>Vice ordförande - <a href="mailto:vordf@lithekod.se">vordf@lithekod.se</a></p>
+	</div>
+	<div class="profile-card">
+		<img src="/static/img/gabriel.png" alt="Gabriel Tofvesson">
 		<h2>Gabriel Tofvesson</h2>
-		<h6>Verksamhetsledare - verks@lithekod.se</h6>
-		<img src="/static/img/lithekod_gabriel.png" alt="Gabriel Tofvesson">
+		<p>PR - <a href="mailto:pr@lithekod.se">pr@lithekod.se</a></p>
 	</div>
 	<div class="profile-card">
-		<h2>Erik Mattfolk</h2>
-		<h6>PR-ansvarig - pr@lithekod.se</h6>
+		<img src="/static/img/agnes.png" alt="Agnes Wendt">
+		<h2>Agnes Wendt</h2>
+		<p>Verksamhetsansvarig - <a href="mailto:verks@lithekod.se">verks@lithekod.se</a></p>
+	</div>
+	<div class="profile-card">
 		<img src="/static/img/lithekod_erik.png" alt="Erik Mattfolk">
-	</div>
-	<div class="profile-card">
-		<h2>Axel Nordanskog</h2>
-		<h6>Game Jam-ansvarig - gamejam@lithekod.se</h6>
-		<img src="/static/img/lithekod_axel.png" alt="Axel Nordanskog">
+		<h2>Erik Mattfolk</h2>
+		<p>Webb - <a href="mailto:webb@lithekod.se">webb@lithekod.se</a></p>
 	</div>
 </div>
