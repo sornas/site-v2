@@ -7,37 +7,42 @@ but we are more available in our [Slack group](https://lithe-kod.slack.com/).
 If you haven't already joined our Slack group, you can do so using the following
 [link](https://lithe-kod.slack.com/signup), **You need to use your LiU e-mail address**.
 
-We have meetups **every** Tuesday in Café Java at 17.00. Swing by for some free fika!
+<!--We have meetups **every** Tuesday in Café Java at 17.00. Swing by for some free fika!-->
 
 <div id="card-container">
 	<div class="profile-card">
-		<h2>Olav Övrebö</h2>
-		<h6>Chairman - ordf@lithekod.se</h6>
-		<img src="/static/img/lithekod_olav.png" alt="Olav Övrebö">
+		<img src="/static/img/edvard.png" alt="Edvard Thörnros">
+		<h2>Edvard Thörnros</h2>
+		<p>Chairman - <a href="mailto:ordf@lithekod.se">ordf@lithekod.se</a></p>
 	</div>
 	<div class="profile-card">
-		<h2>Edvard Thörnros<br>Snowman</h2>
-		<h6>Cashier - kassor@lithekod.se</h6>
-		<img src="/static/img/lithekod_edvard.png" alt="Edvard Thörnros">
+		<img src="/static/img/victor.png" alt="Victor Lells">
+		<h2>Victor Lells</h2>
+		<p>Cashier - <a href="mailto:kassor@lithekod.se">kassor@lithekod.se</a></p>
 	</div>
 	<div class="profile-card">
+		<img src="/static/img/annie.png" alt="Annie Wång">
 		<h2>Annie Wång</h2>
-		<h6>Vice Chairman - vordf@lithekod.se</h6>
-		<img src="/static/img/lithekod_annie.png" alt="Annie Wång">
+		<p>Game Jam Manager - <a href="mailto:gamejam@lithekod.se">gamejam@lithekod.se</a></p>
 	</div>
 	<div class="profile-card">
+		<img src="/static/img/gustav.png" alt="Gustav Sörnäs">
+		<h2>Gustav Sörnäs</h2>
+		<p>Vice Chairman - <a href="mailto:vordf@lithekod.se">vordf@lithekod.se</a></p>
+	</div>
+	<div class="profile-card">
+		<img src="/static/img/gabriel.png" alt="Gabriel Tofvesson">
 		<h2>Gabriel Tofvesson</h2>
-		<h6>Executive Manager - verks@lithekod.se</h6>
-		<img src="/static/img/lithekod_gabriel.png" alt="Gabriel Tofvesson">
+		<p>PR - <a href="mailto:pr@lithekod.se">pr@lithekod.se</a></p>
 	</div>
 	<div class="profile-card">
+		<img src="/static/img/agnes.png" alt="Agnes Wendt">
+		<h2>Agnes Wendt</h2>
+		<p>Executive Manager - <a href="mailto:verks@lithekod.se">verks@lithekod.se</a></p>
+	</div>
+	<div class="profile-card">
+		<img src="/static/img/erik.png" alt="Erik Mattfolk">
 		<h2>Erik Mattfolk</h2>
-		<h6>Public Relations - pr@lithekod.se</h6>
-		<img src="/static/img/lithekod_erik.png" alt="Erik Mattfolk">
-	</div>
-	<div class="profile-card">
-		<h2>Axel Nordanskog</h2>
-		<h6>Game Jam Manager - gamejam@lithekod.se</h6>
-		<img src="/static/img/lithekod_axel.png" alt="Axel Nordanskog">
+		<p>Web - <a href="mailto:webb@lithekod.se">webb@lithekod.se</a></p>
 	</div>
 </div>

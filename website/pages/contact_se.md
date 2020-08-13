@@ -7,7 +7,7 @@ men framförallt i vår [Slack-grupp](https://lithe-kod.slack.com/).
 Om du inte redan är med i Slack-gruppen så kan du
 [gå med](https://lithe-kod.slack.com/signup) genom att använda din **LiU-mejladress**.
 
-Vi har meetups **varje tisdag** i café java kl 17.00. Kom förbi så bjuder vi på fika!
+<!--Vi har meetups **varje tisdag** i café java kl 17.00. Kom förbi så bjuder vi på fika!-->
 
 <div id="card-container">
 	<div class="profile-card">
@@ -41,7 +41,7 @@ Vi har meetups **varje tisdag** i café java kl 17.00. Kom förbi så bjuder vi 
 		<p>Verksamhetsansvarig - <a href="mailto:verks@lithekod.se">verks@lithekod.se</a></p>
 	</div>
 	<div class="profile-card">
-		<img src="/static/img/lithekod_erik.png" alt="Erik Mattfolk">
+		<img src="/static/img/erik.png" alt="Erik Mattfolk">
 		<h2>Erik Mattfolk</h2>
 		<p>Webb - <a href="mailto:webb@lithekod.se">webb@lithekod.se</a></p>
 	</div>
