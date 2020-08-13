@@ -1,14 +1,39 @@
 <div id="important-information">
 	<h1>Till Nollan</h1>
 	<p>
-	Do it.  Just do it.  Don't let your dreams be dreams.  Yesterday you
-	said tomorrow.  So just do it.  Make your dreams come true.  Just do it.
-	Some people dream of success.  While you're gonna wake up and work hard at
-	it.  Nothing is impossible.  You should get to the point.  Where anyone
-	else would quit.  And you're not going to stop there.  No, what are you
-	waiting for?.  Do it.  Just do it.  Yes you can.  Just do it.  If you're
-	tired of starting over.  Stop giving up.
+        Missa inte vår föreläsning! Den hålls den 3:e September 18.15-19.00. Vi
+        kommer bland annat att prata om <b>git</b> som ni kommer att få bekanta
+        er med under er studietid.
 	</p>
+    <p>
+        Vi håller även i många andra event under året. Den 3:e Oktober hålls ett <a href="/microjam/se/">microjam</a>. Lite senare håller vi även i programmeringstävlingar såsom IMPA och NCPC. Varje tisdag har vi meetup kl 17. Meetups är normalt sätt i cafe Java, men just nu är de i vår <a href="https://discord.gg/UG5YYsN">discord server.</a>
+    </p>
+    <p>
+        Facit till kluringen i nolleboken:
+        <style>
+            div.hidden-text {
+                background: var(--primary-color);
+            }
+            div.hidden-text:hover {
+                background: var(--footer-bg-color);
+            }
+        </style>
+        <div class="hidden-text">
+            Pokemon:
+            <ul>
+                <li>Grookey</li>
+                <li>Hawlucha</li>
+                <li>Klink</li>
+            </ul>
+            Programmeringsspråk:
+            <ul>
+                <li>Haxe</li>
+                <li>Lisp</li>
+                <li>Nim</li>
+                <li>Octave</li>
+            </ul>
+        </div>
+    </p>
 </div>
 
 # Vilka är vi?
@@ -28,7 +53,7 @@ föreläsningar, Game Jams, programmeringstävlingar och—såklart—kodstugor.
 		<h3>Meetups</h3>
 		<i class="symbol fas fa-mug-hot"></i>
 		<p>
-			(COVID-19) Meetups hålls nu i <a href="https://discord.gg/UG5YYsN">discord server</a>.
+			(COVID-19) Meetups hålls nu i <a href="https://discord.gg/UG5YYsN">discord servern</a>.
 			Men kommer fortsätta i Café Java när COVID-19 lugnar sig.
 		</p>
 	</div>
