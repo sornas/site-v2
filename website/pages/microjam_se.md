@@ -1,6 +1,6 @@
 # Microjam
 
-Ett microjam är ett event där <u>vem som helst</u> kan skapa ett spel på
+Ett microjam är ett event där **vem som helst** kan skapa ett spel på
 bara 5h. Ett [gamejam](https://en.wikipedia.org/wiki/Game_jam) fast mindre, helt enkelt!
 
 Jammet är först till kvarn där de 40 första får plats för att hålla oss till
