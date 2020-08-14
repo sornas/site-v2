@@ -47,4 +47,4 @@ If you haven't already joined our Slack group, you can do so using the following
 	</div>
 </div>
 
-Images created by Annie Wång
+<p style="text-align: center;">Images created by Annie Wång</p>

@@ -47,4 +47,4 @@ Om du inte redan är med i Slack-gruppen så kan du
 	</div>
 </div>
 
-Bilder skapade av Annie Wång
+<p style="text-align: center;">Bilder skapade av Annie Wång</p>

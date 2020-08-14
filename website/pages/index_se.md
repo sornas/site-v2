@@ -16,29 +16,43 @@
     <p>
         Facit till kluringen i nolleboken:
         <style>
-            div.hidden-text {
-                width: fit-content;
+            table.hidden-table {
                 background: var(--primary-color);
+                border-spacing: 0px;
             }
-            div.hidden-text:hover {
+            table.hidden-table:hover {
                 background: var(--footer-bg-color);
             }
+            .hidden-table table, td, th, tr {
+                border: 1px solid var(--primary-color);
+                border-collapse: collapse;
+            }
+            .hidden-table td, th {
+                padding: 0.25em;
+            }
         </style>
-        <div class="hidden-text">
-            Pokemon:
-            <ul>
-                <li>Grookey</li>
-                <li>Hawlucha</li>
-                <li>Klink</li>
-            </ul>
-            Programmeringsspråk:
-            <ul>
-                <li>Haxe</li>
-                <li>Lisp</li>
-                <li>Nim</li>
-                <li>Octave</li>
-            </ul>
-        </div>
+        <table class="hidden-table">
+            <tr>
+                <th>Pokemon</th>
+                <th>Programmeringsspråk</th>
+            </tr>
+            <tr>
+                <td>Grookey</td>
+                <td>Haxe</td>
+            </tr>
+            <tr>
+                <td>Hawlucha</td>
+                <td>Lisp</td>
+            </tr>
+            <tr>
+                <td>Klink</td>
+                <td>Octave</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Nim</td>
+            </tr>
+        </table>
     </p>
 </div>
 
