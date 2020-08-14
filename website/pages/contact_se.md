@@ -46,3 +46,5 @@ Om du inte redan är med i Slack-gruppen så kan du
 		<p>Webb - <a href="mailto:webb@lithekod.se">webb@lithekod.se</a></p>
 	</div>
 </div>
+
+Bilder skapade av Annie Wång

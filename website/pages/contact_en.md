@@ -46,3 +46,5 @@ If you haven't already joined our Slack group, you can do so using the following
 		<p>Web - <a href="mailto:webb@lithekod.se">webb@lithekod.se</a></p>
 	</div>
 </div>
+
+Images created by Annie Wång
