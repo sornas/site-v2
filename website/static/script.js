@@ -243,7 +243,7 @@ void G_BuildTiccmd (ticcmd_t* cmd)
         let ctx = canvas.getContext("2d");
 
         let colors = [
-            { r: 255, g: 255,   b: 0 },
+            { r: 230, g: 230,   b: 0 },
         ];
 
         let current_color = Math.floor(Math.random() * colors.length);
