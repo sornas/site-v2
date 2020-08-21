@@ -11,7 +11,8 @@
         programmeringstävlingar såsom IMPA och NCPC. Varje tisdag har vi meetup
         kl. 17. Meetups är normalt sett i Café Java, men just nu är de i vår <a
         href="https://discord.gg/UG5YYsN">discordserver.</a> Den första
-        meetupen kommer att vara den 1:a september kl. 17.
+        meetupen kommer att vara den 1:a september kl. 17 i Universitetsparken
+        (vid Campushallen).
     </p>
     <p>
         Facit till kluringen i nolleboken:
