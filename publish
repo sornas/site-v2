@@ -59,8 +59,8 @@ cp -r website/other/* .
 if [[ $PUBLISH -eq 1 ]]; then
     echo "Sending files to remote..."
     git add --all
-    git commit -m "Publish $(date -I)" --no-gpg-sign
-    git push -f --set-upstream origin gh-pages
+    git commit -q -m "Publish $(date -I)" --no-gpg-sign
+    git push -q -f --set-upstream origin gh-pages
 
     echo "Removing temporary branch..."
     git checkout -
