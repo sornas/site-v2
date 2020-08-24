@@ -8,6 +8,43 @@ A game jam is an event where programmers, artists and gamers come together to cr
 At our game jam there is a 48 hours time limit and a randomized theme for inspiration. <br>
 Visit our [Facebook page](https://www.facebook.com/liugamejam/) or follow us on [Twitter](https://twitter.com/LiuGameJam) for upcoming events!
 
+<!-- Begin Mailchimp Signup Form -->
+<style>
+    #mc-embedded-subscribe {
+        background-color: #1ec6ba;
+        display: inline-block;
+        border: none;
+        border-radius: 3px;
+        padding: 0.25em 0.5em;
+    }
+    div.clear, .mc-field-group {
+        display: inline-block;
+    }
+    #mce-EMAIL {
+        border: none;
+        border-radius: 2px;
+        padding: 0.25em 0.5em;
+    }
+</style>
+<div id="mc_embed_signup">
+<form action="https://liugamejam.us12.list-manage.com/subscribe/post?u=092a6fffba8f6063437a51495&amp;id=c3863c4bf5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+        <h4 class="highlight">Subscribe to our mailing list</h4>
+        <div class="mc-field-group">
+	    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="email address">
+        </div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_092a6fffba8f6063437a51495_c3863c4bf5" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
 <h4 class="highlight">Liu Game Jam archive</h4>
 
 If you want to see what others have created, check out the games from our [archive collection](https://itch.io/c/64050/liu-game-jam). You can also check out our [old newsletters](http://us12.campaign-archive2.com/home/?u=092a6fffba8f6063437a51495&id=c3863c4bf5).
@@ -16,9 +53,11 @@ If you want to see what others have created, check out the games from our [archi
 
 Everybody is welcome, student and non-student alike. No previous experience is needed and the event is free of charge.
 
-<h4 class="highlight">Where is it?</h4>
+<h4 class="highlight">Where are your events held?</h4>
 
-The event will be held at CreActive in Linköping. There is wireless internet, free tea, hot chocolate and coffee.
+**Due to COVID-19 events might be held remotely via the [LiU Game Jam Discord](https://discord.gg/eHgXYMS), see the specific event you are interested in for more information.**
+
+Our events are held at CreActive in Linköping. There is wireless internet, free tea, hot chocolate and coffee.
 
 <h4 class="highlight">FAQ</h4>
 
