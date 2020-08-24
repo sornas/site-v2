@@ -21,6 +21,7 @@
     --link-color: #228e87;
     --page-color: #dddcdd;
     --gray-color: #666;
+    --highlight-color: #ffc600;
 }
 
 #theme-trigger[type="checkbox"]:not(:checked) + #body {
@@ -32,6 +33,7 @@
     --link-color: #1ec6ba;
     --page-color: #dddcdd;
     --gray-color: #aaa;
+    --highlight-color: #ffc600;
 }
 
 #body {
@@ -612,4 +614,15 @@ img.sponsor {
     border-width: 2px;
     border-radius: 5px;
     border-color: var(--link-color);
+}
+
+#gamejam-logo {
+    width: 15em;
+    margin: auto;
+    display: block;
+    float: none;
+}
+
+.highlight {
+    color: var(--highlight-color);
 }

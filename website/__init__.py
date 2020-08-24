@@ -13,7 +13,8 @@ navigation = [
         (("Kontakt", "Contact us"),        "/contact/",      True),
         (("Tävlingar", "Competitions"),    "/competitions/", True),
         (("Organisation", "Organization"), "/organization/", True),
-        (("Fusk", "Cheats"),               "/cheats/",       True)]
+        (("Fusk", "Cheats"),               "/cheats/",       True),
+        (("Game Jam", "Game Jam"),         "/gamejam/",      True)]
 
 
 def render_page(path, url, nav_index, swedish, injection=""):
@@ -163,6 +164,9 @@ def cheats_en():
     """ English Cheats page """
     return render_page("website/pages/cheats_en.md", "/cheats/", 5, False)
 
+@app.route("/gamejam/en/")
+def gamejam_en():
+    return render_page("website/pages/gamejam_en.md", "/gamejam/", 6, False) 
 
 """Other pages
 These pages can be accessed from a direct link. They do not show up
