@@ -12,9 +12,9 @@ navigation = [
         (("Inlägg", "Posts"),              "/posts/",        True),
         (("Kontakt", "Contact us"),        "/contact/",      True),
         (("Tävlingar", "Competitions"),    "/competitions/", True),
+        (("Game Jam", "Game Jam"),         "/gamejam/",      True),
         (("Organisation", "Organization"), "/organization/", True),
-        (("Fusk", "Cheats"),               "/cheats/",       True),
-        (("Game Jam", "Game Jam"),         "/gamejam/",      True)]
+        (("Fusk", "Cheats"),               "/cheats/",       True)]
 
 
 def render_page(path, url, nav_index, swedish, injection=""):
@@ -97,6 +97,10 @@ def codingcup_redir():
 def microjam_redir():
     return redirect("/microjam/se")
 
+@app.route("/gamejam/")
+def gamejam_redir():
+    return redirect("/gamejam/se")
+
 
 """Pages on sidebar
 These pages are shown on and can be accessed from the sidebar.
@@ -144,29 +148,33 @@ def competitions_en():
     """ English Competitons page """
     return render_page("website/pages/competitions_en.md", "/competitions/", 3, False)
 
+@app.route("/gamejam/se/")
+def gamejam_se():
+    return render_page("website/pages/gamejam_se.md", "/gamejam/", 4, True) 
+
+@app.route("/gamejam/en/")
+def gamejam_en():
+    return render_page("website/pages/gamejam_en.md", "/gamejam/", 4, False) 
+
 @app.route("/organization/se/")
 def organization_se():
     """ Swedish Organization page """
-    return render_page("website/pages/organization_se.md", "/organization/", 4, True)
+    return render_page("website/pages/organization_se.md", "/organization/", 5, True)
 
 @app.route("/organization/en/")
 def organization_en():
     """ English Organization page """
-    return render_page("website/pages/organization_en.md", "/organization/", 4, False)
+    return render_page("website/pages/organization_en.md", "/organization/", 5, False)
 
 @app.route("/cheats/se/")
 def cheats_se():
     """ Swedish Cheats page """
-    return render_page("website/pages/cheats_se.md", "/cheats/", 5, True)
+    return render_page("website/pages/cheats_se.md", "/cheats/", 6, True)
 
 @app.route("/cheats/en/")
 def cheats_en():
     """ English Cheats page """
-    return render_page("website/pages/cheats_en.md", "/cheats/", 5, False)
-
-@app.route("/gamejam/en/")
-def gamejam_en():
-    return render_page("website/pages/gamejam_en.md", "/gamejam/", 6, False) 
+    return render_page("website/pages/cheats_en.md", "/cheats/", 6, False)
 
 """Other pages
 These pages can be accessed from a direct link. They do not show up
