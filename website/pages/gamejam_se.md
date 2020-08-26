@@ -1,11 +1,11 @@
 <img src="/static/img/logga.png" alt="LiU Game Jam" id="gamejam-logo">
 <h1>MicroJam 2020</h1>
-Gör dig redo för vårt uppkommande evenemang [Microjam](https://lithekod.se/microjam/en/)!
+Gör dig redo för vårt uppkommande evenemang [Microjam](https://lithekod.se/microjam/se/)!
 
 <h4 class="highlight">Vad är ett gamejam?</h4>
 
-Ett game jam är ett event där programmerare, konstnärer och gamers går ihop för att skapa spel; både datorspel och brädspel. <br>
-På våra game jams är det en 48 timmars tidsgräns och slumpmässigt valda teman för inspiration. <br>
+Ett game jam är ett event där programmerare, konstnärer och gamers går ihop för att skapa spel; både datorspel och brädspel.
+Alla våra game jams har sina egna slumpmässigt valda teman för inspiration och en 48-timmarsgräns att skapa sitt spel på!
 Besök vår [Facebook-sida](https://www.facebook.com/liugamejam/) eller följ oss på [Twitter](https://twitter.com/LiuGameJam) för uppkommande evenemang!
 
 <!-- Begin Mailchimp Signup Form -->
@@ -47,7 +47,7 @@ Besök vår [Facebook-sida](https://www.facebook.com/liugamejam/) eller följ os
 
 <h4 class="highlight">Liu Game Jam arkiv</h4>
 
-Om du vill se spel som andra har skapat på våra evenemang, kolla på spelen i vårat [arkiv](https://itch.io/c/64050/liu-game-jam). Du kan också titta på vårat [gamla nyhetsbrev](http://us12.campaign-archive2.com/home/?u=092a6fffba8f6063437a51495&id=c3863c4bf5).
+Om du vill se spel som andra har skapat på våra evenemang, kolla på spelen i vårt [arkiv](https://itch.io/c/64050/liu-game-jam). Du kan också titta på vårt [gamla nyhetsbrev](http://us12.campaign-archive2.com/home/?u=092a6fffba8f6063437a51495&id=c3863c4bf5).
 
 <h4 class="highlight">Vem är välkommen?</h4>
 
@@ -55,14 +55,14 @@ Alla är välkomna, både studenter och icke-studenter. Ingen förkunskap krävs
 
 <h4 class="highlight">Var hålls era evenemang?</h4>
 
-**På grund av COVID-19 hålls en del av våra evenemang vi [LiU Game Jam discorden](https://discord.gg/eHgXYMS), se det specifika evenemang som du är intresserad av för mer information.**
+**På grund av COVID-19 hålls en del av våra evenemang via [LiU Game Jam discorden](https://discord.gg/eHgXYMS), se det specifika evenemang som du är intresserad av för mer information.**
 
 Våra evenemang hålls på CreActive i Linköping. Det finns trådlöst internet, gratis te, varm choklad och kaffe.
 
 <h4 class="highlight">FAQ</h4>
 
 - <em class="highlight">Får jag sova på evenemanget?</em> <br>
-Nej, Du får inte sova på CreActive.
+Nej. Du får inte sova på CreActive.
 
 - <em class="highlight">Finns mat tillgängligt?</em> <br>
 Vi beställer mat tillsammans under både fredag och lördag kväll. Om du vill vara med, lägg din  beställning och betala innan 19:00 båda kvällarna. Priset ligger runt 80~100 kr per rätt, och du kan betala via Swish eller kort. <br>
@@ -72,7 +72,7 @@ Det finns gratis frukost på lördag och söndag. Frukt, snacks, och varma dryck
 Grupper kommer sättas ihop slumpmässigt för brainstorming, men du kan arbeta med vem du vill. Startgrupperna ger dig möjlighet att hitta människor med liknande idéer som dig. Vi ser till att alla hittar någon att arbeta med.
 
 - <em class="highlight">Bör jag ta med mig min dator eller något annat?</em> <br>
-Det beror på hur du gillar att arbeta. At ta med sig sin egna dator är upp till var och en, dock så rekommenderar vi det. CreActive erbjuder gratis wi-fi, ethernet kablar och portar. Om du vill köpa frukost/lunch eller vara med på våra gemensamma mat-beställningar på fredag eller lördag kväll, se till att ha med dig pengar. Du kan betala med Swish eller kort.
+Det beror på hur du gillar att arbeta. At ta med sig sin egna dator är upp till var och en, dock så rekommenderar vi det. CreActive erbjuder gratis wi-fi. Om du vill köpa frukost/lunch eller vara med på våra gemensamma mat-beställningar på fredag eller lördag kväll, se till att ha med dig pengar. Du kan betala med Swish eller kort.
 
 - <em class="highlight">Behöver jag kunna programmera?</em> <br>
 Nej, inte alls! Speldesign täcker alla möjliga områden så som konst, musik, design, storywriting, nivå skapning och problemlösning. Alla som vill skapa är välkommna.
@@ -83,7 +83,7 @@ Nej, inte alls! Speldesign täcker alla möjliga områden så som konst, musik, 
 
 - 3D (eller 2D) 
     - [Unity (C#)](http://unity3d.com/)
-	- [Godot (GDScript: Python-likt syntax)](https://godotengine.org/)
+	- [Godot (GDScript: Python-lik syntax)](https://godotengine.org/)
 	- [Unreal Engine (C++/Visuell scriptning)](https://www.unrealengine.com/)
 
 - 2D
@@ -95,13 +95,13 @@ Nej, inte alls! Speldesign täcker alla möjliga områden så som konst, musik, 
 
 **Verktyg för att skapa grafik**
 
-- [Blender 3D (3D modellering och mer)](https://www.blender.org/)
-- [MagicaVoxel (Voxel redigerare)](https://ephtracy.github.io/)
-- [Krita (2D ritning och animation)](https://krita.org/)
+- [Blender 3D (3D-modellering och mer)](https://www.blender.org/)
+- [MagicaVoxel (Voxelredigerare)](https://ephtracy.github.io/)
+- [Krita (2D-ritning och animation)](https://krita.org/)
 
 **Verktyg för att skapa ljudeffekter**
 
-- [bfxr (Online old school ljudeffekt generator)](http://www.bfxr.net/)
+- [bfxr (Online old school ljudeffektsgenerator)](http://www.bfxr.net/)
 - [Sunvox (Modulär synth / tracker)](http://www.warmplace.ru/soft/sunvox/)
 - [BeepBox (Online chiptune tracker)](http://www.beepbox.co/)
 

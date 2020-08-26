@@ -101,7 +101,7 @@ föreläsningar, Game Jams, programmeringstävlingar och—såklart—kodstugor.
 Läs gärna mer om några av de olika evenemang som vi anordnar:
 
 * [IDA-Mästerskapet i Programmering och Algoritmer (IMPA)](https://www.ida.liu.se/projects/impa/new/)
-* [LiU Game Jam](http://liugamejam.se/)
+* [LiU Game Jam](https://lithekod.se/gamejam/se/)
 
 # Är du student?
 

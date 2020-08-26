@@ -44,7 +44,7 @@ of course code meetups.
 Here are some links to events we arrange:
 
 * [IDA-Competition in Programming och Algorithms (IMPA)](https://www.ida.liu.se/projects/impa/new/)
-* [LiU Game Jam](http://liugamejam.se/)
+* [LiU Game Jam](https://lithekod.se/gamejam/en/)
 
 # Are you a student?
 

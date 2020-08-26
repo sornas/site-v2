@@ -1,11 +1,11 @@
 <img src="/static/img/logga.png" alt="LiU Game Jam" id="gamejam-logo">
 <h1>MicroJam 2020</h1>
-Get ready for our upcomming event [Microjam](https://lithekod.se/microjam/en/)!
+Get ready for our upcoming event [Microjam](https://lithekod.se/microjam/en/)!
 
 <h4 class="highlight">What is a game jam?</h4>
 
-A game jam is an event where programmers, artists and gamers come together to create games; both computer games and board games.<br>
-At our game jam there is a 48 hours time limit and a randomized theme for inspiration. <br>
+A game jam is an event where programmers, artists and gamers come together to create games; both computer games and board games.
+At our game jam there is a 48 hours time limit and a randomized theme for inspiration.
 Visit our [Facebook page](https://www.facebook.com/liugamejam/) or follow us on [Twitter](https://twitter.com/LiuGameJam) for upcoming events!
 
 <!-- Begin Mailchimp Signup Form -->
