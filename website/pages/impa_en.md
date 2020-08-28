@@ -1,13 +1,16 @@
 # IMPA
 
+**The startup event will be held September 1st at 5pm in the University park
+(by Campushallen)**
+
 Welcome to the IDA Championship in Programming and Algorithms (IMPA).
 The competition is aimed at students of all levels at Linköping University
 who are interested in algorithms, programming and problem solving.
 
-This fall's IMPA competition consists of 4 rounds, each of which is available for
+This fall's IMPA competition consists of 5 rounds, each of which is available for
 3 weeks. Each round is its own competition with SEK 3000 in winnings.
-The first round starts on Sunday 22nd of September and the last round ends on
-Sunday 15th of December 2019.
+The first round starts on the 31st of August and the last round ends on the
+13th of December 2020.
 
 The purpose of IMPA is that students at Linköping University should become better
 at programming, algorithms and problem solving. The goal is partly that LiU should
