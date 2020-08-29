@@ -1,6 +1,6 @@
 # IMPA
 
-**The startup event will be held September 1st at 5pm in the University park
+**The startup event will be held September 8th at 5pm in the University park
 (by Campushallen)**
 
 Welcome to the IDA Championship in Programming and Algorithms (IMPA).

@@ -1,6 +1,6 @@
 # IMPA
 
-**Uppstartseventet kommer att hållas den 1:a september kl. 17 i
+**Uppstartseventet kommer att hållas den 8:e september kl. 17 i
 Universitetsparken (vid Campushallen)**
 
 Välkommen till IDA-Mästerskapet i Programmering och Algoritmer (IMPA).
