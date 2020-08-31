@@ -9,5 +9,5 @@ Folkhälsomyndighetens rekommendationer. Alla deltagare blir bjudna på pizza.
 Vi kommer erbjuda ett kod-skelett skrivet i Python med biblioteket pygame.
 Kod-skelettet kommer finnas tillgängligt **här** innan jammet.
 
-Jammet hålls lördagen den 3:e oktober 2020 kl 15-20. Plats är ännu inte bestämt.
+Jammet hålls lördagen den 3:e oktober 2020 kl 15-20 i salarna U3, U4, U6 och U7 i C-huset på campus valla.
 

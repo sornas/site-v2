@@ -10,4 +10,4 @@ free pizza.
 We will offer a code skeleton written in Python using the library pygame. The
 code skeleton will be available **here** before the jam.
 
-The jam will be held Saturday October 3rd 2020 from 3pm to 8pm. Place to be decided.
+The jam will be held Saturday October 3rd 2020 from 3pm to 8pm in the rooms U3, U4, U6 and U7 in the C-house at campus Valla.
