@@ -3,7 +3,7 @@
 A microjam is an event where **anyone** can create a game in just 5 hours. A
 [gamejam](https://en.wikipedia.org/wiki/Game_jam), but smaller!
 
-The jam is first come first served, where the first 40 get to participate. This
+The jam is first come first served, where the first 40 who fill out [this form](https://forms.gle/AGL46AXUGzfYgEbG7) get to participate. This
 is due to recommendations from Folkhälsomyndigheten. All participants will get
 free pizza.
 
