@@ -3,7 +3,8 @@
 	<p>
         Missa inte vår föreläsning! Den hålls den 3:e september 18.15-19.00. Vi
         kommer bland annat att prata om <b>git</b> som ni kommer att få bekanta
-        er med under er studietid.
+        er med under er studietid. <a href="https://zoom.us/j/93828200614">Ni
+        hittar föreläsningen här</a>.
 	</p>
     <p>
         Vi håller även i många andra event under året. Den 3:e oktober hålls
