@@ -19,3 +19,7 @@ att studenter som deltar ska bli mer eftertraktade på arbetsmarknaden tack vare
 sin dokumenterade kompetens.
 
 Mer information finns på IMPAs [hemsida](https://www.ida.liu.se/projects/impa/new/)
+
+<div id="sponsor-container">
+    <img src="/static/img/axis.jpg" alt="axis" class="sponsor" style="width: 20em;">
+</div>

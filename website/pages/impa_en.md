@@ -20,3 +20,7 @@ labor market thanks to their documented skills.
 
 More information can be found on the IMPA
 [website](https://www.ida.liu.se/projects/impa/new/)
+
+<div id="sponsor-container">
+    <img src="/static/img/axis.jpg" alt="axis" class="sponsor" style="width: 20em;">
+</div>
