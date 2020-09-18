@@ -57,8 +57,7 @@ def redirect_external(url):
 These pages should be removed when apropriate.
 """
 
-@app.route("/lödöl")
-@app.route("/lodol")
+@app.route("/lodol/")
 def lodol():
     return redirect_external("https://docs.google.com/forms/d/e/1FAIpQLSd1A_bXgJWW4jYTlbce5R0mvlCTNs6dMk1Kv4lHDiekuTomEQ/viewform")
 
