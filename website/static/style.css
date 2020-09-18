@@ -583,11 +583,14 @@ img.sponsor {
     width: 12em;
     height: auto;
     margin: auto;
-    padding: 0.5em;
+    padding: 1em;
 }
 
 /* Container for sponsor images */
 #sponsor-container {
+    max-width: 28em;
+    margin: auto;
+
     display: flex;
     flex-flow: wrap;
     align-items: center;
