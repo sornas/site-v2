@@ -21,5 +21,8 @@ sin dokumenterade kompetens.
 Mer information finns på IMPAs [hemsida](https://www.ida.liu.se/projects/impa/new/)
 
 <div id="sponsor-container">
-    <img src="/static/img/axis.jpg" alt="axis" class="sponsor" style="width: 20em;">
+    <img class="sponsor" src="/static/img/idainfront_logo.png" alt="ida infront">
+    <img class="sponsor" src="/static/img/opera_dark_logo.png" alt="opera">
+    <img class="sponsor" src="/static/img/ericsson_logo.png" alt="ericsson">
+    <img class="sponsor" src="/static/img/axis.jpg" alt="axis">
 </div>
