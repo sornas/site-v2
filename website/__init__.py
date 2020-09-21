@@ -105,6 +105,10 @@ def microjam_redir():
 def gamejam_redir():
     return redirect("/gamejam/se")
 
+@app.route("/snake-ribs/")
+def snake_ribs():
+    return redirect_external("https://lithekod.github.io/snake-ribs/")
+
 
 """Pages on sidebar
 These pages are shown on and can be accessed from the sidebar.
