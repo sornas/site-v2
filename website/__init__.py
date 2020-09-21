@@ -105,6 +105,7 @@ def microjam_redir():
 def gamejam_redir():
     return redirect("/gamejam/se")
 
+@app.route("/snake-ribs")
 @app.route("/snake-ribs/")
 def snake_ribs():
     return redirect_external("https://lithekod.github.io/snake-ribs/")
