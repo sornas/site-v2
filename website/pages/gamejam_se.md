@@ -1,6 +1,6 @@
 <img src="/static/img/logga.png" alt="LiU Game Jam" id="gamejam-logo">
 <h1>MicroJam 2020</h1>
-Gör dig redo för vårt uppkommande evenemang [Microjam](https://lithekod.se/microjam/se/)!
+Gör dig redo för vårt uppkommande evenemang [Microjam](/microjam/se/)!
 
 <h4 class="highlight">Vad är ett gamejam?</h4>
 
@@ -31,12 +31,12 @@ Besök vår [Facebook-sida](https://www.facebook.com/liugamejam/) eller följ os
     <div id="mc_embed_signup_scroll">
         <h4 class="highlight">Prenumerera på våra mailutskick</h4>
         <div class="mc-field-group">
-	    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="email-adress">
+        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="email-adress">
         </div>
-	<div id="mce-responses" class="clear">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_092a6fffba8f6063437a51495_c3863c4bf5" tabindex="-1" value=""></div>
     <div class="clear"><input type="submit" value="Prenumerera" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
@@ -83,15 +83,15 @@ Nej, inte alls! Speldesign täcker alla möjliga områden så som konst, musik, 
 
 - 3D (eller 2D) 
     - [Unity (C#)](http://unity3d.com/)
-	- [Godot (GDScript: Python-lik syntax)](https://godotengine.org/)
-	- [Unreal Engine (C++/Visuell scriptning)](https://www.unrealengine.com/)
+    - [Godot (GDScript: Python-lik syntax)](https://godotengine.org/)
+    - [Unreal Engine (C++/Visuell scriptning)](https://www.unrealengine.com/)
 
 - 2D
     - [Construct (Visuell scriptning)](https://www.scirra.com/)
-	- [Pygame (Python)](http://www.pygame.org/)
-	- [Löve (Lua)](https://love2d.org/)
-	- [Haxeflixel (Haxe)](http://haxeflixel.com/)
-	- [Scratch (Visuell scriptning)](https://scratch.mit.edu/)
+    - [Pygame (Python)](http://www.pygame.org/)
+    - [Löve (Lua)](https://love2d.org/)
+    - [Haxeflixel (Haxe)](http://haxeflixel.com/)
+    - [Scratch (Visuell scriptning)](https://scratch.mit.edu/)
 
 **Verktyg för att skapa grafik**
 
@@ -113,8 +113,8 @@ Nej, inte alls! Speldesign täcker alla möjliga områden så som konst, musik, 
 **Verktyg för att hålla koll på projektet**
 
 - [Git](https://git-scm.com/)
-	- [GitLab](http://gitlab.com/)
-	- [GitHub](http://github.com/)
-	- [LiU GitLab](https://gitlab.liu.se/)
+    - [GitLab](http://gitlab.com/)
+    - [GitHub](http://github.com/)
+    - [LiU GitLab](https://gitlab.liu.se/)
 - [SourceTree (frontend för Git)](https://www.sourcetreeapp.com/)
 - [Git kraken (cross platform frontend för Git)](https://www.gitkraken.com/)
