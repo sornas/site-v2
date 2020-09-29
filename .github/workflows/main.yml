@@ -1,4 +1,4 @@
-name: Website
+name: website
 
 on:
   push:
@@ -15,7 +15,7 @@ jobs:
             python-version: '3.8'
       - name: Python Version
         run: python --version
-      - name: Install PIP
+      - name: Install pip
         run: |
           pip install -r requirements.txt
       - name: Move files to the right place
