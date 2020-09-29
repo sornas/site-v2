@@ -22,10 +22,10 @@ if [[ $? -ne 0 ]]; then
 fi
 
 # Ensure user is publishing from master branch
-if [[ "$(git rev-parse --abbrev-ref HEAD)" != "master" ]] && [[ $PUBLISH -eq 1 ]]; then
-	echo "Error: Can only publish from \"master\" branch"
-	errors=1
-fi
+# if [[ "$(git rev-parse --abbrev-ref HEAD)" != "master" ]] && [[ $PUBLISH -eq 1 ]]; then
+# 	echo "Error: Can only publish from \"master\" branch"
+# 	errors=1
+# fi
 
 if [[ $errors -eq 1 ]]; then
     echo "Aborting due to error"
@@ -58,17 +58,17 @@ echo "Moving static files..."
 cp -r website/build/* .
 cp -r website/other/* .
 
-if [[ $PUBLISH -eq 1 ]]; then
-    echo "Sending files to remote..."
-    git add --all
-    git commit -q -m "Publish $(date +%Y-%m-%d)" --no-gpg-sign
-    git push -q -f --set-upstream origin gh-pages
-
-    echo "Removing temporary branch..."
-    git checkout -
-    git branch -D gh-pages
-
-    echo "Done publishing"
-else
-    echo "Skipping push"
-fi
+# if [[ $PUBLISH -eq 1 ]]; then
+#     echo "Sending files to remote..."
+#     git add --all
+#     git commit -q -m "Publish $(date +%Y-%m-%d)" --no-gpg-sign
+#     git push -q -f --set-upstream origin gh-pages
+# 
+#     echo "Removing temporary branch..."
+#     git checkout -
+#     git branch -D gh-pages
+# 
+#     echo "Done publishing"
+# else
+#     echo "Skipping push"
+# fi
