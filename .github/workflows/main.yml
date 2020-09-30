@@ -1,0 +1,37 @@
+name: website
+
+on:
+  push:
+    branches: master
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+            python-version: '3.8'
+      - name: Python Version
+        run: python --version
+      - name: Install pip
+        run: |
+          pip install -r requirements.txt
+      - name: Move files to the right place
+        run: |
+            echo "Freezing..."
+            python3 freezer.py
+
+            echo "Moving static files..."
+            cp -r website/build/* .
+            cp -r website/other/* .
+
+            git checkout -b gh-pages
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: gh-pages
+          build_dir: ./
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
