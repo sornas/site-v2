@@ -22,6 +22,8 @@
     --page-color: #dddcdd;
     --gray-color: #666;
     --highlight-color: #ffc600;
+
+    --hide-dark: none;
 }
 
 #theme-trigger[type="checkbox"]:not(:checked) + #body {
@@ -34,6 +36,16 @@
     --page-color: #dddcdd;
     --gray-color: #aaa;
     --highlight-color: #ffc600;
+
+    --hide-light: none;
+}
+
+#body .only-light-theme {
+    display: var(--hide-light);
+}
+
+#body .only-dark-theme {
+    display: var(--hide-dark);
 }
 
 #body {
