@@ -41,11 +41,11 @@
 }
 
 #body .only-light-theme {
-    display: var(--hide-light);
+    display: var(--hide-light) !important;
 }
 
 #body .only-dark-theme {
-    display: var(--hide-dark);
+    display: var(--hide-dark) !important;
 }
 
 #body {
