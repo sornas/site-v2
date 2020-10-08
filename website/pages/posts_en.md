@@ -1,4 +1,23 @@
 <div class="post post-border">
+    <h1>Fall meeting 2020</h1>
+    <p>The Fall meeting will be held in P18, C-huset, Tuesday 24th of November
+        at 5:15pm. Below is the agenda for the meeting.</p>
+    <ul>
+        <li>Election of meeting chairman</li>
+        <li>Election of meeting secretary</li>
+        <li>Choice of adjuster as well as counters</li>
+        <li>Determining the voting list</li>
+        <li>Resolution on the meeting's statutory announcement</li>
+        <li>Previous boards' report of the previous financial year</li>
+        <li>Financial report of the board for the previous financial year</li>
+        <li>The auditor's review of the previous financial year's board work</li>
+        <li>Decision on discharge from liability of the board of the previous financial year</li>
+        <li>Motions and bills</li>
+        <li>Other questions</li>
+    </ul>
+    <h6>8-10-2020</h6>
+</div>
+<div class="post post-border">
     <h1>COVID-19</h1>
     <p>Because of the COVID-19 outbreak and lius new regulations concerning campus, we at LiThe kod have also decided to practice social distancing. This means that all of our events will be cancelled or changed. Coding Cup 2020 and our weekly meetups <b>will not</b> be cancelled, but will instead be held online. More information about Coding Cup 2020 can be found under the Competitions tab. Meetups will  for the foreseeable future be held in our new <a href="https://discord.gg/UG5YYsN">discord server</a> at the same time as our regular meetups would.
     Keep safe and wash your hands!</p>
