@@ -1,7 +1,7 @@
 <div class="post post-border">
     <h1>Fall meeting 2020</h1>
     <p>
-        The Fall meeting will be held in our
+        The fall meeting will be held in our
         <a href="https://discord.gg/F8KNV89">Discord server</a>,
         Tuesday 24th of November at 5:15pm. Below is the agenda for
         the meeting.

@@ -2,7 +2,7 @@
     <h1>Höstmöte 2020</h1>
     <p>
         Höstmötet kommer att hållas i vår
-        <a href="https://discord.gg/F8KNV89">Discord kanal</a>, Tisdag 24:e November
+        <a href="https://discord.gg/F8KNV89">discordserver</a>, tisdag 24:e november
         kl 17.15. Samtliga medlemmar får närvara med rösträtt. Nedan följer
         höstmötets föredragningslista.
     </p>
