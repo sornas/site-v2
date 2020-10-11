@@ -1,10 +1,6 @@
 /* General Configuration */
 :root {
     --margin: 3em;
-    --sidebar-color: #222;
-    --sidebar-highlight-color: #EEE;
-    --sidebar-highlight-bg-color: #333;
-    --sidebar-accent-color: #1ec6ba;
     --dark-text-color: #606060;
     --max-article-width: 42em;
     --footer-fg-color: #777;
@@ -23,6 +19,11 @@
     --gray-color: #666;
     --highlight-color: #ffc600;
 
+    --sidebar-color: #EFEFEF;
+    --sidebar-highlight-color: #EEE;
+    --sidebar-highlight-bg-color: #AAA;
+    --sidebar-accent-color: #2caea5;
+
     --hide-dark: none;
 }
 
@@ -36,6 +37,11 @@
     --page-color: #dddcdd;
     --gray-color: #aaa;
     --highlight-color: #ffc600;
+
+    --sidebar-color: #222;
+    --sidebar-highlight-color: #EEE;
+    --sidebar-highlight-bg-color: #333;
+    --sidebar-accent-color: #1ec6ba;
 
     --hide-light: none;
 }
