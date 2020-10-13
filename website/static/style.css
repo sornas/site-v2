@@ -1,14 +1,12 @@
 /* General Configuration */
 :root {
     --margin: 3em;
-    --sidebar-color: #222;
-    --sidebar-highlight-color: #EEE;
-    --sidebar-highlight-bg-color: #333;
-    --sidebar-accent-color: #1ec6ba;
     --dark-text-color: #606060;
     --max-article-width: 42em;
     --footer-fg-color: #777;
     --footer-highlight-fg-color: #EEE;
+
+    --dark-background-color: #202020;
 }
 
 /* Configure themes */
@@ -23,19 +21,29 @@
     --gray-color: #666;
     --highlight-color: #ffc600;
 
+    --sidebar-color: #EEE;
+    --sidebar-highlight-color: #EEE;
+    --sidebar-highlight-bg-color: #AAA;
+    --sidebar-accent-color: #2caea5;
+
     --hide-dark: none;
 }
 
 #theme-trigger[type="checkbox"]:not(:checked) + #body {
     /* Dark theme */
     --primary-color: #eee;
-    --background-color: #202020;
+    --background-color: var(--dark-background-color);
     --footer-bg-color: #303030;
     --footer-highlight-fg-color: #EEE;
     --link-color: #1ec6ba;
     --page-color: #dddcdd;
     --gray-color: #aaa;
     --highlight-color: #ffc600;
+
+    --sidebar-color: #222;
+    --sidebar-highlight-color: #EEE;
+    --sidebar-highlight-bg-color: #333;
+    --sidebar-accent-color: #1ec6ba;
 
     --hide-light: none;
 }
@@ -196,6 +204,9 @@ nav #nav-logo {
     }
 }
 
+nav #nav-logo-container {
+    background: var(--dark-background-color);
+}
 
 /* Navigation bar list */
 nav ul {
@@ -239,7 +250,6 @@ nav .item:hover {
 nav .item.selected:hover {
     color: var(--sidebar-highlight-color);
 }
-
 
 #toggle-lang:hover, #toggle-theme:hover {
     background-color: var(--sidebar-highlight-bg-color);
