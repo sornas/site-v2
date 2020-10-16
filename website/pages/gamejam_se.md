@@ -1,6 +1,22 @@
 <img src="/static/img/logga.png" alt="LiU Game Jam" id="gamejam-logo">
-<h1>MicroJam 2020</h1>
-Gör dig redo för vårt uppkommande evenemang [Microjam](/microjam/se/)!
+<h1>Fall Game Jam 2020</h1>
+Gör dig redo för vårt kommande evenemang Fall Game Jam!
+Den 13:e - 15:e november hålls årets upplaga av Fall Game Jam.
+På grund av att COVID-19 fortfarande orsakar förödelser i världen hålls jammet på distans via vår [Discord-server](https://discord.gg/eHgXYMS). Ta även en titt på vårt [Facebook-event](https://www.facebook.com/events/4918751154809003/).
+
+<h4 class="highlight">Schema för Fall Game Jam</h4>
+
+**Fredag den 13:e 18:00**
+
+- Introduktionsstream.
+- Temagenerering.
+- Brainstormning tillsammans med andra jammare i Discord-servern. (För att delta i brainstormningen behöver ni ha en fungerande mikrofon.)
+- Gruppbildning.
+
+**Söndag den 15:e 18:00**
+
+- Deadline för att lämna in ditt spel på [itch.io](https://itch.io).
+- Speltestning!
 
 <h4 class="highlight">Vad är ett gamejam?</h4>
 
