@@ -1,6 +1,8 @@
 # Organization
 
-Here you will find documents tied to the organization.
+Here you can find documents and information tied to the organization.
+
+## [Fall and spring meetings](/meetings/en)
 
 ## [Github](https://github.com/lithekod)
 

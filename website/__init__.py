@@ -110,6 +110,9 @@ def gamejam_redir():
 def snake_ribs():
     return redirect_external("https://lithekod.github.io/snake-ribs/")
 
+@app.route("/meetings/")
+def meetings_redir(): return redirect("/meetings/se")
+
 
 """Pages on sidebar
 These pages are shown on and can be accessed from the sidebar.
@@ -263,6 +266,15 @@ def lacc():
     """ LiTHe kod's Amazing Coding Challenges """
     return static_page("website/other/lacc.html")
 
+@app.route("/meetings/se/")
+def meetings_se():
+    """Swedish meetings page"""
+    return render_page("website/pages/meetings_se.md", "/meetings/", -1, True)
+
+@app.route("/meetings/en/")
+def meetings_en():
+    """Enligsh meetings page"""
+    return render_page("website/pages/meetings_en.md", "/meetings/", -1, False)
 
 def aoc_standings():
     """ Get the current standings in AoC. """
