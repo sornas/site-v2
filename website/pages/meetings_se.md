@@ -18,4 +18,4 @@
     <li>Motioner och propositioner</li>
     <li>Övriga frågor</li>
 </ul>
-<h6>8-10-2020</h6>
+<h6>2020-10-17</h6>
