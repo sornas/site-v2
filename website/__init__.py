@@ -9,7 +9,6 @@ app = Flask(__name__, static_folder='static')
 # ((Name_se, Name_en), Url, Internal?)
 navigation = [
         (("Start", "Start"),               "/",              True),
-        (("Inlägg", "Posts"),              "/posts/",        True),
         (("Kontakt", "Contact us"),        "/contact/",      True),
         (("Tävlingar", "Competitions"),    "/competitions/", True),
         (("Game Jam", "Game Jam"),         "/gamejam/",      True),
@@ -70,7 +69,7 @@ The default page when accessing a link will be in swedish.
 def index_redir(): return redirect("/se/")
 
 @app.route("/posts/")
-def posts_redir(): return redirect("/posts/se/")
+def posts_redir(): return redirect("/meetings/")
 
 @app.route("/contact/")
 def contact_redir(): return redirect("/contact/se/")
@@ -110,6 +109,9 @@ def gamejam_redir():
 def snake_ribs():
     return redirect_external("https://lithekod.github.io/snake-ribs/")
 
+@app.route("/meetings/")
+def meetings_redir(): return redirect("/meetings/se")
+
 
 """Pages on sidebar
 These pages are shown on and can be accessed from the sidebar.
@@ -127,63 +129,53 @@ def index_en():
     """ English Index page """
     return render_page("website/pages/index_en.md", "/", 0, False)
 
-@app.route("/posts/se/")
-def posts_se():
-    """ Swedish Posts page """
-    return render_page("website/pages/posts_se.md", "/posts/", 1, True)
-
-@app.route("/posts/en/")
-def posts_en():
-    """ English Posts page """
-    return render_page("website/pages/posts_en.md", "/posts/", 1, False)
-
 @app.route("/contact/se/")
 def contact_se():
     """ Swedish Contact page """
-    return render_page("website/pages/contact_se.md", "/contact/", 2, True)
+    return render_page("website/pages/contact_se.md", "/contact/", 1, True)
 
 @app.route("/contact/en/")
 def contact_en():
     """ English Contact page """
-    return render_page("website/pages/contact_en.md", "/contact/", 2, False)
+    return render_page("website/pages/contact_en.md", "/contact/", 1, False)
 
 @app.route("/competitions/se/")
 def competitions_se():
     """ Swedish Competitons page """
-    return render_page("website/pages/competitions_se.md", "/competitions/", 3, True)
+    return render_page("website/pages/competitions_se.md", "/competitions/", 2, True)
 
 @app.route("/competitions/en/")
 def competitions_en():
     """ English Competitons page """
-    return render_page("website/pages/competitions_en.md", "/competitions/", 3, False)
+    return render_page("website/pages/competitions_en.md", "/competitions/", 2, False)
 
 @app.route("/gamejam/se/")
 def gamejam_se():
-    return render_page("website/pages/gamejam_se.md", "/gamejam/", 4, True)
+    return render_page("website/pages/gamejam_se.md", "/gamejam/", 3, True)
 
 @app.route("/gamejam/en/")
 def gamejam_en():
-    return render_page("website/pages/gamejam_en.md", "/gamejam/", 4, False)
+    return render_page("website/pages/gamejam_en.md", "/gamejam/", 3, False)
 
 @app.route("/organization/se/")
 def organization_se():
     """ Swedish Organization page """
-    return render_page("website/pages/organization_se.md", "/organization/", 5, True)
+    return render_page("website/pages/organization_se.md", "/organization/", 4, True)
 
 @app.route("/organization/en/")
 def organization_en():
     """ English Organization page """
-    return render_page("website/pages/organization_en.md", "/organization/", 5, False)
+    return render_page("website/pages/organization_en.md", "/organization/", 4, False)
 
 @app.route("/cheats/se/")
 def cheats_se():
     """ Swedish Cheats page """
-    return render_page("website/pages/cheats_se.md", "/cheats/", 6, True)
+    return render_page("website/pages/cheats_se.md", "/cheats/", 5, True)
 
 @app.route("/cheats/en/")
 def cheats_en():
     """ English Cheats page """
-    return render_page("website/pages/cheats_en.md", "/cheats/", 6, False)
+    return render_page("website/pages/cheats_en.md", "/cheats/", 5, False)
 
 """Other pages
 These pages can be accessed from a direct link. They do not show up
@@ -262,6 +254,28 @@ def emacs():
 def lacc():
     """ LiTHe kod's Amazing Coding Challenges """
     return static_page("website/other/lacc.html")
+
+@app.route("/meetings/se/")
+def meetings_se():
+    """Swedish meetings page"""
+    return render_page("website/pages/meetings_se.md", "/meetings/", -1, True)
+
+@app.route("/meetings/en/")
+def meetings_en():
+    """Enligsh meetings page"""
+    return render_page("website/pages/meetings_en.md", "/meetings/", -1, False)
+
+""" Redirects from old pages.
+These pages used to exist but not anymore. They redirect to the new content
+so old links still work.
+"""
+@app.route("/posts/se/")
+def posts_se():
+    return redirect("/meetings/se/")
+
+@app.route("/posts/en/")
+def posts_en():
+    return redirect("/meetings/en/")
 
 
 def aoc_standings():
