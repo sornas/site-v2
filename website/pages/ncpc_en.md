@@ -23,7 +23,7 @@ Contest schedule November 7:
 
 * 10:00 - Intro presentation in Discord
 * 11:00 - Contest starts!
-* ~~13:00 (ish) - Free lunch for on-site~~
+* <del>13:00 (ish) - Free lunch for on-site</del>
 * 16:00 - Contest ends, outro presentation (and possibly a small hangout) in Discord
 
 ## Details
@@ -32,11 +32,11 @@ Due to Covid-19 the contest will look a bit different than usual. Teams will be
 able to compete from home if they so wish, and due to this there is a limit of
 one computer per team member rather than the usual one computer per team.
 
-~~For those interested and willing, LiTHe kod will offer access to university
+<del>For those interested and willing, LiTHe kod will offer access to university
 computer labs and free food on the day of the contest. Due to the new rules
 above, however, this is not a requirement for participating. For those competing
 on-site we will begin at 10:00 in Ada Lovelace, door 27 in B-huset, with
-information about the contest rules and a few words from our sponsors.~~
+information about the contest rules and a few words from our sponsors.</del>
 
 We will begin at 10:00 in [our Discord Server](https://discord.gg/UG5YYsN) with
 a streamed intro presentation.
@@ -52,8 +52,8 @@ to three people. If you don't have a team to compete with and don't want to
 compete by yourself (or if you are two people looking for a third), send an e-mail
 to <a href="mailto:vordf@lithekod.se">vordf@lithekod.se</a> with "ncpc
 registration" somewhere in the subject line, at or before November 1. Please include if you are ICPC
-eligible (see below) ~~and if you want to compete on-site or not. Due to the
-current situation, a wish to compete off-site will take priority~~.
+eligible (see below) <del>and if you want to compete on-site or not. Due to the
+current situation, a wish to compete off-site will take priority</del>.
 
 Note that progress to NWERC can only be offered to teams that are
 [ICPC eligible](https://icpc.global/regionals/rules), that is, if your
