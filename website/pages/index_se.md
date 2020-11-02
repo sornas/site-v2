@@ -1,3 +1,13 @@
+<div id="important-information">
+    <p>
+    På grund av de nya riktlinjerna från FHM så kan vi tyvärr ej hålla i Lödölen så
+    som planerat. Vi kommer försöka hålla ett annat evenemang som håller sig enligt
+    de nya riktlinjerna. Mer information om det kommer denna vecka, så håll utkik!
+    Vi har dock ej gett upp på Lödölen än och kommer på en lite soligare dag
+    försöka hålla en ordentlig Lödöl.
+    </p>
+</div>
+
 # Vilka är vi?
 
 LiTHe kod är en studentförening vid Linköpings universitet vars syfte

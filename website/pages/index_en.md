@@ -1,3 +1,13 @@
+<div id="important-information">
+    <p>
+    We can unfortunately not organize the Lödöl as planned becasue of the new
+    guidelines from FHM. We will try to organize another event that follow the new
+    guidelines. More information about that will be available this week, so look
+    out for that! We have not given up on the Lödöl concept yet though, and will on
+    a sunnier day try to organize a proper Lödöl.
+    </p>
+</div>
+
 # Who are we?
 
 LiTHe kod is a student association at Linköping University whose mission
