@@ -1,4 +1,7 @@
 <div id="important-information">
+    <h2>
+    Information about the Lödöl
+    </h2>
     <p>
     We can unfortunately not organize the Lödöl as planned becasue of the new
     guidelines from FHM. We will try to organize another event that follow the new

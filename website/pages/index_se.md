@@ -1,4 +1,7 @@
 <div id="important-information">
+    <h2>
+    Information angående Lödölen
+    </h2>
     <p>
     På grund av de nya riktlinjerna från FHM så kan vi tyvärr ej hålla i Lödölen så
     som planerat. Vi kommer försöka hålla ett annat evenemang som håller sig enligt
