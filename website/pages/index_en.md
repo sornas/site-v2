@@ -1,9 +1,3 @@
-<div id="important-information">
-    <h2>
-    Lödöl: Cancelled
-    </h2>
-</div>
-
 # Who are we?
 
 LiTHe kod is a student association at Linköping University whose mission

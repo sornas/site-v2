@@ -1,9 +1,3 @@
-<div id="important-information">
-    <h2>
-    Lödöl: Inställt
-    </h2>
-</div>
-
 # Vilka är vi?
 
 LiTHe kod är en studentförening vid Linköpings universitet vars syfte
