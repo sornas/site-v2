@@ -9,7 +9,7 @@ used commands, appropriate for beginners.
 ## <a href="/vimrc" download=".vimrc">.vimrc</a>
 A great introductory vimrc file for aspiring developers.
 Featuring some quality of life Python features and
-sane default.
+sane defaults.
 
 Remember to rename to ".vimrc"!
 
