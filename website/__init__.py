@@ -163,30 +163,6 @@ def not_found_gh_pages():
     """ 404 page to please GitHub pages """
     return render_page("website/pages/404.md", "/404/", False)
 
-# ========== Other ==========
-
-def aoc_standings():
-    """ Get the current standings in AoC. """
-    import json
-    with open("aoc_standings.json", "r") as f:
-        standings_json = json.loads(f.read())
-
-    contestants = []
-    for member_id in standings_json["members"]:
-        m = standings_json["members"][member_id]
-        if m["name"] is not None:
-            contestants.append((int(m["stars"]), int(m["local_score"]), m["name"]))
-        else:
-            contestants.append((int(m["stars"]), int(m["local_score"]), "Anon." + m["id"]))
-
-    sorting = lambda x: x[0] * 1000 + x[1]
-    raised = sum(map(lambda x: x[0] * 10, contestants)) // 2
-    placements = [(x[0], x[1][0], x[1][2]) for x in enumerate(sorted(contestants, key=sorting, reverse=True))]
-    return render_template("aoc_leaderboard.html",
-                           raised=raised,
-                           trees=round(raised / 10),
-                           contestants=placements)
-
 # ========== Running ==========
 
 if __name__ == "__main__":
