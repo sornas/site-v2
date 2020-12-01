@@ -1,3 +1,14 @@
+<div id="important-information">
+    <p>
+        På grund av oförutsedda konsekvenser var vi idag tvugna att återställa
+        leaderboarden. Om du inte är med i leaderboarden längre behöver du gå med
+        igen. Notera också att det endast är studerande vid LiU som får delta.
+    </p>
+    <p>
+        Ursäkta röran // LiTHe kod
+    </p>
+</div>
+
 # Advent of Code
 
 Gå med i vår [leaderboard](https://adventofcode.com/2020/leaderboard)! Koden
