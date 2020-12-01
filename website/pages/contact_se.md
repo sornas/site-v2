@@ -11,37 +11,37 @@ Om du inte redan är med i Slack-gruppen så kan du
 
 <div id="card-container">
 	<div class="profile-card">
-		<img src="/static/img/edvard.png" alt="Edvard Thörnros">
+		<img src="/static/img/edvard_christmas.png" alt="Edvard Thörnros">
 		<h2>Edvard Thörnros</h2>
 		<p>Ordförande - <a href="mailto:ordf@lithekod.se">ordf@lithekod.se</a></p>
 	</div>
 	<div class="profile-card">
-		<img src="/static/img/victor.png" alt="Victor Lells">
+		<img src="/static/img/victor_christmas.png" alt="Victor Lells">
 		<h2>Victor Lells</h2>
 		<p>Kassör - <a href="mailto:kassor@lithekod.se">kassor@lithekod.se</a></p>
 	</div>
 	<div class="profile-card">
-		<img src="/static/img/annie.png" alt="Annie Wång">
+		<img src="/static/img/annie_christmas.png" alt="Annie Wång">
 		<h2>Annie Wång</h2>
 		<p>Game Jam-ansvarig - <a href="mailto:gamejam@lithekod.se">gamejam@lithekod.se</a></p>
 	</div>
 	<div class="profile-card">
-		<img src="/static/img/gustav.png" alt="Gustav Sörnäs">
+		<img src="/static/img/gustav_christmas.png" alt="Gustav Sörnäs">
 		<h2>Gustav Sörnäs</h2>
 		<p>Vice ordförande - <a href="mailto:vordf@lithekod.se">vordf@lithekod.se</a></p>
 	</div>
 	<div class="profile-card">
-		<img src="/static/img/gabriel.png" alt="Gabriel Tofvesson">
+		<img src="/static/img/gabriel_christmas.png" alt="Gabriel Tofvesson">
 		<h2>Gabriel Tofvesson</h2>
 		<p>PR - <a href="mailto:pr@lithekod.se">pr@lithekod.se</a></p>
 	</div>
 	<div class="profile-card">
-		<img src="/static/img/agnes.png" alt="Agnes Wendt">
+		<img src="/static/img/agnes_christmas.png" alt="Agnes Wendt">
 		<h2>Agnes Wendt</h2>
 		<p>Verksamhetsansvarig - <a href="mailto:verks@lithekod.se">verks@lithekod.se</a></p>
 	</div>
 	<div class="profile-card">
-		<img src="/static/img/erik.png" alt="Erik Mattfolk">
+		<img src="/static/img/erik_christmas.png" alt="Erik Mattfolk">
 		<h2>Erik Mattfolk</h2>
 		<p>Webb - <a href="mailto:webb@lithekod.se">webb@lithekod.se</a></p>
 	</div>
