@@ -30,7 +30,7 @@ Code's site where we primarily sort by number of stars and secondarily by the
 number of points. Only people studying at LiU are eligible to compete but you
 can press a super advanced button below to also show non-competitors. If you
 think that you should be on the competition list but aren't, please contact
-someone in the board and we'll take a look at it. (You can also contact us if
+someone on the board and we'll take a look at it. (You can also contact us if
 you don't want to be on the competition list.)
 
 Prizes are dealt out according to the following after the competition has ended:

@@ -28,7 +28,7 @@ Utöver vår Advent of Code-leaderboard håller LiTHe kod i en egen tävling. Vi
 använder en lite annorlunda sortering än den på Advent of Codes hemsida där vi i
 första hand sorterar efter stjärnor och sedan poäng. Endast LiU-studerande får
 vara med och tävla om priserna men det går att trycka på en superavancerad knapp
-för att visa även icke-tävlande. Om du tycker att du visst studerar på LiU men
+för att även visa icke-tävlande. Om du tycker att du visst studerar på LiU men
 inte är med på listan får du gärna kontakta någon i styrelsen så löser vi det.
 (Du kan också kontakta oss om du inte vill vara med i tävlingen.)
 
