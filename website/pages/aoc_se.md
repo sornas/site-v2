@@ -1,17 +1,3 @@
-<div id="important-information">
-    <p>
-        (2020-12-01) På grund av oförutsedda konsekvenser var vi idag tvugna att återställa
-        leaderboarden. Om du inte är med i leaderboarden längre behöver du gå med
-        igen.
-    </p>
-    <p>
-        (2020-12-04) Vi har också lagt till information om icke-tävlande nedan.
-    </p>
-    <p>
-        Ursäkta röran // LiTHe kod
-    </p>
-</div>
-
 # Advent of Code
 
 Gå med i vår [leaderboard](https://adventofcode.com/2020/leaderboard)! Koden

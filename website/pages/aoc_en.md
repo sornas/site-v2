@@ -1,17 +1,3 @@
-<div id="important-information">
-    <p>
-        (2020-12-01) Due to unforseen consequences we were forced to reset the leaderboard
-        today. If you are no longer in the leaderboard, you need to join it
-        again.
-    </p>
-    <p>
-        (2020-12-04) We've also added information about non-competitors below.
-    </p>
-    <p>
-        Excuse the mess // LiTHe kod
-    </p>
-</div>
-
 # Advent of Code
 
 Join our [leaderboard](https://adventofcode.com/2020/leaderboard)! The join code
