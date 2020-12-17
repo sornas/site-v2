@@ -19,7 +19,8 @@ think that you should be on the competition list but aren't, please contact
 someone on the board and we'll take a look at it. (You can also contact us if
 you don't want to be on the competition list.)
 
-Prizes are dealt out according to the following after the competition has ended:
+Prizes are dealt out according to the following when the competition ends
+2020-12-25 23.59.
 
 <ol start="0">
 <li>1500 SEK</li>

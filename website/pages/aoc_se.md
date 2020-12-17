@@ -18,7 +18,7 @@ för att även visa icke-tävlande. Om du tycker att du visst studerar på LiU m
 inte är med på listan får du gärna kontakta någon i styrelsen så löser vi det.
 (Du kan också kontakta oss om du inte vill vara med i tävlingen.)
 
-Priserna delas ut enligt följande efter tävlingens slut.
+Priserna delas ut enligt följande efter tävlingens slut 2020-12-25 23:59.
 
 <ol start="0">
 <li>1500 SEK</li>
