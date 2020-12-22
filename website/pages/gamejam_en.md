@@ -1,22 +1,9 @@
 <img src="/static/img/logga.png" alt="LiU Game Jam" id="gamejam-logo">
-<h1>Fall Game Jam 2020</h1>
-Get ready for our upcoming event, Fall Game Jam!
-This year's edition of Fall Game Jam will be held 13th - 15th November.
-Because COVID-19 is still wreaking havoc in the world, the jam will be held remotely in our [Discord server](https://discord.gg/eHgXYMS). Also check out our [Facebook event](https://www.facebook.com/events/4918751154809003/).
-
-<h4 class="highlight">Schedule for Fall Game Jam</h4>
-
-**Friday the 13th 6pm**
-
-- Introduction stream.
-- Theme generation.
-- Brainstorming together with other jammers on Discord. (To participate in the brainstorming you need a working microphone.)
-- Team forming.
-
-**Sunday the 15th 6pm**
-
-- Deadline to upload your game to [itch.io](https://itch.io).
-- Playtesting!
+<h1>Global Game Jam 2020</h1>
+Get ready for our upcoming event, Global Game Jam!
+This year's edition of Fall Game Jam will be held 29th - 31st January.
+Because COVID-19 is still wreaking havoc in the world, the jam will be held remotely in our [Discord server](https://discord.gg/eHgXYMS). Also check out our [Facebook event](https://fb.me/e/1SCmIAaRH).
+Join our site on Global Game Jams official [website](https://globalgamejam.org/2021/jam-sites/liu-game-jam)!
 
 <h4 class="highlight">What is a game jam?</h4>
 
