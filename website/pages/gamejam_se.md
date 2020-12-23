@@ -1,22 +1,9 @@
 <img src="/static/img/logga.png" alt="LiU Game Jam" id="gamejam-logo">
-<h1>Fall Game Jam 2020</h1>
-Gör dig redo för vårt kommande evenemang Fall Game Jam!
-Den 13:e - 15:e november hålls årets upplaga av Fall Game Jam.
-På grund av att COVID-19 fortfarande orsakar förödelser i världen hålls jammet på distans via vår [Discord-server](https://discord.gg/eHgXYMS). Ta även en titt på vårt [Facebook-event](https://www.facebook.com/events/4918751154809003/).
-
-<h4 class="highlight">Schema för Fall Game Jam</h4>
-
-**Fredag den 13:e 18:00**
-
-- Introduktionsstream.
-- Temagenerering.
-- Brainstormning tillsammans med andra jammare i Discord-servern. (För att delta i brainstormningen behöver ni ha en fungerande mikrofon.)
-- Gruppbildning.
-
-**Söndag den 15:e 18:00**
-
-- Deadline för att lämna in ditt spel på [itch.io](https://itch.io).
-- Speltestning!
+<h1>Global Game Jam 2021</h1>
+Gör dig redo för vårt kommande evenemang Global Game Jam!
+Den 29:e - 31:a januari hålls årets upplaga av Global Game Jam.
+På grund av att COVID-19 fortfarande orsakar förödelser i världen hålls jammet på distans via vår [Discord-server](https://discord.gg/eHgXYMS). Ta även en titt på vårt [Facebook-event](https://fb.me/e/1SCmIAaRH).
+Gå även gärna med i vår site på Global Game Jams officiella [hemsida](https://globalgamejam.org/2021/jam-sites/liu-game-jam)!
 
 <h4 class="highlight">Vad är ett gamejam?</h4>
 
