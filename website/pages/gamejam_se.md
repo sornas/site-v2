@@ -1,7 +1,7 @@
 <img src="/static/img/logga.png" alt="LiU Game Jam" id="gamejam-logo">
 <h1>Global Game Jam 2021</h1>
 Gör dig redo för vårt kommande evenemang Global Game Jam!
-Den 29:e - 31:e januari hålls årets upplaga av Global Game Jam.
+Den 29:e - 31:a januari hålls årets upplaga av Global Game Jam.
 På grund av att COVID-19 fortfarande orsakar förödelser i världen hålls jammet på distans via vår [Discord-server](https://discord.gg/eHgXYMS). Ta även en titt på vårt [Facebook-event](https://fb.me/e/1SCmIAaRH).
 Gå även gärna med i vår site på Global Game Jams offeciella [hemsida](https://globalgamejam.org/2021/jam-sites/liu-game-jam)!
 
