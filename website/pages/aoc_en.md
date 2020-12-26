@@ -5,13 +5,13 @@
 
 <p>
     We have raised 6380:- in total for covid-research and 6380:- to
-    the creator of advent of code!
+    the creator of Advent of Code!
 </p>
 
 <p>
-    More over, there are ten programmers that have won prizes! To claim your
-    prize, send an email to kassor@lithekod.se from your liu-mail containing an
-    screenshot of the settings-tab found on the advent of code website. It is
+    Moreover, there are ten programmers that have won prizes! To claim your
+    prize, send an email to kassor@lithekod.se from your liu-mail containing a
+    screenshot of the settings tab found on the Advent of Code website. It is
     important that you are logged into your account on this screenshot so we
     can verify your identity.
 </p>
@@ -19,7 +19,7 @@
 <p>
     The prizes are handed out as digital giftcards that can be
     purchased and distributed online. Include, because of that, also what
-    website you want your giftcard to to the email.
+    website you want your giftcard to in the email.
     Congratulations to everyone who won!
 </p>
 </div>

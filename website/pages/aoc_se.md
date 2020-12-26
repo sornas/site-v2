@@ -5,18 +5,18 @@
 
 <p>
     Vi har sammanlagt donerat 6380:- till covid-forskning och 6380:- till
-    skaparen av advent of code!
+    skaparen av Advent of Code!
 </p>
 <p>
-    Utöver detta har vi även tio programmerare som vunnit priser! För att hämta pris så måste du
-    skicka ett mail till kassor@lithekod.se från din liu-mail som innehåller en
-    screenshot på settings-tabben funnen på advent of codes hemsida. Det är viktigt
-    att du är inloggad på ditt konto på advent of code på denna screenshoten så att
+    Utöver detta har vi även tio programmerare som vunnit priser! För att hämta ditt pris skickar du
+    ett mail till kassor@lithekod.se från din liu-mail som innehåller en
+    screenshot på settings-fliken på Advent of Codes hemsida. Det är viktigt
+    att du är inloggad på ditt konto på Advent of Code på denna screenshot så att
     vi kan verifiera din identitet.
 </p>
 <p>
     Priserna delas ut i form av digitala
-    presentkort som ska kunna köpas och distribueras digitalt. Inklidera därför
+    presentkort som ska kunna köpas och distribueras digitalt. Inkludera därför
     även vilken hemsida du vill ha presentkort på i mailet. Grattis till alla som
     vunnit!
 </p>
