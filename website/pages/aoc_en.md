@@ -1,5 +1,29 @@
 # Advent of Code
 
+<div id="important-information">
+    <p> Hello, this year's advent of code is now over! </p>
+
+<p>
+    We have raised 6380:- in total for covid-research and 6380:- to
+    the creator of advent of code!
+</p>
+
+<p>
+    More over, there are ten programmers that have won prizes! To claim your
+    prize, send an email to kassor@lithekod.se from your liu-mail containing an
+    screenshot of the settings-tab found on the advent of code website. It is
+    important that you are logged into your account on this screenshot so we
+    can verify your identity.
+</p>
+
+<p>
+    The prizes are handed out as digital giftcards that can be
+    purchased and distributed online. Include, because of that, also what
+    website you want your giftcard to to the email.
+    Congratulations to everyone who won!
+</p>
+</div>
+
 Join our [leaderboard](https://adventofcode.com/2020/leaderboard)! The join code
 is <b style="font-family: monospace; font-size: 1.3em;">637041-f5ee40da</b>.
 
@@ -42,6 +66,7 @@ Prizes are dealt out according to the following when the competition ends
 
 <hr>
 
+## Competition is now over
 <label class="toggle-aoc" for="aoc-trigger"><span class="only-aoc-some">Show all</span><span class="only-aoc-all">Show eligible</span></label>
 <div id="leaderboard-container">
     <span class="only-aoc-all">
