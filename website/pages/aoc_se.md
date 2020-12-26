@@ -1,17 +1,26 @@
 # Advent of Code
 
-Hej, nu har årets advent of code tagit slut. Vi har sammanlagt donerat 6380:-
-till covid-forskning och 6380:- skaparen till advent of code! Utöver detta har
-vi även tio programmerare som vunnit priser! För att hämta ut ditt pris om du
-är en av dessa (ställningen kan ses på https://lithekod.se/aoc/se/ och du vet
-att du är en av vinnarna om du står på någon av platserna 0-9) så måste du
-skicka ett mail till kassor@lithekod.se från din liu-mail som innehåller en
-screenshot på settings-tabben funnen på advent of codes hemsida. Det är viktigt
-att du är inloggad på ditt konto på advent of code på denna screenshoten så att
-vi kan verifiera din identitet. Priserna delas ut i form av digitala
-presentkort som ska kunna köpas och distribueras digitalt. Inklidera därför
-även vilken hemsida du vill ha presentkort på i mailet. Grattis till alla som
-vunnit!
+<div id="important-information">
+    <p> Hej, nu har årets advent of code tagit slut! </p>
+
+<p>
+    Vi har sammanlagt donerat 6380:- till covid-forskning och 6380:- till
+    skaparen av advent of code!
+</p>
+<p>
+    Utöver detta har vi även tio programmerare som vunnit priser! För att hämta pris så måste du
+    skicka ett mail till kassor@lithekod.se från din liu-mail som innehåller en
+    screenshot på settings-tabben funnen på advent of codes hemsida. Det är viktigt
+    att du är inloggad på ditt konto på advent of code på denna screenshoten så att
+    vi kan verifiera din identitet.
+</p>
+<p>
+    Priserna delas ut i form av digitala
+    presentkort som ska kunna köpas och distribueras digitalt. Inklidera därför
+    även vilken hemsida du vill ha presentkort på i mailet. Grattis till alla som
+    vunnit!
+</p>
+</div>
 
 Gå med i vår [leaderboard](https://adventofcode.com/2020/leaderboard)! Koden
 är <b style="font-family: monospace; font-size: 1.3em;">637041-f5ee40da</b>.
