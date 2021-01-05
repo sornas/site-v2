@@ -14,7 +14,7 @@ Because COVID-19 is still wreaking havoc in the world, the jam will be held remo
 **Friday the 29th**
 
 - 5.30pm
-    - Pre-jam chill and watching Global Game Jams presentation.
+    - Pre-jam chill and watching Global Game Jam's presentation.
 - 6.00pm
     - Introduction stream.
     - Brainstorming together with other jammers in Discord (similar to our physical jams).

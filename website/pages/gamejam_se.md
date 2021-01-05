@@ -14,7 +14,7 @@ På grund av att COVID-19 fortfarande orsakar förödelser i världen hålls jam
 **Fredag den 29:e**
 
 - 17:30 
-    - Före-jam häng och tittande på Global Game Jams presentation.
+    - Före jam-häng och tittande på Global Game Jams presentation.
 - 18:00 
     - Introduktionsstream.
     - Brainstorming tillsammans med andra jammare i Discord (likt våra fysiska jams).
