@@ -6,7 +6,7 @@ På grund av att COVID-19 fortfarande orsakar förödelser i världen hålls jam
 
 **För att vara med**
 - Gå med på vår [Global Game Jam site](https://globalgamejam.org/2021/jam-sites/liu-game-jam).
-- Gå med i vår [Discordserver](https://discord.gg/eHgXYMS).
+- Gå med i vår [Discord server](https://discord.gg/eHgXYMS).
 - Gå med på vår [Itch.io](https://itch.io/jam/global-game-jam-linkoping-2021)
 
 <h4 class="highlight">Global Game Jam schema</h4>
@@ -23,7 +23,7 @@ På grund av att COVID-19 fortfarande orsakar förödelser i världen hålls jam
 **Lördag den 30:e**
 
 - 18:00
-    - Halvtidsredovisning på Discord.
+    - Halvtidsredovisning i Discord.
 - 23:00
     - Natt-häng med partyspel.
 
@@ -31,8 +31,8 @@ På grund av att COVID-19 fortfarande orsakar förödelser i världen hålls jam
 
 - 18:00
     - Avslutningsstream.
-    - Inlämningsdeadline för spel på Itch.io och Global Game Jam:s sida.
-    - Speltestning på Discord.
+    - Inlämningsdeadline för spel på Itch.io och Global Game Jams sida.
+    - Speltestning i Discord.
 
 <h4 class="highlight">Vad är ett gamejam?</h4>
 
