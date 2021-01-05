@@ -23,7 +23,7 @@ På grund av att COVID-19 fortfarande orsakar förödelser i världen hålls jam
 **Lördag den 30:e**
 
 - 18:00
-    - Halvtidsredovisning på Discord.
+    - Halvtidsredovisning i Discord.
 - 23:00
     - Natt-häng med partyspel.
 
