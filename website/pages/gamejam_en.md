@@ -6,7 +6,7 @@ Because COVID-19 is still wreaking havoc in the world, the jam will be held remo
 
 **To participate**
 - Join our [Global Game Jam site](https://globalgamejam.org/2021/jam-sites/liu-game-jam).
-- Join our [Discordserver](https://discord.gg/eHgXYMS).
+- Join our [Discord server](https://discord.gg/eHgXYMS).
 - Join our [Itch.io](https://itch.io/jam/global-game-jam-linkoping-2021)
 
 <h4 class="highlight">Global Game Jam schedule</h4>
