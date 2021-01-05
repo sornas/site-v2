@@ -6,7 +6,7 @@ På grund av att COVID-19 fortfarande orsakar förödelser i världen hålls jam
 
 **För att vara med**
 - Gå med på vår [Global Game Jam site](https://globalgamejam.org/2021/jam-sites/liu-game-jam).
-- Gå med i vår [Discord server](https://discord.gg/eHgXYMS).
+- Gå med i vår [Discordserver](https://discord.gg/eHgXYMS).
 - Gå med på vår [Itch.io](https://itch.io/jam/global-game-jam-linkoping-2021)
 
 <h4 class="highlight">Global Game Jam schema</h4>
