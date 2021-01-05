@@ -31,7 +31,7 @@ På grund av att COVID-19 fortfarande orsakar förödelser i världen hålls jam
 
 - 18:00
     - Avslutningsstream.
-    - Inlämningsdeadline för spel på Itch.io och Global Game Jam:s sida.
+    - Inlämningsdeadline för spel på Itch.io och Global Game Jams sida.
     - Speltestning på Discord.
 
 <h4 class="highlight">Vad är ett gamejam?</h4>
