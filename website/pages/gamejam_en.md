@@ -23,7 +23,7 @@ Because COVID-19 is still wreaking havoc in the world, the jam will be held remo
 **Saturday the 30th**
 
 - 6.00pm
-    - Half time review on Discord.
+    - Half time review in Discord.
 - 11.00pm
     - Night-chill with party games.
 
