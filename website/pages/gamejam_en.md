@@ -31,7 +31,7 @@ Because COVID-19 is still wreaking havoc in the world, the jam will be held remo
 
 - 6.00pm
     - Ending stream.
-    - Deadline for uploading games to Itch.io and Global Game Jams website.
+    - Deadline for uploading games to Itch.io and Global Game Jam's website.
     - Playtesting on Discord.
 
 <h4 class="highlight">What is a game jam?</h4>
