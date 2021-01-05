@@ -3,7 +3,36 @@
 Gör dig redo för vårt kommande evenemang Global Game Jam!
 Den 29:e - 31:a januari hålls årets upplaga av Global Game Jam.
 På grund av att COVID-19 fortfarande orsakar förödelser i världen hålls jammet på distans via vår [Discord-server](https://discord.gg/eHgXYMS). Ta även en titt på vårt [Facebook-event](https://fb.me/e/1SCmIAaRH).
-Gå även gärna med i vår site på Global Game Jams officiella [hemsida](https://globalgamejam.org/2021/jam-sites/liu-game-jam)!
+
+**För att vara med**
+- Gå med på vår [Global Game Jam site](https://globalgamejam.org/2021/jam-sites/liu-game-jam).
+- Gå med i vår [Discordserver](https://discord.gg/eHgXYMS).
+- Gå med på vår [Itch.io](https://itch.io/jam/global-game-jam-linkoping-2021)
+
+<h4 class="highlight">Global Game Jam schema</h4>
+
+**Fredag den 29:e**
+
+- 17:30 
+    - Före-jam häng och tittande på Global Game Jams temaavslöjningsvideo.
+- 18:00 
+    - Introduktionsstream.
+    - Brainstorming tillsammans med andra jammare i Discord (likt våra fysiska jams).
+    - Gruppbildning.
+
+**Lördag den 30:e**
+
+- 18:00
+    - Halvtidsredovisning på Discord.
+- 23:00
+    - Natt-häng med partyspel.
+
+**Söndag den 31:a**
+
+- 18:00
+    - Avslutningsstream.
+    - Inlämningsdeadline för spel på Itch.io och Global Game Jam:s sida.
+    - Speltestning på Discord.
 
 <h4 class="highlight">Vad är ett gamejam?</h4>
 
