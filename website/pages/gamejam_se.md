@@ -6,6 +6,7 @@ På grund av att COVID-19 fortfarande orsakar förödelser i världen hålls jam
 Gå med på vår [Itch.io](https://itch.io/jam/global-game-jam-linkoping-2021)!
 
 **För att vara med**
+
 - Gå med på vår [Global Game Jam site](https://globalgamejam.org/2021/jam-sites/liu-game-jam).
 - Gå med i vår [Discordserver](https://discord.gg/eHgXYMS).
 
