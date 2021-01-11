@@ -2,13 +2,13 @@
 <h1>Global Game Jam 2020</h1>
 Get ready for our upcoming event, Global Game Jam!
 This year's edition of Global Game Jam will be held 29th - 31st January.
-Because COVID-19 is still wreaking havoc in the world, the jam will be held remotely in our [Discord server](https://discord.gg/eHgXYMS). Also check out our [Facebook event](https://fb.me/e/1SCmIAaRH).
+Because COVID-19 is still wreaking havoc in the world, the jam will be held remotely in our [Discord server](https://discord.gg/tP2kDvgQKn). Also check out our [Facebook event](https://fb.me/e/1SCmIAaRH).
 Join our [Itch.io](https://itch.io/jam/global-game-jam-linkoping-2021)!
 
 **To participate**
 
 - Join our [Global Game Jam site](https://globalgamejam.org/2021/jam-sites/liu-game-jam).
-- Join our [Discord server](https://discord.gg/eHgXYMS).
+- Join our [Discord server](https://discord.gg/tP2kDvgQKn).
 
 <h4 class="highlight">Global Game Jam schedule</h4>
 
