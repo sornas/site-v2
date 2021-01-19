@@ -50,7 +50,7 @@ Tokfint! Det är nämligen just dig som vi jobbar för.
 **Oavsett** dina kunskaper finns det alltid någon aktivitet för just dig och
 dina intressen inom programmering.
 
-Kanske du vill lära dig mer om hur versionshantering i Git fungerar, höra om hur det är att jobba på Spotify eller bara träffa nya människor med liknande intressen? Allt det kan LiTHe kod hjälpa dig med!
+Kanske du vill lära dig mer om hur versionshantering i git fungerar, höra om hur det är att jobba på Spotify eller bara träffa nya människor med liknande intressen? Allt det kan LiTHe kod hjälpa dig med!
 
 ## Hur blir jag medlem?
 Du kan bli medlem genom att ta kontakt med någon i styrelsen.

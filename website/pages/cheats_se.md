@@ -2,7 +2,7 @@
 LiTHe kod tar ett starkt ställningstagande mot fusk, därför förvarar vi
 dessa fuskpapper så säkert vi kan.
 
-## <a href="/gitcheatsheet/">Git</a>
+## <a href="/gitcheatsheet/">git</a>
 Ett "enkelt" git fusk papper med dom mest använda
 kommandona, specialanpassat för Nollan. Tokbra, ju!
 

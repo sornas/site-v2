@@ -52,7 +52,7 @@ Great! It is you that we are working for.
 Because no matter your knowledge there is always an activity just for you and
 your programming interests.
 
-Maybe you want to learn more about version control in Git,
+Maybe you want to learn more about version control in git,
 maybe you want to hear about how it is to work at Spotify,
 or maybe you just want to meet new people who share your interests!
 
