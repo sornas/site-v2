@@ -16,12 +16,6 @@ If you are using **fish**, use `source venv/bin/activate.fish` instead.
 flask run
 ```
 
-## Publishing changes
-```
-./publish
-```
-Before publishing changes, _make sure_ pip has all requirements installed.
-
 ### Adding new pages
 Add new markdown files to `website/pages/` representing a swedish and english
 version of the page. Then add the endpoints to `website/__init__.py`.

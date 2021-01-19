@@ -10,17 +10,20 @@
         <meta charset='utf-8'/>
     </head>
     <body>
+        <input type="checkbox" name="aoc-trigger" id="aoc-trigger">
         <input name='theme-trigger' id='theme-trigger' type='checkbox'>
         <div id="body">
         <script>document.getElementById("theme-trigger").checked = window.localStorage.getItem("theme") === "light";</script>
         <input name='nav-trigger-toggle' id='nav-trigger-toggle' type='checkbox'>
         <nav id='nav'>
             <label for='nav-trigger-toggle'>
-                <div id='nav-toggle' >
+                <div id='nav-toggle'>
                     <i class="fas fa-bars"></i>
                 </div>
             </label>
-            <img id='nav-logo' src='/static/img/logo.png'>
+            <div id='nav-logo-container'>
+                <img id='nav-logo' src='/static/img/logo.png'>
+            </div>
             <ul>
                 {%- for (name_se, name_en), nav_url, internal in navigation -%}
                 <li class='item {% if loop.index0 == selected %}selected{% endif %}'

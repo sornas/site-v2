@@ -1,18 +1,16 @@
 /* General Configuration */
 :root {
     --margin: 3em;
-    --sidebar-color: #222;
-    --sidebar-highlight-color: #EEE;
-    --sidebar-highlight-bg-color: #333;
-    --sidebar-accent-color: #1ec6ba;
     --dark-text-color: #606060;
     --max-article-width: 42em;
     --footer-fg-color: #777;
     --footer-highlight-fg-color: #EEE;
+
+    --dark-background-color: #202020;
 }
 
 /* Configure themes */
-#theme-trigger[type="checkbox"]:checked + #body {
+#theme-trigger[type="checkbox"]:checked ~ #body {
     /* Light theme */
     --primary-color: #111;
     --background-color: #FFF;
@@ -23,19 +21,29 @@
     --gray-color: #666;
     --highlight-color: #ffc600;
 
+    --sidebar-color: #EEE;
+    --sidebar-highlight-color: #EEE;
+    --sidebar-highlight-bg-color: #AAA;
+    --sidebar-accent-color: #2caea5;
+
     --hide-dark: none;
 }
 
-#theme-trigger[type="checkbox"]:not(:checked) + #body {
+#theme-trigger[type="checkbox"]:not(:checked) ~ #body {
     /* Dark theme */
     --primary-color: #eee;
-    --background-color: #202020;
+    --background-color: var(--dark-background-color);
     --footer-bg-color: #303030;
     --footer-highlight-fg-color: #EEE;
     --link-color: #1ec6ba;
     --page-color: #dddcdd;
     --gray-color: #aaa;
     --highlight-color: #ffc600;
+
+    --sidebar-color: #222;
+    --sidebar-highlight-color: #EEE;
+    --sidebar-highlight-bg-color: #333;
+    --sidebar-accent-color: #1ec6ba;
 
     --hide-light: none;
 }
@@ -46,6 +54,22 @@
 
 #body .only-dark-theme {
     display: var(--hide-dark) !important;
+}
+
+#aoc-trigger[type="checkbox"]:checked ~ #body {
+    --hide-aoc-all: none;
+}
+
+#aoc-trigger[type="checkbox"]:not(:checked) ~ #body {
+    --hide-aoc-some: none;
+}
+
+#body .only-aoc-some {
+    display: var(--hide-aoc-all) !important;
+}
+
+#body .only-aoc-all {
+    display: var(--hide-aoc-some) !important;
 }
 
 #body {
@@ -196,6 +220,9 @@ nav #nav-logo {
     }
 }
 
+nav #nav-logo-container {
+    background: var(--dark-background-color);
+}
 
 /* Navigation bar list */
 nav ul {
@@ -239,7 +266,6 @@ nav .item:hover {
 nav .item.selected:hover {
     color: var(--sidebar-highlight-color);
 }
-
 
 #toggle-lang:hover, #toggle-theme:hover {
     background-color: var(--sidebar-highlight-bg-color);
@@ -409,8 +435,7 @@ footer a:hover {
 .profile-card {
     background: var(--footer-bg-color);
     display: inline-block;
-    margin: 1em 2em;
-    text-align: center;
+    margin: 1em 0em;
 
     border-radius: 0.5em;
 }
@@ -421,26 +446,40 @@ footer a:hover {
     height: 20em;
     display: block;
     margin: 0;
+    float: left;
+    margin-right: 1em;
 
-    border-radius: 0.5em 0.5em 0 0;
+    border-radius: 0.5em;
+}
+
+.profile-card:nth-child(even) img {
+    float: right;
+    margin-right: 0em;
+    margin-left: 1em;
 }
 
 /* Heading for name */
 .profile-card h2 {
     margin: 0;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+.profile-card-desc {
+    font-size: 1em;
+    margin: 1em;
 }
 
 /* Heading for role and email */
-.profile-card p {
+.profile-card-sub {
     font-size: 0.7em;
     margin-top: 0;
     margin-bottom: 0.5em;
+    text-align: center;
 }
 
 /* Container for Cards */
 #card-container {
-    display: flex;
-    flex-flow: row wrap;
     justify-content: center;
 }
 
@@ -535,6 +574,29 @@ footer a:hover {
         margin-top: 0.1em;
         margin-bottom: 0.1em;
     }
+}
+
+@media screen and (max-width: 40em) {
+    .profile-card img {
+        float: none !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+        height: 100%;
+    }
+}
+
+.toggle-aoc {
+    border-radius: 2px;
+    padding: 5px;
+    font-weight: bold;
+    box-shadow: 0px 0px 2px 1px var(--highlight-color);
+}
+
+.toggle-aoc:hover {
+    box-shadow: 0px 0px 3px 2px var(--highlight-color);
+    cursor: pointer;
 }
 
 #standings {
@@ -640,4 +702,14 @@ img.sponsor {
 
 .highlight {
     color: var(--highlight-color);
+}
+
+/* Advent of Code leaderboard */
+.leaderboard {
+    border: none;
+    height: 80em;
+}
+
+#leaderboard-container {
+    text-align: center;
 }

@@ -1,22 +1,39 @@
 <img src="/static/img/logga.png" alt="LiU Game Jam" id="gamejam-logo">
-<h1>Fall Game Jam 2020</h1>
-Gör dig redo för vårt kommande evenemang Fall Game Jam!
-Den 13:e - 15:e november hålls årets upplaga av Fall Game Jam.
-På grund av att COVID-19 fortfarande orsakar förödelser i världen hålls jammet på distans via vår [Discord-server](https://discord.gg/eHgXYMS). Ta även en titt på vårt [Facebook-event](https://www.facebook.com/events/4918751154809003/).
+<h1>Global Game Jam 2021</h1>
+Gör dig redo för vårt kommande evenemang Global Game Jam!
+Den 29:e - 31:a januari hålls årets upplaga av Global Game Jam.
+På grund av att COVID-19 fortfarande orsakar förödelser i världen hålls jammet på distans via vår [Discord-server](https://discord.gg/tP2kDvgQKn). Ta även en titt på vårt [Facebook-event](https://fb.me/e/1SCmIAaRH).
+Gå med på vår [Itch.io](https://itch.io/jam/global-game-jam-linkoping-2021)!
 
-<h4 class="highlight">Schema för Fall Game Jam</h4>
+**För att vara med**
 
-**Fredag den 13:e 18:00**
+- Gå med på vår [Global Game Jam site](https://globalgamejam.org/2021/jam-sites/liu-game-jam).
+- Gå med i vår [Discordserver](https://discord.gg/tP2kDvgQKn).
 
-- Introduktionsstream.
-- Temagenerering.
-- Brainstormning tillsammans med andra jammare i Discord-servern. (För att delta i brainstormningen behöver ni ha en fungerande mikrofon.)
-- Gruppbildning.
+<h4 class="highlight">Global Game Jam schema</h4>
 
-**Söndag den 15:e 18:00**
+**Fredag den 29:e**
 
-- Deadline för att lämna in ditt spel på [itch.io](https://itch.io).
-- Speltestning!
+- 17:30 
+    - Före jam-häng och tittande på Global Game Jams presentation.
+- 18:00 
+    - Introduktionsstream.
+    - Brainstorming tillsammans med andra jammare i Discord (likt våra fysiska jams).
+    - Gruppbildning.
+
+**Lördag den 30:e**
+
+- 18:00
+    - Halvtidsredovisning i Discord.
+- 23:00
+    - Natt-häng med partyspel.
+
+**Söndag den 31:a**
+
+- 18:00
+    - Avslutningsstream.
+    - Inlämningsdeadline för spel på Itch.io och Global Game Jams sida.
+    - Speltestning i Discord.
 
 <h4 class="highlight">Vad är ett gamejam?</h4>
 
@@ -71,7 +88,7 @@ Alla är välkomna, både studenter och icke-studenter. Ingen förkunskap krävs
 
 <h4 class="highlight">Var hålls era evenemang?</h4>
 
-**På grund av COVID-19 hålls en del av våra evenemang via [LiU Game Jam discorden](https://discord.gg/eHgXYMS), se det specifika evenemang som du är intresserad av för mer information.**
+**På grund av COVID-19 hålls en del av våra evenemang via [LiU Game Jam discorden](https://discord.gg/tP2kDvgQKn), se det specifika evenemang som du är intresserad av för mer information.**
 
 Våra evenemang hålls på CreActive i Linköping. Det finns trådlöst internet, gratis te, varm choklad och kaffe.
 
