@@ -145,9 +145,9 @@ Nej, inte alls! Speldesign täcker alla möjliga områden så som konst, musik, 
 
 **Verktyg för att hålla koll på projektet**
 
-- [Git](https://git-scm.com/)
+- [git](https://git-scm.com/)
     - [GitLab](http://gitlab.com/)
     - [GitHub](http://github.com/)
     - [LiU GitLab](https://gitlab.liu.se/)
-- [SourceTree (frontend för Git)](https://www.sourcetreeapp.com/)
-- [Git kraken (cross platform frontend för Git)](https://www.gitkraken.com/)
+- [SourceTree (frontend för git)](https://www.sourcetreeapp.com/)
+- [Git kraken (cross platform frontend för git)](https://www.gitkraken.com/)

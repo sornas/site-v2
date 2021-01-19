@@ -145,9 +145,9 @@ Not at all! Game design covers all kind of fields such as art, music, design, st
 
 **Tools for keeping track of work**
 
-- [Git](https://git-scm.com/)
+- [git](https://git-scm.com/)
     - [GitLab](http://gitlab.com/)
     - [GitHub](http://github.com/)
     - [LiU GitLab](https://gitlab.liu.se/)
-- [SourceTree (frontend for Git)](https://www.sourcetreeapp.com/)
-- [Git kraken (cross platform frontend for Git)](https://www.gitkraken.com/)
+- [SourceTree (frontend for git)](https://www.sourcetreeapp.com/)
+- [Git kraken (cross platform frontend for git)](https://www.gitkraken.com/)
