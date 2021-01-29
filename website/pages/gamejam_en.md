@@ -1,5 +1,5 @@
 <img src="/static/img/logga.png" alt="LiU Game Jam" id="gamejam-logo">
-<h1>Global Game Jam 2020</h1>
+<h1>Global Game Jam 2021</h1>
 Get ready for our upcoming event, Global Game Jam!
 This year's edition of Global Game Jam will be held 29th - 31st January.
 Because COVID-19 is still wreaking havoc in the world, the jam will be held remotely in our [Discord server](https://discord.gg/tP2kDvgQKn). Also check out our [Facebook event](https://fb.me/e/1SCmIAaRH).
