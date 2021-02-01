@@ -1,3 +1,9 @@
+<div id="important-information">
+    <p>
+        Gå med i <a href="https://liu-se.zoom.us/j/68016746136">zoom-rummet</a>!
+    </p>
+</div>
+
 # git-workshop
 
 Dags att vässa ditt CV, skaffa användbara kompetenser och ha en

@@ -1,3 +1,9 @@
+<div id="important-information">
+    <p>
+        Join the <a href="https://liu-se.zoom.us/j/68016746136">zoom meeting</a>!
+    </p>
+</div>
+
 # git Workshop
 
 It's time to sharpen your CV, acquire competences that
