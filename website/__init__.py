@@ -1,7 +1,13 @@
 # -*- coding: utf-8 -*-
 import markdown2
 
-from flask import Flask, render_template, redirect, send_file
+from flask import (
+    Flask,
+    render_template,
+    redirect,
+    send_file,
+    url_for,
+)
 
 app = Flask(__name__, static_folder='static')
 
@@ -137,6 +143,11 @@ def emacs():
 def lacc():
     """ LiTHe kod's Amazing Coding Challenges """
     return static_page("website/other/lacc.html")
+
+@app.route("/logo")
+def logo():
+    """ LiTHe kod's logo """
+    return redirect(url_for("static", filename="img/totalrippad.png"))
 
 # ========== Old redirects ==========
 # These pages used to exist, but not anymore. They redirect to the new content
