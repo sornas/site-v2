@@ -144,11 +144,6 @@ def lacc():
     """ LiTHe kod's Amazing Coding Challenges """
     return static_page("website/other/lacc.html")
 
-@app.route("/logo")
-def logo():
-    """ LiTHe kod's logo """
-    return redirect(url_for("static", filename="img/totalrippad.png"))
-
 # ========== Old redirects ==========
 # These pages used to exist, but not anymore. They redirect to the new content
 # so old links still work.
