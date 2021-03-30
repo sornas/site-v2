@@ -62,7 +62,7 @@ Alla är välkomna, både studenter och icke-studenter. Ingen förkunskap krävs
 
 <h4 class="highlight">Var hålls era evenemang?</h4>
 
-**På grund av COVID-19 hålls en del av våra evenemang via [LiU Game Jam discorden](https://discord.gg/eHgXYMS), se det specifika evenemang som du är intresserad av för mer information.**
+**På grund av COVID-19 hålls en del av våra evenemang via [LiU Game Jam discorden](https://discord.gg/tP2kDvgQKn), se det specifika evenemang som du är intresserad av för mer information.**
 
 Våra evenemang hålls på CreActive i Linköping. Det finns trådlöst internet, gratis te, varm choklad och kaffe.
 
