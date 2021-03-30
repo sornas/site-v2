@@ -7,7 +7,7 @@ Det är också en möjlighet för erfarna jammare att dela med sig av sina erfar
 Evenemanget kommer bestå av en kort presentation där vi presenterar vad ett jam är, hur våra jams fungerar, och lite anekdoter från gamla jammare. 
 Detta följs upp av speltestning av gamla game jam-spel, fritt häng och snack om game jams, spel, och allt möjligt.  
 
-Evenemanget sker på distans via vår [Discord-server](https://discord.gg/eHgXYMS).
+Evenemanget kommer ske på distans i [LiU Game Jams discordserver](https://discord.gg/eHgXYMS).
 
 <h4 class="highlight">Vad är ett gamejam?</h4>
 
