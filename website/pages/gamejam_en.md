@@ -1,5 +1,6 @@
 <img src="/static/img/logga.png" alt="LiU Game Jam" id="gamejam-logo">
-<h1>Syltprovning</h1>
+# Syltprovning
+
 Get ready for our upcoming event, Syltprovning!
 The 20th April at 5:15 PM we will for the first time ever arrange a Syltprovning! This event is aimed at you who are curious about game jams, but are unsure where to begin.
 It is also an opportunity for experienced jammers to share their experiences and be nostalgic about jams that have been.
