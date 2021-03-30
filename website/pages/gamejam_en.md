@@ -1,22 +1,13 @@
 <img src="/static/img/logga.png" alt="LiU Game Jam" id="gamejam-logo">
-<h1>Fall Game Jam 2020</h1>
-Get ready for our upcoming event, Fall Game Jam!
-This year's edition of Fall Game Jam will be held 13th - 15th November.
-Because COVID-19 is still wreaking havoc in the world, the jam will be held remotely in our [Discord server](https://discord.gg/eHgXYMS). Also check out our [Facebook event](https://www.facebook.com/events/4918751154809003/).
+<h1>Syltprovning</h1>
+Get ready for our upcoming event, Syltprovning!
+We will for the first time ever the 20th April 5:15pm arrange a Syltprovning! This event is aimed at you who are curious about game jams, but are unsure where to begin.
+It is also an opportunity for experienced jammers to share their experiences and to be nostalgic about jams that have been.
 
-<h4 class="highlight">Schedule for Fall Game Jam</h4>
+The event will be coposed of a short presentation where we present what a jam is, how our jams work, and some anecdotes old jammers.
+This is followed by some playtesting of old game jam games, chill and talking about game jams, games, and all sorts of things.
 
-**Friday the 13th 6pm**
-
-- Introduction stream.
-- Theme generation.
-- Brainstorming together with other jammers on Discord. (To participate in the brainstorming you need a working microphone.)
-- Team forming.
-
-**Sunday the 15th 6pm**
-
-- Deadline to upload your game to [itch.io](https://itch.io).
-- Playtesting!
+The event will be held remotely in our [Discord server](https://discord.gg/eHgXYMS). 
 
 <h4 class="highlight">What is a game jam?</h4>
 

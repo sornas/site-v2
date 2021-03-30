@@ -1,22 +1,13 @@
 <img src="/static/img/logga.png" alt="LiU Game Jam" id="gamejam-logo">
-<h1>Fall Game Jam 2020</h1>
-Gör dig redo för vårt kommande evenemang Fall Game Jam!
-Den 13:e - 15:e november hålls årets upplaga av Fall Game Jam.
-På grund av att COVID-19 fortfarande orsakar förödelser i världen hålls jammet på distans via vår [Discord-server](https://discord.gg/eHgXYMS). Ta även en titt på vårt [Facebook-event](https://www.facebook.com/events/4918751154809003/).
+<h1>Syltprovning</h1>
+Gör dig redo för vårt kommande evenemang Syltprovning!
+Den 20:e april 17:15 kommer vi att för första gången hålla i en syltprovning! Detta evenemang siktar in sig på er som är nyfikna kring game jams, men är osäkra på var ni ska börja.
+Det är också en möjlighet för erfarna jammare att dela med sig av sina erfarenheter och vara nostalgiska över jams som varit.
 
-<h4 class="highlight">Schema för Fall Game Jam</h4>
+Evenemanget kommer bestå av en kort presentation där vi presenterar vad ett jam är, hur våra jams fungerar, och lite anekdoter från gamla jammare. 
+Detta följs upp av speltestning av gamla game jam-spel, fritt häng och snack om game jams, spel, och allt möjligt.  
 
-**Fredag den 13:e 18:00**
-
-- Introduktionsstream.
-- Temagenerering.
-- Brainstormning tillsammans med andra jammare i Discord-servern. (För att delta i brainstormningen behöver ni ha en fungerande mikrofon.)
-- Gruppbildning.
-
-**Söndag den 15:e 18:00**
-
-- Deadline för att lämna in ditt spel på [itch.io](https://itch.io).
-- Speltestning!
+Evenemanget sker på distans via vår [Discord-server](https://discord.gg/eHgXYMS).
 
 <h4 class="highlight">Vad är ett gamejam?</h4>
 
