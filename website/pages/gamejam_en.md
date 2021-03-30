@@ -2,7 +2,7 @@
 <h1>Syltprovning</h1>
 Get ready for our upcoming event, Syltprovning!
 We will for the first time ever the 20th April 5:15pm arrange a Syltprovning! This event is aimed at you who are curious about game jams, but are unsure where to begin.
-It is also an opportunity for experienced jammers to share their experiences and to be nostalgic about jams that have been.
+It is also an opportunity for experienced jammers to share their experiences and be nostalgic about jams that have been.
 
 The event will be coposed of a short presentation where we present what a jam is, how our jams work, and some anecdotes old jammers.
 This is followed by some playtesting of old game jam games, chill and talking about game jams, games, and all sorts of things.
