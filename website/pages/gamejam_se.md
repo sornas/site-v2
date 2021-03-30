@@ -2,7 +2,7 @@
 # Syltprovning
 
 Gör dig redo för vårt kommande evenemang Syltprovning!
-Den 20:e april 17:15 kommer vi att för första gången hålla i en syltprovning! Detta evenemang riktar sig till er som är nyfikna kring game jams, men är osäkra på var ni ska börja.
+Den 20:e april 17:15 kommer vi att för första gången hålla i en Syltprovning! Detta evenemang riktar sig till er som är nyfikna kring game jams, men är osäkra på var ni ska börja.
 Det är också en möjlighet för erfarna jammare att dela med sig av sina erfarenheter och vara nostalgiska över jams som varit.
 
 Evenemanget kommer bestå av en kort presentation där vi presenterar vad ett jam är, hur våra jams fungerar, och lite anekdoter från gamla jammare. 
