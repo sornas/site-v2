@@ -7,7 +7,7 @@ It is also an opportunity for experienced jammers to share their experiences and
 The event will be composed of a short presentation where we present what a jam is, how our jams work, and some anecdotes from old jammers.
 This will be followed by some play testing of old game jam games while chilling and talking about game jams, games, and all sorts of things.
 
-The event will be held remotely in our [Discord server](https://discord.gg/eHgXYMS). 
+The event will be held remotely in [LiU Game Jam's Discord server](https://discord.gg/eHgXYMS). 
 
 <h4 class="highlight">What is a game jam?</h4>
 
