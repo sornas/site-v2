@@ -1,39 +1,14 @@
 <img src="/static/img/logga.png" alt="LiU Game Jam" id="gamejam-logo">
-<h1>Global Game Jam 2021</h1>
-Get ready for our upcoming event, Global Game Jam!
-This year's edition of Global Game Jam will be held 29th - 31st January.
-Because COVID-19 is still wreaking havoc in the world, the jam will be held remotely in our [Discord server](https://discord.gg/tP2kDvgQKn). Also check out our [Facebook event](https://fb.me/e/1SCmIAaRH).
-Join our [Itch.io](https://itch.io/jam/global-game-jam-linkoping-2021)!
+# Syltprovning
 
-**To participate**
+Get ready for our upcoming event, Syltprovning!
+The 20th April at 5:15 PM we will for the first time ever arrange a Syltprovning! This event is aimed at you who are curious about game jams, but are unsure where to begin.
+It is also an opportunity for experienced jammers to share their experiences and be nostalgic about jams that have been.
 
-- Join our [Global Game Jam site](https://globalgamejam.org/2021/jam-sites/liu-game-jam).
-- Join our [Discord server](https://discord.gg/tP2kDvgQKn).
+The event will be composed of a short presentation where we present what a jam is, how our jams work, and some anecdotes from old jammers.
+This will be followed by some play testing of old game jam games while chilling and talking about game jams, games, and all sorts of things.
 
-<h4 class="highlight">Global Game Jam schedule</h4>
-
-**Friday the 29th**
-
-- 5.30pm
-    - Pre-jam chill and watching Global Game Jam's presentation.
-- 6.00pm
-    - Introduction stream.
-    - Brainstorming together with other jammers in Discord (similar to our physical jams).
-    - Team forming.
-
-**Saturday the 30th**
-
-- 6.00pm
-    - Half time review in Discord.
-- 11.00pm
-    - Night-chill with party games.
-
-**Sunday the 31st**
-
-- 6.00pm
-    - Ending stream.
-    - Deadline for uploading games to Itch.io and Global Game Jam's website.
-    - Playtesting on Discord.
+The event will be held remotely in [LiU Game Jam's Discord server](https://discord.gg/eHgXYMS). 
 
 <h4 class="highlight">What is a game jam?</h4>
 

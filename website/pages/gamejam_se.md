@@ -1,39 +1,14 @@
 <img src="/static/img/logga.png" alt="LiU Game Jam" id="gamejam-logo">
-<h1>Global Game Jam 2021</h1>
-Gör dig redo för vårt kommande evenemang Global Game Jam!
-Den 29:e - 31:a januari hålls årets upplaga av Global Game Jam.
-På grund av att COVID-19 fortfarande orsakar förödelser i världen hålls jammet på distans via vår [Discord-server](https://discord.gg/tP2kDvgQKn). Ta även en titt på vårt [Facebook-event](https://fb.me/e/1SCmIAaRH).
-Gå med på vår [Itch.io](https://itch.io/jam/global-game-jam-linkoping-2021)!
+# Syltprovning
 
-**För att vara med**
+Gör dig redo för vårt kommande evenemang Syltprovning!
+Den 20:e april 17:15 kommer vi att för första gången hålla i en Syltprovning! Detta evenemang riktar sig till er som är nyfikna kring game jams, men är osäkra på var ni ska börja.
+Det är också en möjlighet för erfarna jammare att dela med sig av sina erfarenheter och vara nostalgiska över jams som varit.
 
-- Gå med på vår [Global Game Jam site](https://globalgamejam.org/2021/jam-sites/liu-game-jam).
-- Gå med i vår [Discordserver](https://discord.gg/tP2kDvgQKn).
+Evenemanget kommer bestå av en kort presentation där vi presenterar vad ett jam är, hur våra jams fungerar, och lite anekdoter från gamla jammare. 
+Detta följs upp av speltestning av gamla game jam-spel, fritt häng och snack om game jams, spel, och allt möjligt.  
 
-<h4 class="highlight">Global Game Jam schema</h4>
-
-**Fredag den 29:e**
-
-- 17:30 
-    - Före jam-häng och tittande på Global Game Jams presentation.
-- 18:00 
-    - Introduktionsstream.
-    - Brainstorming tillsammans med andra jammare i Discord (likt våra fysiska jams).
-    - Gruppbildning.
-
-**Lördag den 30:e**
-
-- 18:00
-    - Halvtidsredovisning i Discord.
-- 23:00
-    - Natt-häng med partyspel.
-
-**Söndag den 31:a**
-
-- 18:00
-    - Avslutningsstream.
-    - Inlämningsdeadline för spel på Itch.io och Global Game Jams sida.
-    - Speltestning i Discord.
+Evenemanget kommer ske på distans i [LiU Game Jams discordserver](https://discord.gg/eHgXYMS).
 
 <h4 class="highlight">Vad är ett gamejam?</h4>
 
