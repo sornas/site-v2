@@ -12,9 +12,9 @@ The event will be held remotely in [LiU Game Jam's Discord server](https://disco
 
 # Spring Game Jam 2021
 
-It is soon time for this years edition of Spring Game Jam!
-It is time the 7th-9th May to take out the keyboards, drawingpads and microphones for a weekend filled with gamecreation.
-Because of persistent sickness throughout the world, this jam will be held remotely via [Liu Game Jam's Discord server](https://discord.gg/eHgXYMS).
+It is soon time for this year's edition of Spring Game Jam!
+It is time the 7th-9th May to take out the keyboards, drawing tablets and microphones for a weekend filled with game creation.
+Because of persistent sickness throughout the world, this jam will be held remotely via [LiU Game Jam's Discord server](https://discord.gg/eHgXYMS).
 Also take a look at our [Facebook event](https://www.facebook.com/events/718957842117923) and join our [Itch.io](https://itch.io/jam/spring-game-jam-2021).
 
 <h4 class="highlight">What is a game jam?</h4>
