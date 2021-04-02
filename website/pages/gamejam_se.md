@@ -10,6 +10,13 @@ Detta följs upp av speltestning av gamla game jam-spel, fritt häng och snack o
 
 Evenemanget kommer ske på distans i [LiU Game Jams discordserver](https://discord.gg/eHgXYMS).
 
+# Spring Game Jam 2021
+
+Snart är det dags för årets upplaga av Spring Game Jam!
+Den 7:e-9:e maj är det dags att dra fram tangentborden, ritplattorna och mikrofonerna för en helg fylld av spelskapande.
+På grund av ihållande sjukdom i världen kommer detta jam ske på distans via [LiU Game Jams discordserver](https://discord.gg/eHgXYMS).
+Ta även gärna en titt på vårat [Facebook-evenemang](https://www.facebook.com/events/718957842117923) och gå med på vår [Itch.io](https://itch.io/jam/spring-game-jam-2021).
+
 <h4 class="highlight">Vad är ett gamejam?</h4>
 
 Ett game jam är ett event där programmerare, konstnärer och gamers går ihop för att skapa spel; både datorspel och brädspel.
@@ -53,7 +60,7 @@ Besök vår [Facebook-sida](https://www.facebook.com/liugamejam/) eller följ os
 
 <!--End mc_embed_signup-->
 
-<h4 class="highlight">Liu Game Jam arkiv</h4>
+<h4 class="highlight">Liu Game Jams arkiv</h4>
 
 Om du vill se spel som andra har skapat på våra evenemang, kolla på spelen i vårt [arkiv](https://itch.io/c/64050/liu-game-jam). Du kan också titta på vårt [gamla nyhetsbrev](http://us12.campaign-archive2.com/home/?u=092a6fffba8f6063437a51495&id=c3863c4bf5).
 
@@ -63,7 +70,7 @@ Alla är välkomna, både studenter och icke-studenter. Ingen förkunskap krävs
 
 <h4 class="highlight">Var hålls era evenemang?</h4>
 
-**På grund av COVID-19 hålls en del av våra evenemang via [LiU Game Jam discorden](https://discord.gg/tP2kDvgQKn), se det specifika evenemang som du är intresserad av för mer information.**
+**På grund av COVID-19 hålls en del av våra evenemang via [LiU Game Jams discordserver](https://discord.gg/tP2kDvgQKn), se det specifika evenemang som du är intresserad av för mer information.**
 
 Våra evenemang hålls på CreActive i Linköping. Det finns trådlöst internet, gratis te, varm choklad och kaffe.
 
