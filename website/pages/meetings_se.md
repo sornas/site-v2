@@ -12,7 +12,7 @@ beskrivs nedan.
 
 Vårmötet kommer att hållas i vår [discordserver](https://discord.gg/F8KNV89),
 tisdag 18:e maj kl 17.15. Samtliga medlemmar får närvara med rösträtt.
-Nedan följer höstmötets föredragningslista.
+Nedan följer mötets föredragningslista.
 
 - Val av mötesordförande
 - Val av mötessekreterare
