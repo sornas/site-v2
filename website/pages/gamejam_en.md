@@ -1,16 +1,4 @@
 <img src="/static/img/logga.png" alt="LiU Game Jam" id="gamejam-logo">
-# Syltprovning
-
-Get ready for our upcoming event, Syltprovning!
-The 20th April at 5:15 PM we will for the first time ever arrange a Syltprovning! This event is aimed at you who are curious about game jams, but are unsure where to begin.
-It is also an opportunity for experienced jammers to share their experiences and be nostalgic about jams that have been.
-
-The event will be composed of a short presentation where we present what a jam is, how our jams work, and some anecdotes from old jammers.
-This will be followed by some play testing of old game jam games while chilling and talking about game jams, games, and all sorts of things.
-
-The event will be held remotely in [LiU Game Jam's Discord server](https://discord.gg/eHgXYMS). 
-
----
 
 # Spring Game Jam 2021
 
