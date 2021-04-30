@@ -27,6 +27,7 @@ All events take place on the LiU Game Jam Discord.  Times are given in Central E
 
 - 18:00 - Half time review.
 - 22:00 - Night-chill (Optional)
+    - Party games
 
 **Sunday May 9th:**
 
