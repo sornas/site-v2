@@ -6,8 +6,8 @@ VENV := venv
 
 build: $(BUILD_DIR)
 
-$(BUILD_DIR):
-	python3 freezer.py
+$(BUILD_DIR): $(VENV)
+	@(. $(VENV)/bin/activate && python3 freezer.py)
 
 clean:
 	rm -rf $(BUILD_DIR)
