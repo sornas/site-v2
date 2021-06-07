@@ -1,6 +1,6 @@
 # NCPC
 
-NCPD (Nordic Collegiate Programming Contest) is a yearly contest in competetive
+NCPC (Nordic Collegiate Programming Contest) is a yearly contest in competetive
 programmering where students from universities in the Nordic (nowadays also
 Estonia and Lithuania) participate. NCPC usually takes place sometime during the autumn term.
 
