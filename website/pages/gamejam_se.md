@@ -3,7 +3,7 @@
 # Summer Game Jam 2021
 *17:00 10e Juli - 17:00 25e Juli*
 
-Denna sommar kommer vi arrangera ett experimentellt Summer Game Jam. Under jammet kommer vi experimentera med formatet. Istället för att att jamma endast en helg kan nu deltagarna jamma 3 helger; en för grupp formering, en för halvtidsredovisning och en för slutredovisning. Du är välkommen att arbeta så mycket eller lite på projektet under jammet som du kan och passar ditt schema.
+Denna sommar kommer vi arrangera ett experimentellt Summer Game Jam. Under jammet kommer vi experimentera med formatet. Istället för att jamma endast en helg kan nu deltagarna jamma 3 helger; en för gruppformering, en för halvtidsredovisning och en för slutredovisning. Du är välkommen att arbeta så mycket eller lite på projektet under jammet som du kan och passar ditt schema.
 
 
 - [Discord invite](https://discord.gg/eHgXYMS)

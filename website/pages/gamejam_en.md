@@ -3,7 +3,7 @@
 # Summer Game Jam 2021
 *17:00 10th July - 17:00 25th July*
 
-This summer we are going to host an experimental chill Summer Game Jam. During the jam we are going to experiment with the format. Instead of just having the jam taking place during one weekend it will take place during 3 weekends; one for group forming, second one for half time review and last one for final review. Of course you are free to work as much as you want on the project and can drop in or out as it suits your schedule. We are really curious to see what people can create when they get a little bit more time and are looking forward to the result.
+This summer we are going to host an experimental chill Summer Game Jam. During the jam we are going to experiment with the format. Instead of just having the jam taking place during one weekend it will take place during 3 weekends; one for group forming, second one for half time review and last one for final review. Of course you are free to work as much as you want on the project and can drop in or out as it suits your schedule. We are really curious to see what people can create when they get a little bit more time and are looking forward to the results.
 
 - [Discord invite](https://discord.gg/eHgXYMS)
 - [Itch.io jam](https://itch.io/jam/liu-summer-jam-2021)
