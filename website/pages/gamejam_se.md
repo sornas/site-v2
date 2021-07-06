@@ -1,8 +1,49 @@
 <img src="/static/img/logga.png" alt="LiU Game Jam" id="gamejam-logo">
 
-# Fall Game Jam 2021
+# Summer Game Jam 2021
+*17:00 10e Juli - 17:00 25e Juli*
 
-Mer information kommer!
+Denna sommar kommer vi arrangera ett experimentellt Summer Game Jam. Under jammet kommer vi experimentera med formatet. Istället för att jamma endast en helg kan nu deltagarna jamma 3 helger; en för gruppformering, en för halvtidsredovisning och en för slutredovisning. Du är välkommen att arbeta så mycket eller lite på projektet under jammet som du kan och passar ditt schema.
+
+
+- [Discord invite](https://discord.gg/eHgXYMS)
+- [Itch.io jam](https://itch.io/jam/liu-summer-jam-2021)
+- [Facebook event](https://www.facebook.com/events/955355708611524)
+
+### Schema
+
+Alla event sker på LiU Game Jams Discord. Tider är angivna i Central European Summer Time (CEST); UTC+2.
+
+**Lördag 10e Juli 17:00 i Main Stage**
+
+- Intro-stream
+- Temaskapning
+- Brainstorming
+- Lagskapande
+
+**Söndag 11e Juli 17:00 i Hangout Lounge (Frivilligt)**
+
+- Partyspel
+
+**Lördag 17e Juli 17:00 i Main Stage**
+
+- Halvtidsredovisning
+- Speltestande
+
+**Söndag 25e Juli 17:00 i Main Stage**
+
+- Slutpresentation
+- Deadline
+- Speltestande
+
+---
+
+# Fall Game Jam 2021
+*26e November - 28e November*
+
+Mer information kommer.
+
+---
 
 # Vad är ett game jam?
 
