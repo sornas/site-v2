@@ -6,6 +6,5 @@ Estonia and Lithuania) participate. NCPC usually takes place sometime during the
 
 ## NCPC 2021
 
-Our hope is that NCPC 2021 can take place on-site at the campus, but we haven't
-heard anything about this from the national organizers yet. In the worst case
-the competition will be held remotely, like last year.
+The contest will be on October 9th. We do not yet know if it will be online or
+on-site. Read more on the [NCPC web page](https://nordic.icpc.io/).
