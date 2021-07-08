@@ -7,6 +7,5 @@ höstterminen.
 
 ## NCPC 2021
 
-Vår förhoppning är att NCPC 2021 kommer att kunna gå på plats på campus, men än
-så länge har vi inte hört något från den nationella arrangören. I värsta fall
-kommer det vara en distanstävling likt förra året.
+Tävlingen kommer gå 9 oktober. Vi vet inte än om det kommer vara online eller på
+plats. Läs mer på [NCPC-sidan](https://nordic.icpc.io/).
