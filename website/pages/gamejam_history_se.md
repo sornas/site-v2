@@ -7,6 +7,7 @@ Om du vill se spel som andra har skapat på våra evenemang, kolla på spelen i 
 
 ### 2021
 
+- Summer Game Jam 2021 - *"Animal Hockey", "Anti-Wholesome", "Dog Pistachio"* - [Itch.io](https://itch.io/jam/liu-summer-jam-2021), [Intro](https://www.youtube.com/watch?v=39uLKI7OyIY), [Presentation](https://docs.google.com/presentation/d/e/2PACX-1vQ_8qvsSzfm3go0VfucBzxXQJfAXBsnXXj2PhTu8zVyCYoqMgBOolr9isxPz64Mgh6WcrhcsJsqwvvw/pub?start=false&loop=false&delayms=3000)
 - Spring Game Jam 2021 - *"Friendly Frisbee", "Wine Language", "Deadline Capitalism"* - [Itch.io](https://itch.io/jam/spring-game-jam-2021), [Intro](https://www.youtube.com/watch?v=SDf2q96JG9k), [Presentation](https://www.youtube.com/watch?v=0_zV3FEJG04)
 - Global Game Jam Linköping 2021 - *"Lost and Found"* - [Itch.io](https://itch.io/jam/global-game-jam-linkoping-2021), [Global Game Jam](https://globalgamejam.org/2021/jam-sites/liu-game-jam), [Intro](https://www.youtube.com/watch?v=yKhhIuSa49M), [Presentation](https://www.youtube.com/watch?v=lEk12BYQYgo)
 
