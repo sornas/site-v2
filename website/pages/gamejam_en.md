@@ -1,46 +1,9 @@
 <img src="/static/img/logga.png" alt="LiU Game Jam" id="gamejam-logo">
 
-# Summer Game Jam 2021
-*17:00 10th July - 17:00 25th July*
-
-This summer we are going to host an experimental chill Summer Game Jam. During the jam we are going to experiment with the format. Instead of just having the jam taking place during one weekend it will take place during 3 weekends; one for group forming, second one for half time review and last one for final review. Of course you are free to work as much as you want on the project and can drop in or out as it suits your schedule. We are really curious to see what people can create when they get a little bit more time and are looking forward to the results.
-
-- [Discord invite](https://discord.gg/eHgXYMS)
-- [Itch.io jam](https://itch.io/jam/liu-summer-jam-2021)
-- [Facebook event](https://www.facebook.com/events/955355708611524)
-
-### Schedule
-
-All events takes place on the LiU Game Jam Discord. All times are given in Central European Summer Time (CEST) i.e. UTC+2.
-
-**Saturday 10th July 17:00 in Main Stage**
-
-- Introduction stream.
-- Theme generation from submitted theme words.
-- Brainstorming together with other jammers (similar to our physical jams).
-- Team forming.
-
-**Sunday 11th July 17:00 in Hangout Lounge (Optional)**
-
-- Party games
-
-**Saturday 17th July 17:00 in Main Stage**
-
-- Half time review
-- Playtesting together with other jammers.
-
-**Sunday 25th July 17:00 in Main Stage**
-
-- Ending stream.
-- Deadline for uploading games to Itch.io.
-- Playtesting together with other jammers.
-
----
-
 # Fall Game Jam 2021
 *26th November - 28th November*
 
-More info will come.
+Save the date. More info will come.
 
 ---
 
