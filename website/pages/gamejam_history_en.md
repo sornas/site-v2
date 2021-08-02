@@ -34,7 +34,7 @@ Check out games from our jams in the [archive collection](https://itch.io/c/6405
 ### 2017
 
 - Fall Game Jam 2017 - *"Royal Styling", "Flat abuse", "Speedy Cactus"* - [Presentation](https://docs.google.com/presentation/d/e/2PACX-1vRWTXIbYhm5tWQC9cf-3m9GOow5nFtsNVNHsvNg3HatSJctKyNAWbj0bjKktF1BeXYdYFAeQ9TQp08k/pub?start=false&loop=false&delayms=3000)
-- Spring Game Jam 2017  - *"Highschool Race", "Icecream monsters", "Pixel Erasers"*
+- Spring Game Jam 2017  - *"Highschool Race", "Icecream monsters", "Pixel Erasers"* - [Presentation](https://docs.google.com/presentation/d/e/2PACX-1vRn0hLicCmqP_Sig2LHsfagh3TRj63wjCKMlUCROW0wAWMbnuk7xXgZuY3nD6Qjy0JBhrgeG1VZj4iT/pub?start=false&loop=false&delayms=3000)
 - Global Game Jam 2017 Linköping - *"Waves"* - [Global Game Jam](https://globalgamejam.org/2017/jam-sites/liu-game-jam)
 
 ### 2016
