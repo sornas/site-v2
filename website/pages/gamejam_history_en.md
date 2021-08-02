@@ -27,13 +27,13 @@ Check out games from our jams in the [archive collection](https://itch.io/c/6405
 
 ### 2018
 
-- Fall Game Jam 2018 - *"Metal Time travel", "Navy Nightmare", "Big sound House"*
+- Fall Game Jam 2018 - *"Metal Time travel", "Navy Nightmare", "Big sound House"*  [Presentation](https://docs.google.com/presentation/d/e/2PACX-1vS0Cu3etDiGNylFSJU0xKftrokjhYdp0Q1Iu2-7dL-pQ_b2TupyQfF5DyaaPcuzNnuZdISjGKraDBWI/pub?start=false&loop=false&delayms=3000)
 - Spring Game Jam 2018 - *"Extreme-dancing King", "Coyote Solitude"* - [Presentation](https://www.facebook.com/349988561805129/videos/1279817882155521)
 - Global Game Jam 2018 Linköping - *"Transmission"* - [Global Game Jam](https://globalgamejam.org/2018/jam-sites/liu-game-jam)
 
 ### 2017
 
-- Fall Game Jam 2017 - *"Royal Styling", "Flat abuse", "Speedy Cactus"*
+- Fall Game Jam 2017 - *"Royal Styling", "Flat abuse", "Speedy Cactus"* - [Presentation](https://docs.google.com/presentation/d/e/2PACX-1vRWTXIbYhm5tWQC9cf-3m9GOow5nFtsNVNHsvNg3HatSJctKyNAWbj0bjKktF1BeXYdYFAeQ9TQp08k/pub?start=false&loop=false&delayms=3000)
 - Spring Game Jam 2017  - *"Highschool Race", "Icecream monsters", "Pixel Erasers"*
 - Global Game Jam 2017 Linköping - *"Waves"* - [Global Game Jam](https://globalgamejam.org/2017/jam-sites/liu-game-jam)
 
