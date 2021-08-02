@@ -17,7 +17,7 @@ Om du vill se spel som andra har skapat på våra evenemang, kolla på spelen i 
  [Intro](https://www.youtube.com/watch?v=wJ1pcaT8opk), [Presentation](https://www.youtube.com/watch?v=MpBZgX6GBuY)
 - Spring Game Jam 2020 - *"Orange Expansions", "Ghoul Reassembly"* - [Itch.io](https://itch.io/jam/liu-spring-game-jam-2020),      
  [Intro](https://www.youtube.com/watch?v=yKhhIuSa49M), [Presentation](https://www.youtube.com/watch?v=MpBZgX6GBuY)
-- Global Game Jam Linköping 2020 - *"Repair"* - [Global Game Jam](https://globalgamejam.org/2020/jam-sites/liu-game-jam-ggj-2020) , [Presentation](https://docs.google.com/presentation/d/e/2PACX-1vTXBO6GEullpwOgIFVzQ0z8-3Al8WO-j775CVlnbyFj3hBFoRljemy4-bXKgB-PqJD4C6y-kTZKjbV3/pub?start=false&loop=false&delayms=3000)
+- Global Game Jam Linköping 2020 - *"Repair"* - [Global Game Jam](https://globalgamejam.org/2020/jam-sites/liu-game-jam-ggj-2020), [Presentation](https://docs.google.com/presentation/d/e/2PACX-1vTXBO6GEullpwOgIFVzQ0z8-3Al8WO-j775CVlnbyFj3hBFoRljemy4-bXKgB-PqJD4C6y-kTZKjbV3/pub?start=false&loop=false&delayms=3000)
 
 ### 2019
 
