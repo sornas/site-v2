@@ -1,4 +1,5 @@
 BUILD_DIR := website/build
+FLASK_ARGS := --port 5000 --host 0.0.0.0 --reload
 VENV := venv
 
 .DEFAULT_GOAL := server
@@ -19,7 +20,7 @@ love:
 	@echo "<3"
 
 server: $(VENV)
-	@(. $(VENV)/bin/activate && flask run -p 5001 --reload)
+	@(. $(VENV)/bin/activate && flask run $(FLASK_ARGS))
 
 $(VENV):
 	python3 -m venv $(VENV)
