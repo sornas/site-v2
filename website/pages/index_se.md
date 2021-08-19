@@ -1,3 +1,9 @@
+<div id="important-information">
+    Terminens första meetup kommer att hållas tisdagen 31 augusti kl. 17 i
+    <a href="https://discord.gg/UG5YYsN">Discord</a>. Vi hoppas kunna återgå
+    till vanliga meetups under terminen. Ses där!
+</div>
+
 # Vilka är vi?
 
 LiTHe kod är en studentförening vid Linköpings universitet vars syfte
