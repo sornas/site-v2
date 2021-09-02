@@ -1,9 +1,3 @@
-<div id="important-information">
-    The first meetup of the semester will be held Tuesday 31st of August at
-    5pm in <a href="https://discord.gg/UG5YYsN">Discord</a>. We hope to return
-    to regular meetups during the semester. See you there!
-</div>
-
 # Who are we?
 
 LiTHe kod is a student association at Linköping University whose mission

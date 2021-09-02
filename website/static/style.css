@@ -670,7 +670,7 @@ img.sponsor {
 }
 
 #important-information {
-    padding: 1em;
+    padding: 0em 1em;
 
     background-color: var(--footer-bg-color);
 
