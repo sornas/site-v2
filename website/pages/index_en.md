@@ -10,16 +10,20 @@ since continued to develop and we now arrange several types of activities such
 as study visits, workshops, lectures, Game Jams, programming competitions and of
 course code meetups every Tuesday at 5 pm. <a
 href="http://lithehack.se/">Lithehack</a>, usually located on Campus Norrköping,
-can nowadays be found online for more "traditional" coding help (kodstugor).
+can for the time being be found online for more "traditional" coding help (kodstugor).
+
+During the Corona pandemic we got ourselves our very own Discord server. Stop by
+and say hi! We've now returned to campus meetups but if the world situation
+changes drastically we'll go back to Discord.
 
 <div id="introduction">
     <div class="intro-card">
         <h3>Meetups</h3>
         <i class="symbol fas fa-mug-hot"></i>
         <p>
-            <!--At 5pm every Tuesday we meet in Café Java to discuss everything related to programming.-->
-            (COVID-19) Meetups are now held in our <a href="https://discord.gg/UG5YYsN">discord server</a>,
-            but will resume as usual in Café Java when COVID-19 subsides.
+            At 5pm every Tuesday we meet in Café Java to discuss everything
+            related to programming. We hope to continue to meet on campus during
+            the fall.
         </p>
     </div>
     <div class="intro-card">

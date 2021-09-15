@@ -10,16 +10,21 @@ utvecklas och arrangerar idag en rad olika typer av aktiviteter såsom
 studiebesök, workshops, föreläsningar, Game Jams och programmeringstävlingar.
 Kodstugorna har övergått till meetups som vi har varje tisdag klockan 17. <a
 href="http://lithehack.se/">Lithehack</a>, som vanligtvis befinner sig på Campus
-Norrköping, håller numera till online för mer "traditionella" kodstugor.
+Norrköping, håller för tillfället till online för mer "traditionella" kodstugor.
+
+Under coronapandemin skaffade vi oss <a href="https://discord.gg/UG5YYsN">en
+helt egen Discordserver</a>. Kom förbi och säg hej! Numera har vi gått tillbaka
+till campus-meetups men om världssituationen ändras drastiskt kommer vi ha
+meetups i Discord.
 
 <div id="introduction">
     <div class="intro-card">
         <h3>Meetups</h3>
         <i class="symbol fas fa-mug-hot"></i>
         <p>
-            (COVID-19) Meetups hålls nu i vår <a
-            href="https://discord.gg/UG5YYsN">discordserver</a>, men kommer
-            fortsätta i Café Java när COVID-19 lugnar sig.
+            Klockan 17 varje tisdag träffas vi i Café Java för att prata om allt
+            relaterat till programmering. Vi hoppas att kunna forsätta träffas
+            på campus under hösten.
         </p>
     </div>
     <div class="intro-card">
@@ -58,7 +63,8 @@ hur det är att jobba på Spotify eller bara träffa nya människor med liknande
 intressen? Allt det kan LiTHe kod hjälpa dig med!
 
 ## Hur blir jag medlem?
-Du kan bli medlem genom att ta kontakt med någon i styrelsen.  Det gör du
+
+Du kan bli medlem genom att ta kontakt med någon i styrelsen. Det gör du
 enklast genom att gå på en av våra meetups som vi har varje tisdag klockan 17.
 
 Medlemsavgiften är på 20kr och ger dig medlemskap för livet, för att inte nämna
