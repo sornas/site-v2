@@ -1,3 +1,15 @@
+<div id="important-information">
+
+<p>
+
+Höstmötet kommer gå 16 november 17.15 i Ada Lovelace (preliminär lokal). <a
+href="/meetings/se">Preliminär föredragningslista är publicerad</a> och kommer
+fastställas senast 9 november.
+
+</p>
+
+</div>
+
 # Vilka är vi?
 
 LiTHe kod är en studentförening vid Linköpings universitet vars syfte
