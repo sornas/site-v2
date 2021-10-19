@@ -1,4 +1,4 @@
-<img src="/static/img/logga.png" alt="LiU Game Jam" id="gamejam-logo">
+<img src="/static/img/gamejam/banner-fgj21.png" alt="Fall Game Jam 2021" id="gamejam-banner">
 
 # Fall Game Jam 2021
 *18:00 26th November - 18:00 28th November*
