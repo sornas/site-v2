@@ -1,7 +1,8 @@
-BUILD_DIR := website/build
+WEBSITE := website
+BUILD_DIR := $(WEBSITE)/build
 FLASK_ARGS := --port 5000 --host 0.0.0.0 --reload
-LATEX_DIR := website/other/latex
-LATEX_OUT := $(BUILD_DIR)/static/img/latex
+LATEX_DIR := $(WEBSITE)/other/latex
+LATEX_OUT := $(WEBSITE)/static/img/latex
 VENV := venv
 
 .DEFAULT_GOAL := server
@@ -12,8 +13,6 @@ build: $(BUILD_DIR)
 $(BUILD_DIR): $(VENV) latex
 	$(info Running freezer.py)
 	@(. $(VENV)/bin/activate && python3 freezer.py)
-	mkdir -p $(LATEX_OUT)
-	cp $(LATEX_DIR)/*.png $(LATEX_OUT)
 
 clean:
 	rm -rf $(BUILD_DIR)
@@ -22,13 +21,17 @@ clean:
 clean-venv:
 	rm -rf $(VENV)
 
-latex:
+latex: | $(LATEX_OUT)
 	make -C $(LATEX_DIR)
+	cp -f $(LATEX_DIR)/*.png $(LATEX_OUT)
+
+$(LATEX_OUT):
+	mkdir -p $@
 
 love:
 	@echo "<3"
 
-server: $(VENV)
+server: $(VENV) latex
 	@(. $(VENV)/bin/activate && flask run $(FLASK_ARGS))
 
 $(VENV):

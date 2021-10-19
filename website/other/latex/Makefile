@@ -8,7 +8,7 @@ all: ${PDF} ${PNG}
 
 %.pdf: %.tex
 	$(info Building $@)
-	@latexmk -pdf -f $< &>/dev/null
+	@latexmk -pdf -f -interaction=nonstopmode $< &>/dev/null
 
 %.png: %.pdf
 	$(info  Converting $@)
