@@ -97,7 +97,9 @@ def snake_ribs():
     return redirect_external("https://lithekod.github.io/snake-ribs/")
 
 # ========== Pages ==========
-# These are the main pages on the LiTHe kod website.
+# These are the main pages on the LiTHe kod website. They are rendered into
+# HTML from a Swedish and English markdown-file and served on the specified
+# URL.
 
 pages = [
     ("/",                 "website/pages/index_{}.md"),
@@ -115,6 +117,7 @@ pages = [
     ("/microjam/",        "website/pages/microjam_{}.md"),
     ("/meetings/",        "website/pages/meetings_{}.md"),
     ("/git/",             "website/pages/git_{}.md"),
+    ("/latex/",           "website/pages/latex_{}.md"),
 ]
 
 for url, md_file in pages:
@@ -172,7 +175,7 @@ def posts_se():
 def posts_en():
     return redirect("/meetings/en/")
 
-# ========== Errorhandlers ==========
+# ========== Error handlers ==========
 # For now we only handle pages that are not found.
 
 @app.errorhandler(404)
