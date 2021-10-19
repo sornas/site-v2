@@ -7,7 +7,7 @@ PNG := $(PDF:.pdf=.png)
 all: ${PDF} ${PNG}
 
 %.pdf: %.tex
-	$(info Building $@)
+	$(info latexmk $@)
 	@latexmk -pdf -f -interaction=nonstopmode $< &>/dev/null
 
 %.png: %.pdf
