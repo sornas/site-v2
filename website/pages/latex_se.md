@@ -42,12 +42,12 @@ Det går också jättebra att dyka upp på någon av våra meetups med frågor!
 
 ### Två figurer sida vid sida
 
-- Triage
-
 Det brukar vara bra att ge figurerna lite utrymme att andas vilket är varför vi
 har uppdelningen 45/45. 50/50 är såklart möjligt men det kan bli lite trångt.
 Figurerna behöver inte heller vara lika stora; 65/30 har sina användningsområden
 också.
+
+Delfigurerna får varsin label och går alltså att referera till separat.
 
 <img src="/static/img/latex/sidebyside.png" alt="Två figurer sida vid sida" class="latex" />
 
@@ -59,8 +59,9 @@ också.
     \centering
     % Figur 1: 45% hela figuren.
     \begin{subfigure}{.45\textwidth}
-        % Hela \linewidth, alltså allt utrymme vi får av subfigure.
+        % Bilden får hela \linewidth, alltså hela subfigure:en.
         \includegraphics[width=\linewidth]{lithekod.png}
+        % En caption till den här delfiguren.
         \caption{En cool förening}
         \label{fig:subfig1}
     % Två saker att notera:
@@ -71,13 +72,25 @@ också.
     % Figur 2: också 45% av hela figuren.
     \begin{subfigure}{.45\textwidth}
         \includegraphics[width=\linewidth]{lithekod.png}
+        % En caption till den här delfiguren.
         \caption{En till cool förening}
         \label{fig:subfig2}
     \end{subfigure}
     \caption{Två coola föreningar}
     \label{fig:mainfig}
 \end{figure}
+
+Figur~\ref{fig:subfig1} och~\ref{fig:subfig2} visar två bilder
+sida vid sida.
 </pre>
+
+### Titelsida
+
+Om du vill ha mer kontroll över din framsida kan du göra en egen `titlepage`. I
+bilden nedan syns det i A5-format men användningen av `vfill` gör att texten
+fördelas jämnt på pappret.
+
+<img src="/static/img/latex/advanced_titlepage.png" alt="Enkel titlepage" class="latex" />
 
 ## Ekvationer
 
@@ -125,7 +138,7 @@ Populära i ISY:s datorteknik-kurser. [Jackson Structured Programming
 I praktiken behöver du pilla på `sibling distance`-värdet en del. Det beskriver
 avståndet mellan barnen i sidled. Tyvärr har olika barnbarn ingen koll på varandra
 så du kan behöva öka avståndet två nivåer upp. I exemplet nedan måste t.ex.
-`Selektion 1` ha ganska stort `sibling distance` så att inte C och D-rutorna
+`Selektion 1` ha ganska stor `sibling distance` så att inte C och D-rutorna
 överlappar.
 
 `align=center` gör att newlines fungerar inuti rutorna.
