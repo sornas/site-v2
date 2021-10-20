@@ -12,7 +12,7 @@ all: ${PDF} ${PNG}
 
 %.png: %.pdf
 	$(info  Converting $@)
-	@convert -density 960 -quality 100 $< $@ &>/dev/null
+	@convert -density 480 -quality 100 $< $@ &>/dev/null
 
 clean:
 	@latexmk -C
