@@ -38,6 +38,47 @@ Nästa steg:
 
 Det går också jättebra att dyka upp på någon av våra meetups med frågor!
 
+## TODO
+
+### Två figurer sida vid sida
+
+- Triage
+
+Det brukar vara bra att ge figurerna lite utrymme att andas vilket är varför vi
+har uppdelningen 45/45. 50/50 är såklart möjligt men det kan bli lite trångt.
+Figurerna behöver inte heller vara lika stora; 65/30 har sina användningsområden
+också.
+
+<img src="/static/img/latex/sidebyside.png" alt="Två figurer sida vid sida" class="latex" />
+
+<pre class="latex">
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+\begin{figure}
+    \centering
+    % Figur 1: 45% hela figuren.
+    \begin{subfigure}{.45\textwidth}
+        % Hela \linewidth, alltså allt utrymme vi får av subfigure.
+        \includegraphics[width=\linewidth]{lithekod.png}
+        \caption{En cool förening}
+        \label{fig:subfig1}
+    % Två saker att notera:
+    % 1. \quad skapar ett mellanrum mellan dom två figurerna.
+    % 2. Kommentaren på slutet gör att vi inte får ett paragrafbryt
+    %    mellan dom två figurerna.
+    \end{subfigure}\quad%
+    % Figur 2: också 45% av hela figuren.
+    \begin{subfigure}{.45\textwidth}
+        \includegraphics[width=\linewidth]{lithekod.png}
+        \caption{En till cool förening}
+        \label{fig:subfig2}
+    \end{subfigure}
+    \caption{Två coola föreningar}
+    \label{fig:mainfig}
+\end{figure}
+</pre>
+
 ## Ekvationer
 
 Stiliga och enkla.
@@ -48,13 +89,15 @@ Stiliga och enkla.
 \usepackage{amsmath}
 
 \begin{equation*}
-    e^{i \cdot \pi} - 1 = 0
+    e^{i \pi} - 1 = 0
 \end{equation*}
 </pre>
 
 ## tikz
 
-tikz är ett system för att rita figurer direkt i LaTeX. Fördelar:
+tikz är ett system för att rita figurer direkt i LaTeX.
+
+Fördelar:
 
 - Figurerna blir vanlig LaTeX i slutändan. Hyperlänkar, fotnoter och referenser
   fungerar som vanligt (för det mesta).
@@ -117,8 +160,20 @@ så du kan behöva öka avståndet två nivåer upp. I exemplet nedan måste t.e
         label={[xshift=-1.25em, yshift=-2.25ex]north east:$\circ$},
         align=center
     },
+    star/.style={
+        rectangle, 
+        draw=black, 
+        rounded corners=1mm, 
+        minimum width=5em, 
+        minimum height=3em, 
+        level distance=10cm,
+        text centered,
+        anchor=north,
+        label={[xshift=-1.25em, yshift=-2.25ex]north east:$\ast$},
+        align=center
+    },
 ]
-    \node (JSP) [box] {Root-sekvens}
+    \node (JSP) [star] {För evigt}
      [sibling distance=2.5cm]
         child {node (a) [box] {A}}
         child {[sibling distance=4.5cm] node (b) [box] {Selektion 1}
@@ -126,7 +181,7 @@ så du kan behöva öka avståndet två nivåer upp. I exemplet nedan måste t.e
             child {node (d) [circle] {B}}
             child {node (e) [circle] {C}}
           }
-          child {[sibling distance=2cm] node (f) [circle] {Sekvens 2}
+          child {[sibling distance=2cm] node (f) [circle] {Sekvens}
             child {node (g) [box] {D}}
             child {node (h) [box] {E}}
           }
@@ -138,8 +193,8 @@ så du kan behöva öka avståndet två nivåer upp. I exemplet nedan måste t.e
 ### Summering av normalfördelningar
 
 Den här var väldigt användbar i författarens gymnasiearbete. Notera att vi
-endast matar in ekvationer (någorlunda komplexa sådana också) och låter ett
-separat program (`gnuplot`) räkna ut hur linjerna ska gå.
+endast matar in uttryck (någorlunda komplexa sådana också) och låter ett separat
+program (`gnuplot`) räkna ut hur graferna ska gå.
 
 <img src="/static/img/latex/sum_normal_dist.png" alt="Summering av normalfördelningsskurvor" class="latex" />
 

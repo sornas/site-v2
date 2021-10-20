@@ -16,4 +16,5 @@ all: ${PDF} ${PNG}
 
 clean:
 	@latexmk -C
-	@rm -f *.png
+	@rm -f ${PDF}
+	@rm -f ${PNG}

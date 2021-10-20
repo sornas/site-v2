@@ -1,0 +1,25 @@
+\documentclass[preview]{standalone}
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+\begin{document}
+
+% https://tex.stackexchange.com/questions/483461/change-numbering-in-subfigure
+\begin{figure}
+    \centering
+    \begin{subfigure}{.45\textwidth}
+        \includegraphics[width=\linewidth]{lithekod.png}
+        \caption{En cool förening}
+        \label{fig:subfig1}
+    \end{subfigure}\quad%
+    \begin{subfigure}{.45\textwidth}
+        \includegraphics[width=\linewidth]{lithekod.png}
+        \caption{En till cool förening}
+        \label{fig:subfig2}
+    \end{subfigure}
+    \caption{Två coola föreningar}
+    \label{fig:mainfig}
+\end{figure}
+\vspace{1em}
+\end{document}
