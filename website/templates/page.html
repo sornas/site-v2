@@ -2,7 +2,14 @@
 {% block content %}
 {% if toc %}
 <nav id="toc">
-{{ toc | safe }}
+  <p id="toc-title">
+  {% if swedish %}
+  Innehållsförteckning
+  {% else %}
+  Table of contents
+  {% endif %}
+  </p>
+  {{ toc | safe }}
 </nav>
 {% endif %}
 {{ html | safe }}
