@@ -1,6 +1,10 @@
 {% extends "base.html" %}
 {% block content %}
+{% if toc %}
+<nav id="toc">
 {{ toc | safe }}
+</nav>
+{% endif %}
 {{ html | safe }}
 {{ injection | safe }}
 {% endblock %}
