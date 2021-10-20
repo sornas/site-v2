@@ -30,7 +30,7 @@ navigation = [
 # These functions make it easy to render files into pages or
 # redirecting to other pages.
 
-def render_page(path, url, swedish, toc=False, injection=""):
+def render_page(path, url, swedish, injection=""):
     """Render a Markdown file into a page on the website.
 
     Arguments:
@@ -42,12 +42,13 @@ def render_page(path, url, swedish, toc=False, injection=""):
     nav_index = next((i for i, (_, u) in enumerate(navigation) if u == url), -1)
     html = markdown2.markdown_path(
         path,
-        extras=["toc"],
+        extras=["metadata", "toc"],
     )
+    toc = html.toc_html if html.metadata.get("toc", "no") != "no" else None
     return render_template(
         "page.html",
         html=html,
-        toc=html.toc_html,
+        toc=toc,
         injection=injection,
         url=url,
         navigation=navigation,
@@ -121,7 +122,7 @@ for url, md_file in pages:
     english_url = url + "en/"
 
     # Swedish version
-    view = create_view(md_file.format("se"), url, True, toc=True)
+    view = create_view(md_file.format("se"), url, True)
     app.add_url_rule(swedish_url, swedish_url, view)
 
     # English version
