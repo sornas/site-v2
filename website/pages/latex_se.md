@@ -1,3 +1,7 @@
+---
+toc: yes
+---
+
 # LaTeX
 
 LaTeX kan vara lite klurigt men när du fått koll på det kommer du charma varenda
@@ -38,9 +42,9 @@ Nästa steg:
 
 Det går också jättebra att dyka upp på någon av våra meetups med frågor!
 
-## TODO
+# TODO
 
-### Två figurer sida vid sida
+## Två figurer sida vid sida
 
 Det brukar vara bra att ge figurerna lite utrymme att andas vilket är varför vi
 har uppdelningen 45/45. 50/50 är såklart möjligt men det kan bli lite trångt.
@@ -84,7 +88,7 @@ Figur~\ref{fig:subfig1} och~\ref{fig:subfig2} visar två bilder
 sida vid sida.
 </pre>
 
-### Titelsida
+## Titelsida
 
 Om du vill ha mer kontroll över din framsida kan du göra en egen `titlepage`. I
 bilden nedan syns det i A5-format men användningen av `vfill` gör att texten
@@ -92,7 +96,7 @@ fördelas jämnt på pappret.
 
 <img src="/static/img/latex/advanced_titlepage.png" alt="Enkel titlepage" class="latex" />
 
-## Ekvationer
+# Ekvationer
 
 Stiliga och enkla.
 
@@ -106,7 +110,7 @@ Stiliga och enkla.
 \end{equation*}
 </pre>
 
-## tikz
+# tikz
 
 tikz är ett system för att rita figurer direkt i LaTeX.
 
@@ -130,7 +134,7 @@ Nackdelar:
   alltid väldigt ful eller väldigt fin, aldrig mitt emellan.
 - Finjusteringarna kan vara beroendeframkallande för vissa.
 
-### JSP-diagram
+## JSP-diagram
 
 Populära i ISY:s datorteknik-kurser. [Jackson Structured Programming
 (Wikipedia)](https://en.wikipedia.org/wiki/Jackson_structured_programming).
@@ -203,7 +207,7 @@ så du kan behöva öka avståndet två nivåer upp. I exemplet nedan måste t.e
 \end{tikzpicture}
 </pre>
 
-### Summering av normalfördelningar
+## Summering av normalfördelningar
 
 Den här var väldigt användbar i författarens gymnasiearbete. Notera att vi
 endast matar in uttryck (någorlunda komplexa sådana också) och låter ett separat
@@ -240,7 +244,7 @@ program (`gnuplot`) räkna ut hur graferna ska gå.
 \end{tikzpicture}
 </pre>
 
-## Licens
+# Licens
 
 All LaTeX-kod och dess tillhörande PNG-renderingar på den här sidan publiceras
 under [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/).
