@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+from functools import partial
+
 import markdown2
 
 from flask import (
@@ -28,22 +30,30 @@ navigation = [
 # These functions make it easy to render files into pages or
 # redirecting to other pages.
 
-def render_page(path, url, swedish, injection=""):
+def render_page(path, url, swedish, toc=False, injection=""):
     """Render a Markdown file into a page on the website.
 
     Arguments:
     path - Path to a markdown file.
     url - The url to the page.
     swedish - Whether the page is in swedish or not (english).
+    toc - Whether to include a table of contents or not.
     """
     nav_index = next((i for i, (_, u) in enumerate(navigation) if u == url), -1)
-    return render_template("page.html",
-            html=markdown2.markdown_path(path),
-            injection=injection,
-            url=url,
-            navigation=navigation,
-            selected=nav_index,
-            swedish=swedish)
+    html = markdown2.markdown_path(
+        path,
+        extras=["toc"],
+    )
+    return render_template(
+        "page.html",
+        html=html,
+        toc=html.toc_html,
+        injection=injection,
+        url=url,
+        navigation=navigation,
+        selected=nav_index,
+        swedish=swedish,
+    )
 
 
 def static_page(path):
@@ -64,14 +74,14 @@ def redirect_external(url):
     return render_template("redirect.html", url=url)
 
 
-def create_view(md_file, url, swedish):
+def create_view(md_file, url, swedish, *args, **kwargs):
     """ Return a function that returns a page. """
-    return lambda: render_page(md_file, url, swedish)
+    return partial(render_page, md_file, url, swedish, *args, **kwargs)
 
 
 def create_redirect(to):
     """ Return a function that returns a redirect. """
-    return lambda: redirect(to)
+    return partial(redirect, to)
 
 # ========== Temporary pages ==========
 # These pages should be removed when apropriate.
@@ -111,7 +121,7 @@ for url, md_file in pages:
     english_url = url + "en/"
 
     # Swedish version
-    view = create_view(md_file.format("se"), url, True)
+    view = create_view(md_file.format("se"), url, True, toc=True)
     app.add_url_rule(swedish_url, swedish_url, view)
 
     # English version
