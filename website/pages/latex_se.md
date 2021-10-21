@@ -91,10 +91,55 @@ sida vid sida.
 ## Titelsida
 
 Om du vill ha mer kontroll över din framsida kan du göra en egen `titlepage`. I
-bilden nedan syns det i A5-format men användningen av `vfill` gör att texten
-fördelas jämnt på pappret.
+exemplet har vi några olika förslag på hur du kan lägga upp t.ex. namnen på
+författarna beroende på vad du vill/måste förmedla. Notera att mallar oftast
+definerar en egen framsida du ska använda vilket för det mesta innebär `\title`,
+`\author` och `\date` följt av en `\maketitle` längst upp i ditt dokument.
 
-<img src="/static/img/latex/advanced_titlepage.png" alt="Enkel titlepage" class="latex" />
+Experimentera med olika teckenstorlekar för olika typer av information!
+
+Notera också skillnaden mellan absoluta mellanrum (`\vspace{1cm}`) och relativa
+mellanrum (`\vfill`). I det här exemplet används `vspace` t.ex. för att lägga in
+ett litet mellanrum mellan en lista med namn och texten "Linköpings universitet"
+för att visa att det inte handlar om en person som heter "Linköpings
+universitet". `vfill` fungerar som "oändligt men elastiskt" vertikalt utrymme
+vilket här används för att trycka titeln så långt upp som möjligt, datumet så
+långt ned som möjligt och namnen mitt emellan.
+
+<img src="/static/img/latex/titlepage.png" alt="En titlepage med olika alternativa namnformateringar" class="latex" />
+
+## Återställ inte sidnumrering när siffertypen ändras
+
+Den här baddaren gör att `\pagenumbering` inte återställer siduppräkningen. Det
+är schysst mot folk som läser din PDF på en dator eftersom "gå till sida X"
+matchar sidnumreringen.
+
+<pre class="latex">
+\makeatletter
+\def\pagenumbering#1{%
+  \gdef\thepage{\csname @#1\endcsname \c@page}}
+\makeatother
+
+\begin{document}
+
+% Visa inte sidnumret
+\pagenumbering{gobble}
+
+% Sidor som inte ska visa sidnumret. Till exempel:
+% - Abstract
+% - Innehållsförteckning
+% - Lista över figurer/tabeller
+
+% Börja visa sidnummer igen
+\pagenumbering{arabic}
+
+\section{Inledning}
+
+blablabla
+
+\end{document}
+
+</pre>
 
 # Ekvationer
 
@@ -217,7 +262,6 @@ program (`gnuplot`) räkna ut hur graferna ska gå.
 
 <pre class="latex">
 \usepackage{pgfplots}
-\usepackage{pgfplotstable}
 \pgfplotsset{compat=1.14}
 
 \begin{tikzpicture}
