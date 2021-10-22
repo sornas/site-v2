@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 {% block content %}
+{% if header %}
+<h1 id="header">
+  {{ header }}
+</h1>
+{% endif %}
 {% if toc %}
 <nav id="toc">
   <p id="toc-title">

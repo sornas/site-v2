@@ -1,8 +1,7 @@
 ---
+header: LaTeX
 toc: yes
 ---
-
-# LaTeX
 
 LaTeX kan vara lite klurigt men när du fått koll på det kommer du charma varenda
 examinator från första <del>kompletteringen</del> inlämningen. Garanterat +1

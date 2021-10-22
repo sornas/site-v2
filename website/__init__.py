@@ -44,10 +44,12 @@ def render_page(path, url, swedish, injection=""):
         path,
         extras=["metadata", "toc"],
     )
+    header = html.metadata.get("header", None)
     toc = html.toc_html if html.metadata.get("toc", "no") != "no" else None
     return render_template(
         "page.html",
         html=html,
+        header=header,
         toc=toc,
         injection=injection,
         url=url,

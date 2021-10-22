@@ -333,6 +333,8 @@ input[type="checkbox"]:checked+#body #dark-theme {
 
     display: table;
     width: auto;
+
+    margin-bottom: 2em;
 }
 
 #toc ul {
